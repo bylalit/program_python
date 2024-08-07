@@ -5,7 +5,7 @@ play = 1
 
 while play == 1:
     print("Enter the play game zone")
-    choice = input("1. Car racing : 200 \n2. cycling racing : 350 \n3. jumping boll : 420 \nEnter the choice: ")
+    choice = int(input("1. Car racing : 200 \n2. cycling racing : 350 \n3. jumping boll : 420 \nEnter the choice: "))
 
     if choice == 1:
         if cardBal >= 200:
