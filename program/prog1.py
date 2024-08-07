@@ -5,7 +5,7 @@ play = 1
 
 while play == 1:
     print("Enter the play game zone")
-    choice = input("1. Car racing : 200 \n 2. cycling racing : 350 \n 3. jumping boll : 420")
+    choice = input("1. Car racing : 200 \n2. cycling racing : 350 \n3. jumping boll : 420 \nEnter the choice: ")
 
     if choice == 1:
         if cardBal >= 200:
@@ -27,3 +27,6 @@ while play == 1:
             print("Ensaficiant balance")
     else:
         print("Please valid choice number and correct number enter")
+    
+    print("Your corrent balance is: ", cardBal)
+    play = int(input("Do you want to again play? yes for press 1 and exict for press 0: "))
