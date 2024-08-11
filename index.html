@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: salmon;
+        }
+        h1{
+            font-size: 4rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>I am a youtuber</h1>
+    </div>
+
+
+    <script>
+
+        $(document).ready(function(){
+            const carees = ["Youtuber", "Web Devloper", "freelancer", "Instances"];
+            let caresssInd = 0;
+            let charterIdx = 0;
+
+            show();
+            function show(){
+                charterIdx++
+                $(".container").html(`<h1>I am ${carees[caresssInd].slice(0,1) === "I" ? "an" : "a"} ${carees[caresssInd].slice(0,charterIdx)}</h1>`);
+
+                if(charterIdx === carees[caresssInd].length){
+                    caresssInd++;
+                    charterIdx = 0;
+                };
+
+                if(caresssInd === carees.length){
+                    caresssInd = 0;
+                };
+                setTimeout(show, 400);
+            }
+        });
+    </script>
+</body>
+</html>
