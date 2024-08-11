@@ -30,3 +30,14 @@ while play == 1:
     
     print("Your corrent balance is: ", cardBal)
     play = int(input("Do you want to again play? yes for press 1 and exict for press 0: "))
+    
+    if cardBal <= 420:
+        print("Do u want to balance of your cardBal ? then press 1: ")
+        bal = int(input("Enter the choice you card balance : "))
+        
+        if bal == 1:
+            valu = int(input("Enter the value you want to store the card bal : "))
+            cardBal += valu
+            print("Your card balance is: ", cardBal)
+        else:
+            print("Thank you for play the game")
