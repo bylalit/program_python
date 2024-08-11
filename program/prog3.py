@@ -96,3 +96,31 @@
 #     print("This is not a pime number.")
 
 
+# no = 153
+# r = 0
+# copy = no
+
+# while no > 0:
+#     rev = no % 10
+#     r += rev ** 3
+#     no //= 10
+# print(r)
+
+# if copy == r:
+#     print("amston")
+# else:
+#     print("amston not number")
+
+
+# no = 123456789234567
+# r = 0
+# count = 0
+# while no > 0:
+#     rev = no % 10
+#     if rev % 2 == 0:
+#         r += rev
+#         count += 1
+#     no //= 10
+
+# print(r)
+# print(count)
