@@ -40,5 +40,25 @@
 #     i += 1
 
 
-n1 = 0
-n2 = 1
+# n1 = 0
+# n2 = 1
+# print(n1,n2,end=" ")
+# for i in range(2, 8):
+#     temp = n1 + n2
+#     print(temp, end=" ")
+#     n1 = n2
+#     n2 = temp
+
+
+no = int(input("Enter the num: "))
+prime = 1
+
+# for i in range(2, no):
+#     if no % i == 0:
+#         prime = 0
+#         break
+    
+# if prime == 1:
+#     print("Prime number")
+# else:
+#     print("Not prime num")
