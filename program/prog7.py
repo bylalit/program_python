@@ -23,6 +23,6 @@
 
 # print(test_fun(12,5))
 
-rng = range(2,10)
+rng = range(10,-10, -2)
 
 print(list(rng))
