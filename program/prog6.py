@@ -36,20 +36,20 @@ for qustoin in question:
     
     question_num += 1
     
-print("----------------------")
-print("        RESULTS       ")
-print("----------------------")
+# print("----------------------")
+# print("        RESULTS       ")
+# print("----------------------")
 
-print("answers: ", end="")
-for answer in answers:
-    print(answer, end=" ")
-print()
+# print("answers: ", end="")
+# for answer in answers:
+#     print(answer, end=" ")
+# print()
     
     
-print("guesses: ", end="")
-for guess in guesses:
-    print(guess, end=" ")
-print()
+# print("guesses: ", end="")
+# for guess in guesses:
+#     print(guess, end=" ")
+# print()
 
-score = int(score / len(question) * 100)
-print(f"Your score is: {score}%")
+# score = int(score / len(question) * 100)
+# print(f"Your score is: {score}%")
