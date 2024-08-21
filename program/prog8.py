@@ -17,7 +17,7 @@ while play == 1:
         num = int(input("How many desicess store in the started: "))
         
         for i in  range(num):
-            name = input("Enter your desicess name: ")
+            name = input("Enter your desicess name: ").upper()
             started.append(name)
             
         process = 1
@@ -36,12 +36,12 @@ while play == 1:
             if  getInput == 1:
                 vale = int(input("How many dicesess add: "))
                 for i in range(vale):
-                    dishName = input("Enter the desicess name: ")
+                    dishName = input("Enter the desicess name: ").upper()
                     started.append(dishName)
                 print(started)
             elif getInput == 2:
                 index = int(input("Enter the index number of add desicess: "))
-                name = input("Enter the name of desicess: ")
+                name = input("Enter the name of desicess: ").upper()
                 started.insert(index, name)
                 print(started)
             elif getInput == 3:
@@ -67,7 +67,7 @@ while play == 1:
         num = int(input("How many desicess store in the main: "))
         
         for i in  range(num):
-            name = input("Enter your desicess name: ")
+            name = input("Enter your desicess name: ").upper()
             main.append(name)
             
         process = 1
@@ -86,12 +86,12 @@ while play == 1:
             if  getInput == 1:
                 vale = int(input("How many main add: "))
                 for i in range(vale):
-                    dishName = input("Enter the desicess name: ")
+                    dishName = input("Enter the desicess name: ").upper()
                     main.append(dishName)
                 print(main)
             elif getInput == 2:
                 index = int(input("Enter the index number of add desicess: "))
-                name = input("Enter the name of desicess: ")
+                name = input("Enter the name of desicess: ").upper()
                 main.insert(index, name)
                 print(main)
             elif getInput == 3:
@@ -112,7 +112,7 @@ while play == 1:
         num = int(input("How many desicess store in the desart: "))
         
         for i in  range(num):
-            name = input("Enter your desicess name: ")
+            name = input("Enter your desicess name: ").upper()
             desart.append(name)
             
         process = 1
@@ -131,12 +131,12 @@ while play == 1:
             if  getInput == 1:
                 vale = int(input("How many main add: "))
                 for i in range(vale):
-                    dishName = input("Enter the desicess name: ")
+                    dishName = input("Enter the desicess name: ").upper()
                     desart.append(dishName)
                 print(desart)
             elif getInput == 2:
                 index = int(input("Enter the index number of add desicess: "))
-                name = input("Enter the name of desicess: ")
+                name = input("Enter the name of desicess: ").upper()
                 desart.insert(index, name)
                 print(desart)
             elif getInput == 3:
@@ -152,3 +152,44 @@ while play == 1:
             process = int(input("Do you want to continu for press 1: "))
         
     play = int(input("Do you want to play again press 1: "))
+
+
+    print("\n")
+    print("---------------------------------------------------------")
+    order = []
+    print("""Which want to order for the menu
+                    1. started for press 1
+                    2. main for press 2
+                    3. desart for press 3""")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        print(started)
+        wantDish = int(input("How many dish want to order: "))
+        for i in range(wantDish):
+            val = input("Enter your dish name for order: ").upper()
+            if  val in started:
+                order.append(val)
+            else:
+                print("Not avalible this dish")
+        print(order)
+
+        print("""Can You update your Order than:
+                1. add dish for press 1
+                2. delete dish for press 2""")
+
+        update = int(input("Enter the choice for update order: "))
+        
+        if update == 1:
+            val = input("Enter the dish name for add: ").upper()
+            if val in started:
+                order.append(val)
+            else:
+                print("Not avalible this dish")
+            print(order)
+        elif update == 2:
+            val = input("Enter the dish name for delete: ").upper()
+            if val in order:
+                order.remove(val)
+            print(order)
