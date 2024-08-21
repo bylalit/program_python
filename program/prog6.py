@@ -17,7 +17,7 @@ answers = ("C", "D", "A", "A", "B")
 guesses = []
 score = 0
 question_num = 0
-
+ 
 for qustoin in question:
     print("--------------------")
     print(qustoin)
