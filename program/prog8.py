@@ -55,13 +55,8 @@ while play == 1:
                 process = 0
 
             process = int(input("Do you want to continu for press 1: "))
-    
-    
-        
-        
-        
-        
-        
+   
+   
     elif choice == 2:
         print("main")
         num = int(input("How many desicess store in the main: "))
@@ -154,42 +149,78 @@ while play == 1:
     play = int(input("Do you want to play again press 1: "))
 
 
-    print("\n")
-    print("---------------------------------------------------------")
-    order = []
-    print("""Which want to order for the menu
-                    1. started for press 1
-                    2. main for press 2
-                    3. desart for press 3""")
 
-    choice = int(input("Enter your choice: "))
 
-    if choice == 1:
-        print(started)
-        wantDish = int(input("How many dish want to order: "))
-        for i in range(wantDish):
-            val = input("Enter your dish name for order: ").upper()
-            if  val in started:
-                order.append(val)
-            else:
-                print("Not avalible this dish")
-        print(order)
 
-        print("""Can You update your Order than:
-                1. add dish for press 1
-                2. delete dish for press 2""")
+    data = 1
+    while data == 1:
+        print("\n")
+        print("---------------------------------------------------------")
+        orderStarted = []
+        orderMain = []
+        print("""Which want to order for the menu
+                        1. started for press 1
+                        2. main for press 2
+                        3. desart for press 3""")
 
-        update = int(input("Enter the choice for update order: "))
+        choice = int(input("Enter your choice: "))
+
+        if choice == 1:
+            print(started)
+            wantDish = int(input("How many dish want to order: "))
+            for i in range(wantDish):
+                val = input("Enter your dish name for order: ").upper()
+                if  val in started:
+                    orderStarted.append(val)
+                else:
+                    print("Not avalible this dish")
+            print(orderStarted)
+
+            print("""Can You update your Order than:
+                    1. add dish for press 1
+                    2. delete dish for press 2""")
+
+            update = int(input("Enter the choice for update order: "))
+            
+            if update == 1:
+                val = input("Enter the dish name for add: ").upper()
+                if val in started:
+                    orderStarted.append(val)
+                else:
+                    print("Not avalible this dish")
+                print(orderStarted)
+            elif update == 2:
+                val = input("Enter the dish name for delete: ").upper()
+                if val in orderStarted:
+                    orderStarted.remove(val)
+                print(orderStarted)
         
-        if update == 1:
-            val = input("Enter the dish name for add: ").upper()
-            if val in started:
-                order.append(val)
-            else:
-                print("Not avalible this dish")
-            print(order)
-        elif update == 2:
-            val = input("Enter the dish name for delete: ").upper()
-            if val in order:
-                order.remove(val)
-            print(order)
+        elif choice == 2:
+            print(main)
+            wantDish = int(input("How many dish want to order: "))
+            for i in range(wantDish):
+                val = input("Enter your dish name for order: ").upper()
+                if  val in main:
+                    orderMain.append(val)
+                else:
+                    print("Not avalible this dish")
+            print(orderMain)
+
+            print("""Can You update your Order than:
+                    1. add dish for press 1
+                    2. delete dish for press 2""")
+
+            update = int(input("Enter the choice for update order: "))
+            
+            if update == 1:
+                val = input("Enter the dish name for add: ").upper()
+                if val in main:
+                    orderMain.append(val)
+                else:
+                    print("Not avalible this dish")
+                print(orderMain)
+            elif update == 2:
+                val = input("Enter the dish name for delete: ").upper()
+                if val in orderMain:
+                    orderMain.remove(val)
+                print(orderMain)
