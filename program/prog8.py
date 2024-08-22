@@ -29,7 +29,7 @@ while play == 1:
     1. Do you want to add more desicess in the started press 1 or 
     2. Do you want to add index for particular in the started press 2
     3. Do you want to delete desicess in the started press 3
-    4. Do you want to delete index for particular in the started press 1
+    4. Do you want to delete index for particular in the started press 4
     5. Do you want to exit press 5
     choice press : """))
             
@@ -74,7 +74,7 @@ while play == 1:
     1. Do you want to add more desicess in the main press 1 or 
     2. Do you want to add index for particular in the main press 2
     3. Do you want to delete desicess in the main press 3
-    4. Do you want to delete index for particular in the main press 1
+    4. Do you want to delete index for particular in the main press 4
     5. Do you want to exit press 5
     choice press : """))
             
@@ -119,7 +119,7 @@ while play == 1:
     1. Do you want to add more desicess in the desart press 1 or 
     2. Do you want to add index for particular in the desart press 2
     3. Do you want to delete desicess in the desart press 3
-    4. Do you want to delete index for particular in the desart press 1
+    4. Do you want to delete index for particular in the desart press 4
     5. Do you want to exit press 5
     choice press : """))
             
@@ -257,3 +257,5 @@ while play == 1:
                 if val in orderDesart:
                     orderDesart.remove(val)
                 print(orderDesart)
+
+        data = int(input("Do you want to order more? press 1 for yes, 2 for no: "))
