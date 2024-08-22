@@ -158,6 +158,7 @@ while play == 1:
         print("---------------------------------------------------------")
         orderStarted = []
         orderMain = []
+        orderDesart = []
         print("""Which want to order for the menu
                         1. started for press 1
                         2. main for press 2
@@ -224,3 +225,35 @@ while play == 1:
                 if val in orderMain:
                     orderMain.remove(val)
                 print(orderMain)
+                
+                
+        
+        elif choice == 3:
+            print(desart)
+            wantDish = int(input("How many dish want to order: "))
+            for i in range(wantDish):
+                val = input("Enter your dish name for order: ").upper()
+                if  val in desart:
+                    orderDesart.append(val)
+                else:
+                    print("Not avalible this dish")
+            print(orderDesart)
+
+            print("""Can You update your Order than:
+                    1. add dish for press 1
+                    2. delete dish for press 2""")
+
+            update = int(input("Enter the choice for update order: "))
+            
+            if update == 1:
+                val = input("Enter the dish name for add: ").upper()
+                if val in desart:
+                    orderDesart.append(val)
+                else:
+                    print("Not avalible this dish")
+                print(orderDesart)
+            elif update == 2:
+                val = input("Enter the dish name for delete: ").upper()
+                if val in orderDesart:
+                    orderDesart.remove(val)
+                print(orderDesart)
