@@ -216,20 +216,20 @@ while play == 1:
                     1. add dish for press 1
                     2. delete dish for press 2""")
 
-            update = int(input("Enter the choice for update order: "))
+            # update = int(input("Enter the choice for update order: "))
             
-            if update == 1:
-                val = input("Enter the dish name for add: ").upper()
-                if val in main:
-                    orderMain.append(val)
-                else:
-                    print("Not avalible this dish")
-                print(orderMain)
-            elif update == 2:
-                val = input("Enter the dish name for delete: ").upper()
-                if val in orderMain:
-                    orderMain.remove(val)
-                print(orderMain)
+            # if update == 1:
+            #     val = input("Enter the dish name for add: ").upper()
+            #     if val in main:
+            #         orderMain.append(val)
+            #     else:
+            #         print("Not avalible this dish")
+            #     print(orderMain)
+            # elif update == 2:
+            #     val = input("Enter the dish name for delete: ").upper()
+            #     if val in orderMain:
+            #         orderMain.remove(val)
+            #     print(orderMain)
                 
                 
         
