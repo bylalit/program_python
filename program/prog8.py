@@ -250,18 +250,18 @@ while play == 1:
 
             update = int(input("Enter the choice for update order: "))
             
-            if update == 1:
-                val = input("Enter the dish name for add: ").upper()
-                if val in desart:
-                    orderDesart.append(val)
-                else:
-                    print("Not avalible this dish")
-                print(orderDesart)
-            elif update == 2:
-                val = input("Enter the dish name for delete: ").upper()
-                if val in orderDesart:
-                    orderDesart.remove(val)
-                print(orderDesart)
+            # if update == 1:
+            #     val = input("Enter the dish name for add: ").upper()
+            #     if val in desart:
+            #         orderDesart.append(val)
+            #     else:
+            #         print("Not avalible this dish")
+            #     print(orderDesart)
+            # elif update == 2:
+            #     val = input("Enter the dish name for delete: ").upper()
+            #     if val in orderDesart:
+            #         orderDesart.remove(val)
+                # print(orderDesart)
 
         data = int(input("Do you want to order more? press 1 for yes, 2 for no: "))
         
