@@ -165,20 +165,26 @@ while play == 1:
         
         prograss = int(input("Do you want to again add Main munu so press 1: "))
 
-
-
-
+    print("\n")
+    print("""----------------Hotel Menu List---------------------""")
+    print("---------------------------------------------------------")
+    print("Your started Menu: ", started) 
+    print("Your main Menu: ",main)
+    print("Your desart Menu: ",desart)
+        
+    
 
     data = 1
+    orderStarted = []
+    orderMain = []
+    orderDesart = []
     while data == 1:
         print("\n")
-        print("---------------------------------------------------------")
+        print("*********************************************************")
         print("""----------------Admin Penal (User side)------------------""")
-        print("---------------------------------------------------------")
+        print("*********************************************************")
         print("\n")
-        orderStarted = []
-        orderMain = []
-        orderDesart = []
+        
         print("""Which want to order for the menu
                         1. started for press 1
                         2. main for press 2
@@ -207,7 +213,11 @@ while play == 1:
             while againStarted == 1:
                 print("""Can You update your Order than:
                         1. add dish for press 1
-                        2. delete dish for press 2""")
+                        2. delete dish for press 2
+                        3. cancle order for press 3
+                        4. back to main menu for press 4""")
+
+
 
                 update = int(input("Enter the choice for update order: "))
                 
@@ -234,8 +244,21 @@ while play == 1:
                             count += 1
                         else:
                             print("This dish is you  not order so  you can't delete this dish")
+                
+                elif  update == 3:
+                    orderStarted.clear()
+                    print("Your order is cancle")
+                    
+                elif update == 4:
+                    againStarted = 0
+                    
 
-                againStarted  = int(input("Do you want to update order again press 1 else press 2: "))
+                if update == 4:
+                    againStarted =  0
+                    print("You are back to main menu")
+                else:
+                    againStarted  = int(input("Do you want to update order again press 1 else press 2: "))
+
               
               
 
@@ -245,7 +268,7 @@ while play == 1:
             count = 0
             while wantDish > count:
                 val = input("Enter the name of dishess: ").upper()
-                if val in started:
+                if val in main:
                     orderMain.append(val)
                     count += 1
                 else:
@@ -259,7 +282,9 @@ while play == 1:
             while againMain == 1:
                 print("""Can You update your Order than:
                         1. add dish for press 1
-                        2. delete dish for press 2""")
+                        2. delete dish for press 2
+                        3. cancle order for press 3
+                        4. back to main menu for press 4""")
 
                 update = int(input("Enter the choice for update order: "))
                 
@@ -268,7 +293,7 @@ while play == 1:
                     count = 0
                     while wantDish > count:
                         val = input("Enter the name of dishess you add: ").upper()
-                        if val in started:
+                        if val in main:
                             orderMain.append(val)
                             count += 1
                         else:
@@ -286,7 +311,20 @@ while play == 1:
                         else:
                             print("This dish is you  not order so  you can't delete this dish")
                             
-                againMain = int(input("Do you want to update order again press 1 else press 2: "))
+                elif  update == 3:
+                    orderMain.clear()
+                    print("Your order is cancle")
+                    
+                elif update == 4:
+                    againMain = 0
+                    
+
+                if update == 4:
+                    againMain =  0
+                    print("You are back to main menu")
+                else:
+                    againMain  = int(input("Do you want to update order again press 1 else press 2: "))
+                            
                 
            
         elif choice == 3:
@@ -295,7 +333,7 @@ while play == 1:
             count = 0
             while wantDish > count:
                 val = input("Enter the name of dishess: ").upper()
-                if val in started:
+                if val in desart:
                     orderDesart.append(val)
                     count += 1
                 else:
@@ -309,7 +347,9 @@ while play == 1:
             while againDesart  == 1:
                 print("""Can You update your Order than:
                         1. add dish for press 1
-                        2. delete dish for press 2""")
+                        2. delete dish for press 2
+                        3. cancle order for press 3
+                        4. back to main menu for press 4""")
 
                 update = int(input("Enter the choice for update order: "))
                 
@@ -318,7 +358,7 @@ while play == 1:
                     count = 0
                     while wantDish > count:
                         val = input("Enter the name of dishess you add: ").upper()
-                        if val in started:
+                        if val in desart:
                             orderDesart.append(val)
                             count += 1
                         else:
@@ -336,11 +376,31 @@ while play == 1:
                         else:
                             print("This dish is you  not order so  you can't delete this dish")
 
-                againDesart = int(input("Do you want to update order again press 1 else press 2: "))
+                elif  update == 3:
+                    orderDesart.clear()
+                    print("Your order is cancle")
+                    
+                elif update == 4:
+                    orderDesart = 0
+                    
 
-
+                if update == 4:
+                    againDesart =  0
+                    print("You are back to main menu")
+                else:
+                    againDesart  = int(input("Do you want to update order again press 1 else press 2: "))
+                
 
         data = int(input("Do you want to order more in main menu so? press 1 for yes, 2 for no: "))
-        
-        
-    play = int(input("Do you want to play again press 1: "))
+             
+    play = int(input("Do you want to hotel  menu again process  so press 1 else press 2: "))
+
+
+
+    print("\n")
+    print("---------------------------------------------------------")
+    print("""----------------Your Order (User side)------------------""")
+    print("---------------------------------------------------------")
+    print("Your started menu Ordered: ", orderStarted) 
+    print("Your main menu Ordered: ",orderMain)
+    print("Your desart menu Ordered: ",orderDesart)
