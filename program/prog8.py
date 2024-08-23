@@ -190,13 +190,24 @@ while play == 1:
         if choice == 1:
             print(started)
             wantDish = int(input("How many dish want to order: "))
-            for i in range(wantDish):
-                val = input("Enter your dish name for order: ").upper()
-                if  val in started:
-                    orderStarted.append(val)
-                else:
-                    print("Not avalible this dish")
-            print(orderStarted)
+            count = 0
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            # for i in range(wantDish):
+            #     val = input("Enter your dish name for order: ").upper()
+            #     if  val in started:
+            #         orderStarted.append(val)
+            #     else:
+            #         print("Not avalible this dish")
+            # print(orderStarted)
             
             
             
