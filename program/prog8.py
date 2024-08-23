@@ -87,110 +87,110 @@ while play == 1:
         5. Do you want to exit press 5
         choice press : """))
                 
-                if  getInput == 1:
-                    vale = int(input("How many main add: "))
-                    for i in range(vale):
-                        dishName = input("Enter the desicess name: ").upper()
-                        main.append(dishName)
-                    print(main)
-                elif getInput == 2:
-                    index = int(input("Enter the index number of add desicess: "))
-                    name = input("Enter the name of desicess: ").upper()
-                    main.insert(index, name)
-                    print(main)
-                elif getInput == 3:
-                    main.pop()
-                    print(main)
-                elif getInput == 4:
-                    index = int(input("Enter the index number of delete desicess: "))
-                    main.pop(index)
-                    print(main)
-                elif getInput == 5:
-                    process = 0
+    #             if  getInput == 1:
+    #                 vale = int(input("How many main add: "))
+    #                 for i in range(vale):
+    #                     dishName = input("Enter the desicess name: ").upper()
+    #                     main.append(dishName)
+    #                 print(main)
+    #             elif getInput == 2:
+    #                 index = int(input("Enter the index number of add desicess: "))
+    #                 name = input("Enter the name of desicess: ").upper()
+    #                 main.insert(index, name)
+    #                 print(main)
+    #             elif getInput == 3:
+    #                 main.pop()
+    #                 print(main)
+    #             elif getInput == 4:
+    #                 index = int(input("Enter the index number of delete desicess: "))
+    #                 main.pop(index)
+    #                 print(main)
+    #             elif getInput == 5:
+    #                 process = 0
 
-                if  getInput == 5:
-                    process = 0
-                    print("You are exict for the main menu")
-                else:
-                    process = int(input("Do you want to continu for main menu update so press 1: "))
+    #             if  getInput == 5:
+    #                 process = 0
+    #                 print("You are exict for the main menu")
+    #             else:
+    #                 process = int(input("Do you want to continu for main menu update so press 1: "))
                 
                 
-        elif choice == 3:
-            print("desart")
-            num = int(input("How many desicess store in the desart: "))
+    #     elif choice == 3:
+    #         print("desart")
+    #         num = int(input("How many desicess store in the desart: "))
             
-            for i in  range(num):
-                name = input("Enter your desicess name: ").upper()
-                desart.append(name)
+    #         for i in  range(num):
+    #             name = input("Enter your desicess name: ").upper()
+    #             desart.append(name)
                 
-            process = 1
+    #         process = 1
             
-            while process == 1:
-                print("\n", desart)
-                getInput =  int(input("""
-    ---------------------------------------------------------
-        1. Do you want to add more desicess in the desart press 1 or 
-        2. Do you want to add index for particular in the desart press 2
-        3. Do you want to delete desicess in the desart press 3
-        4. Do you want to delete index for particular in the desart press 4
-        5. Do you want to exit press 5
-        choice press : """))
+    #         while process == 1:
+    #             print("\n", desart)
+    #             getInput =  int(input("""
+    # ---------------------------------------------------------
+    #     1. Do you want to add more desicess in the desart press 1 or 
+    #     2. Do you want to add index for particular in the desart press 2
+    #     3. Do you want to delete desicess in the desart press 3
+    #     4. Do you want to delete index for particular in the desart press 4
+    #     5. Do you want to exit press 5
+    #     choice press : """))
                 
-                if  getInput == 1:
-                    vale = int(input("How many main add: "))
-                    for i in range(vale):
-                        dishName = input("Enter the desicess name: ").upper()
-                        desart.append(dishName)
-                    print(desart)
-                elif getInput == 2:
-                    index = int(input("Enter the index number of add desicess: "))
-                    name = input("Enter the name of desicess: ").upper()
-                    desart.insert(index, name)
-                    print(desart)
-                elif getInput == 3:
-                    desart.pop()
-                    print(desart)
-                elif getInput == 4:
-                    index = int(input("Enter the index number of delete desicess: "))
-                    desart.pop(index)
-                    print(desart)
-                elif getInput == 5:
-                    process = 0
+    #             if  getInput == 1:
+    #                 vale = int(input("How many main add: "))
+    #                 for i in range(vale):
+    #                     dishName = input("Enter the desicess name: ").upper()
+    #                     desart.append(dishName)
+    #                 print(desart)
+    #             elif getInput == 2:
+    #                 index = int(input("Enter the index number of add desicess: "))
+    #                 name = input("Enter the name of desicess: ").upper()
+    #                 desart.insert(index, name)
+    #                 print(desart)
+    #             elif getInput == 3:
+    #                 desart.pop()
+    #                 print(desart)
+    #             elif getInput == 4:
+    #                 index = int(input("Enter the index number of delete desicess: "))
+    #                 desart.pop(index)
+    #                 print(desart)
+    #             elif getInput == 5:
+    #                 process = 0
 
-                if  getInput == 5:
-                    process = 0
-                    print("You are exict for the desart menu")
-                else:
-                    process = int(input("Do you want to continu for desart menu update so press 1: "))
+    #             if  getInput == 5:
+    #                 process = 0
+    #                 print("You are exict for the desart menu")
+    #             else:
+    #                 process = int(input("Do you want to continu for desart menu update so press 1: "))
         
-        prograss = int(input("Do you want to again add Main munu so press 1: "))
+    #     prograss = int(input("Do you want to again add Main munu so press 1: "))
 
-    print("\n")
-    print("""----------------Hotel Menu List---------------------""")
-    print("---------------------------------------------------------")
-    print("Your started Menu: ", started) 
-    print("Your main Menu: ",main)
-    print("Your desart Menu: ",desart)
+    # print("\n")
+    # print("""----------------Hotel Menu List---------------------""")
+    # print("---------------------------------------------------------")
+    # print("Your started Menu: ", started) 
+    # print("Your main Menu: ",main)
+    # print("Your desart Menu: ",desart)
         
     
 
-    data = 1
-    orderStarted = []
-    orderMain = []
-    orderDesart = []
-    while data == 1:
-        print("\n")
-        print("*********************************************************")
-        print("""----------------Admin Penal (User side)------------------""")
-        print("*********************************************************")
-        print("\n")
+    # data = 1
+    # orderStarted = []
+    # orderMain = []
+    # orderDesart = []
+    # while data == 1:
+    #     print("\n")
+    #     print("*********************************************************")
+    #     print("""----------------Admin Penal (User side)------------------""")
+    #     print("*********************************************************")
+    #     print("\n")
         
-        print("""Which want to order for the menu
-                        1. started for press 1
-                        2. main for press 2
-                        3. desart for press 3""")
+    #     print("""Which want to order for the menu
+    #                     1. started for press 1
+    #                     2. main for press 2
+    #                     3. desart for press 3""")
 
-        choice = int(input("Enter your choice: "))
+    #     choice = int(input("Enter your choice: "))
 
 
         if choice == 1:
