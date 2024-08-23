@@ -12,14 +12,14 @@ while play == 1:
     
         choice = int(input("""
     -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
-        1. You want store  your data in a started then press 1
-        2. You want store  your data in a main then press 2
-        3. You want store  your data in a desart then press 3
+        1. You want add your menu in a started then press 1
+        2. You want add your menu in a main then press 2
+        3. You want add your menu in a desart then press 3
         choice press : """))
         
         if choice == 1:
             print("started")
-            num = int(input("How many desicess store in the started: "))
+            num = int(input("How many desicess add in the started: "))
             
             for i in  range(num):
                 name = input("Enter your desicess name: ").upper()
@@ -59,7 +59,11 @@ while play == 1:
                 elif getInput == 5:
                     process = 0
 
-                process = int(input("Do you want to continu for press 1: "))
+                if  getInput == 5:
+                    process = 0
+                    print("You are exict for the started menu")
+                else:
+                    process = int(input("Do you want to continu for press 1: "))
     
     
         elif choice == 2:
