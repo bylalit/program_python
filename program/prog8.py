@@ -171,6 +171,22 @@ while play == 1:
 
         choice = int(input("Enter your choice: "))
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         if choice == 1:
             print(started)
             wantDish = int(input("How many dish want to order: "))
@@ -181,6 +197,36 @@ while play == 1:
                 else:
                     print("Not avalible this dish")
             print(orderStarted)
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
             print("""Can You update your Order than:
                     1. add dish for press 1
