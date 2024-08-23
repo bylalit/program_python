@@ -191,7 +191,15 @@ while play == 1:
             print(started)
             wantDish = int(input("How many dish want to order: "))
             count = 0
-            
+            while wantDish > count:
+                val = input("Enter the index number of dish: ").upper()
+                if val in started:
+                    orderStarted.append(val)
+                    count += 1
+                else:
+                    print("Not avalible this dish")
+            print(orderStarted)
+            print("\n")
             
             
             
