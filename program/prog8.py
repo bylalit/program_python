@@ -218,7 +218,6 @@ while play == 1:
                         4. back to main menu for press 4""")
 
 
-
                 update = int(input("Enter the choice for update order: "))
                 
                 if update == 1:
@@ -275,7 +274,6 @@ while play == 1:
                     print("Not avalible this dish")
             print(orderMain)
             print("\n")
-
             
             againMain = 1
             
@@ -318,14 +316,13 @@ while play == 1:
                 elif update == 4:
                     againMain = 0
                     
-
+                    
                 if update == 4:
                     againMain =  0
                     print("You are back to main menu")
                 else:
                     againMain  = int(input("Do you want to update order again press 1 else press 2: "))
-                            
-                
+                                           
            
         elif choice == 3:
             print(desart)
@@ -341,9 +338,8 @@ while play == 1:
             print(orderDesart)
             print("\n")
 
-
             againDesart = 1
-            
+     
             while againDesart  == 1:
                 print("""Can You update your Order than:
                         1. add dish for press 1
@@ -383,7 +379,6 @@ while play == 1:
                 elif update == 4:
                     orderDesart = 0
                     
-
                 if update == 4:
                     againDesart =  0
                     print("You are back to main menu")
@@ -392,10 +387,9 @@ while play == 1:
                 
 
         data = int(input("Do you want to order more in main menu so? press 1 for yes, 2 for no: "))
-             
+        
+        print("\n")
     play = int(input("Do you want to hotel  menu again process  so press 1 else press 2: "))
-
-
 
     print("\n")
     print("---------------------------------------------------------")
