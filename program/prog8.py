@@ -207,18 +207,64 @@ while play == 1:
 
             update = int(input("Enter the choice for update order: "))
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             if update == 1:
+                
+                
+                
+                
+                
+                
+                
                 val = input("Enter the dish name for add: ").upper()
                 if val in started:
                     orderStarted.append(val)
                 else:
                     print("Not avalible this dish")
                 print(orderStarted)
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             elif update == 2:
                 val = input("Enter the dish name for delete: ").upper()
                 if val in orderStarted:
                     orderStarted.remove(val)
                 print(orderStarted)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         elif choice == 2:
             print(main)
