@@ -63,7 +63,7 @@ while play == 1:
                     process = 0
                     print("You are exict for the started menu")
                 else:
-                    process = int(input("Do you want to continu for press 1: "))
+                    process = int(input("Do you want to continu for started menu update so press 1: "))
     
     
         elif choice == 2:
@@ -108,7 +108,11 @@ while play == 1:
                 elif getInput == 5:
                     process = 0
 
-                process = int(input("Do you want to continu for press 1: "))
+                if  getInput == 5:
+                    process = 0
+                    print("You are exict for the main menu")
+                else:
+                    process = int(input("Do you want to continu for main menu update so press 1: "))
                 
                 
         elif choice == 3:
@@ -153,9 +157,13 @@ while play == 1:
                 elif getInput == 5:
                     process = 0
 
-                process = int(input("Do you want to continu for press 1: "))
+                if  getInput == 5:
+                    process = 0
+                    print("You are exict for the desart menu")
+                else:
+                    process = int(input("Do you want to continu for desart menu update so press 1: "))
         
-        prograss = int(input("Do you want to again add data so press 1: "))
+        prograss = int(input("Do you want to again add Main munu so press 1: "))
 
 
 
@@ -164,6 +172,8 @@ while play == 1:
     data = 1
     while data == 1:
         print("\n")
+        print("---------------------------------------------------------")
+        print("""----------------Admin Penal (User side)---------------""")
         print("---------------------------------------------------------")
         orderStarted = []
         orderMain = []
