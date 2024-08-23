@@ -172,27 +172,12 @@ while play == 1:
         choice = int(input("Enter your choice: "))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         if choice == 1:
             print(started)
             wantDish = int(input("How many dish want to order: "))
             count = 0
             while wantDish > count:
-                val = input("Enter the index number of dish: ").upper()
+                val = input("Enter the name of dishess: ").upper()
                 if val in started:
                     orderStarted.append(val)
                     count += 1
@@ -200,51 +185,6 @@ while play == 1:
                     print("Not avalible this dish")
             print(orderStarted)
             print("\n")
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            # for i in range(wantDish):
-            #     val = input("Enter your dish name for order: ").upper()
-            #     if  val in started:
-            #         orderStarted.append(val)
-            #     else:
-            #         print("Not avalible this dish")
-            # print(orderStarted)
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
 
             print("""Can You update your Order than:
@@ -269,13 +209,16 @@ while play == 1:
         elif choice == 2:
             print(main)
             wantDish = int(input("How many dish want to order: "))
-            for i in range(wantDish):
-                val = input("Enter your dish name for order: ").upper()
-                if  val in main:
+            count = 0
+            while wantDish > count:
+                val = input("Enter the name of dishess: ").upper()
+                if val in started:
                     orderMain.append(val)
+                    count += 1
                 else:
                     print("Not avalible this dish")
             print(orderMain)
+            print("\n")
 
             print("""Can You update your Order than:
                     1. add dish for press 1
@@ -301,13 +244,16 @@ while play == 1:
         elif choice == 3:
             print(desart)
             wantDish = int(input("How many dish want to order: "))
-            for i in range(wantDish):
-                val = input("Enter your dish name for order: ").upper()
-                if  val in desart:
+            count = 0
+            while wantDish > count:
+                val = input("Enter the name of dishess: ").upper()
+                if val in started:
                     orderDesart.append(val)
+                    count += 1
                 else:
                     print("Not avalible this dish")
             print(orderDesart)
+            print("\n")
 
             print("""Can You update your Order than:
                     1. add dish for press 1
