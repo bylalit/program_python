@@ -158,3 +158,14 @@
 
 
 # 14 program even or odd number
+# num = 39
+# if num % 2 == 0:
+#     print("Even number")
+# else:
+#     print("Odd number")
+
+
+
+
+
+# 15 program positive negative or zero
