@@ -88,6 +88,6 @@
 
 
 #  9 program ferenhiet to celcius
-f = 86
-c = (f - 32) * 5/9
-print("The temperature in celcius is: ", c)
+# f = 86
+# c = (f - 32) * 5/9
+# print("The temperature in celcius is: ", c)
