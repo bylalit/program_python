@@ -91,3 +91,34 @@
 # f = 86
 # c = (f - 32) * 5/9
 # print("The temperature in celcius is: ", c)
+
+
+
+
+
+# 10 program  to find the maximum of two number
+# a = 20
+# b = 10
+# if a > b:
+#     print("A is maximum")
+# else:
+#     print("B is maximum")
+
+
+
+
+
+# 11 program  to find the maximum of three number
+a = 2444
+b = 453
+c = 78
+if a > b:
+    if a > c:
+        print("A is maximum")
+    else:
+        print("C is maximum")
+else:
+    if b > c:
+        print("B is maximum")
+    else:
+        print("C is maximum")
