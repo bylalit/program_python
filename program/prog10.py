@@ -169,3 +169,16 @@
 
 
 # 15 program positive negative or zero
+# num = 0
+# if num == 0:
+#     print("Zero number")
+# elif num > 0:
+#     print("Positive number")
+# else:
+#     print("Negative number")
+
+
+
+
+
+# 16 program grade  of student A++ A B++ B C++ C Fail
