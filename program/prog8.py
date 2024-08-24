@@ -389,6 +389,7 @@ while play == 1:
         data = int(input("Do you want to order more in main menu so? press 1 for yes, 2 for no: "))
         
         print("\n")
+        print("\n")
     play = int(input("Do you want to hotel  menu again process  so press 1 else press 2: "))
 
     print("\n")
