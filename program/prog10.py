@@ -136,3 +136,9 @@
 
 
 # 12 program eligible for vote or not
+age = 17
+
+if age >= 18:
+    print("Can you vote")
+else:
+    print("Cant vote now")
