@@ -182,3 +182,26 @@
 
 
 # 16 program grade  of student A++ A B++ B C++ C Fail
+math = 78
+sic = 89
+eng = 59
+hindi = 67
+guj = 79
+total = math + sic + eng + hindi + guj
+avg = total / 5
+print(int(avg))
+
+if avg >= 90:
+    print("A++ Grade")
+elif avg >= 80:
+    print("A Grade")
+elif avg >= 70:
+    print("B++ Grade")
+elif avg >= 60:
+    print("B Grade")
+elif avg >= 50:
+    print("C++ Grade")
+elif avg >= 40:
+    print("C Grade")
+else:
+    print("Fail Please Try Again")
