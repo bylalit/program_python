@@ -147,3 +147,14 @@
 
 
 # 13 program Positive or negative number
+# num = -12
+# if num >= 0:
+#     print("Positive number")
+# else:
+#     print("Negative number")
+
+
+
+
+
+# 14 program even or odd number
