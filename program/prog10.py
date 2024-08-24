@@ -182,26 +182,62 @@
 
 
 # 16 program grade  of student A++ A B++ B C++ C Fail
-math = 78
-sic = 89
-eng = 59
-hindi = 67
-guj = 79
-total = math + sic + eng + hindi + guj
-avg = total / 5
-print(int(avg))
+# math = 78
+# sic = 89
+# eng = 59
+# hindi = 67
+# guj = 79
+# total = math + sic + eng + hindi + guj
+# avg = total / 5
+# print(int(avg))
 
-if avg >= 90:
-    print("A++ Grade")
-elif avg >= 80:
-    print("A Grade")
-elif avg >= 70:
-    print("B++ Grade")
-elif avg >= 60:
-    print("B Grade")
-elif avg >= 50:
-    print("C++ Grade")
-elif avg >= 40:
-    print("C Grade")
+# if avg >= 90:
+#     print("A++ Grade")
+# elif avg >= 80:
+#     print("A Grade")
+# elif avg >= 70:
+#     print("B++ Grade")
+# elif avg >= 60:
+#     print("B Grade")
+# elif avg >= 50:
+#     print("C++ Grade")
+# elif avg >= 40:
+#     print("C Grade")
+# else:
+#     print("Fail Please Try Again")
+
+
+
+
+
+# 17 program UserName or Password
+# userName = "hello"
+# passWord = 123
+# User = input("Enter the userName: ")
+# if userName == User:
+#     PassWo = int(input("Enter the password: "))
+#     if passWord == PassWo:
+#         print("You are scuccesfully loging!")
+#     else:
+#         print("Wrong Password Try Again!")
+# else:
+#     print("Wrong UserName try Again!")
+
+
+
+
+
+# 18 program maximum out of four number
+a = 303
+b = 262
+c = 50
+d = 2055
+
+if a > b and a > c and a > d:
+    print("A is maximum")
+elif b > a and b > c and b > d:
+    print("B is maximum")
+elif c > a and c > b and c > d:
+    print("C is maximum")
 else:
-    print("Fail Please Try Again")
+    print("D is maximum")
