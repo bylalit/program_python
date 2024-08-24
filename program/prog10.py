@@ -109,16 +109,30 @@
 
 
 # 11 program  to find the maximum of three number
-a = 2444
-b = 453
-c = 78
-if a > b:
-    if a > c:
-        print("A is maximum")
-    else:
-        print("C is maximum")
-else:
-    if b > c:
-        print("B is maximum")
-    else:
-        print("C is maximum")
+# a = 244
+# b = 22
+# c = 755
+# if a > b:
+#     if a > c:
+#         print("A is maximum")
+#     else:
+#         print("C is maximum")
+# else:
+#     if b > c:
+#         print("B is maximum")
+#     else:
+#         print("C is maximum")
+
+
+# if a > b and  a > c:
+#     print("A is maximum")
+# elif b  > a and b > c:
+#     print("B is maximum")
+# else:
+#     print("C ia maximum")
+
+
+
+
+
+# 12 program eligible for vote or not
