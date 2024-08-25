@@ -18,7 +18,7 @@ while again != 1:
 
 
 print("\n")
-print("-----YOUR CARt-----")
+print("-----YOUR CART-----")
 for i in item:
     print(i, end=" ")
 print("")    
