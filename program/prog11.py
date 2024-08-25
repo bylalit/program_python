@@ -24,17 +24,3 @@ for i in item:
 print("")    
 print(f"Your total is: ${total}")
 print("\n")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
