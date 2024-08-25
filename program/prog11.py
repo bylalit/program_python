@@ -16,10 +16,11 @@ while again != 1:
     price.append(amount)
     total += amount
 
-print("\n")
+
 print("\n")
 print("-----YOUR CARt-----")
 for i in item:
     print(i, end=" ")
-    
+print("")    
 print(f"Your total is: ${total}")
+print("\n")
