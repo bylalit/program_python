@@ -1,27 +1,27 @@
-# name = "Lalit"
-# age = 20
+name = "Lalit"
+age = 20
 
-# print("My name is", name, "and i am", age, "years old", sep="|")
+print("My name is", name, "and i am", age, "years old", sep="|")
 
-# print("Hello world", end=" | ")
-# print("I am", name)
+print("Hello world", end=" | ")
+print("I am", name)
 
-# help(print)
+help(print)
 
 
-# def test_fun(a,b):
-#     """
-#     a: value 1
-#     b: value 2
+def test_fun(a,b):
+    """
+    a: value 1
+    b: value 2
     
-#     returns: int
-#     """
+    returns: int
+    """
     
-#     return a + b
+    return a + b
 
-# help(test_fun)
+help(test_fun)
 
-# print(test_fun(12,5))
+print(test_fun(12,5))
 
 rng = range(10,-10, -2)
 
