@@ -165,12 +165,12 @@ while play == 1:
         
         prograss = int(input("Do you want to again add Main main so press 1: "))
 
-    # print("\n")
-    # print("""----------------Hotel Menu List---------------------""")
-    # print("---------------------------------------------------------")
-    # print("Your started Menu: ", started) 
-    # print("Your main Menu: ",main)
-    # print("Your desart Menu: ",desart)
+    print("\n")
+    print("""----------------Hotel Menu List---------------------""")
+    print("---------------------------------------------------------")
+    print("Your started Menu: ", started) 
+    print("Your main Menu: ",main)
+    print("Your desart Menu: ",desart)
         
     
 
