@@ -136,22 +136,22 @@
 
 
 # 12 program eligible for vote or not
-# age = 17
-# if age >= 18:
-#     print("Can you vote")
-# else:
-#     print("Cant vote now")
+age = 17
+if age >= 18:
+    print("Can you vote")
+else:
+    print("Cant vote now")
 
 
 
 
 
 # 13 program Positive or negative number
-# num = -12
-# if num >= 0:
-#     print("Positive number")
-# else:
-#     print("Negative number")
+num = -12
+if num >= 0:
+    print("Positive number")
+else:
+    print("Negative number")
 
 
 
@@ -211,33 +211,33 @@
 
 
 # 17 program UserName or Password
-userName = "hello"
-passWord = 123
-User = input("Enter the userName: ")
-if userName == User:
-    PassWo = int(input("Enter the password: "))
-    if passWord == PassWo:
-        print("You are scuccesfully loging!")
-    else:
-        print("Wrong Password Try Again!")
-else:
-    print("Wrong UserName try Again!")
+# userName = "hello"
+# passWord = 123
+# User = input("Enter the userName: ")
+# if userName == User:
+#     PassWo = int(input("Enter the password: "))
+#     if passWord == PassWo:
+#         print("You are scuccesfully loging!")
+#     else:
+#         print("Wrong Password Try Again!")
+# else:
+#     print("Wrong UserName try Again!")
 
 
 
 
 
-# 18 program maximum out of four number
-a = 303
-b = 262
-c = 50
-d = 2055
+# # 18 program maximum out of four number
+# a = 303
+# b = 262
+# c = 50
+# d = 2055
 
-if a > b and a > c and a > d:
-    print("A is maximum")
-elif b > a and b > c and b > d:
-    print("B is maximum")
-elif c > a and c > b and c > d:
-    print("C is maximum")
-else:
-    print("D is maximum")
+# if a > b and a > c and a > d:
+#     print("A is maximum")
+# elif b > a and b > c and b > d:
+#     print("B is maximum")
+# elif c > a and c > b and c > d:
+#     print("C is maximum")
+# else:
+#     print("D is maximum")
