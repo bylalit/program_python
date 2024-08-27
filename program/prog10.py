@@ -136,22 +136,22 @@
 
 
 # 12 program eligible for vote or not
-age = 17
-if age >= 18:
-    print("Can you vote")
-else:
-    print("Cant vote now")
+# age = 17
+# if age >= 18:
+#     print("Can you vote")
+# else:
+#     print("Cant vote now")
 
 
 
 
 
 # 13 program Positive or negative number
-num = -12
-if num >= 0:
-    print("Positive number")
-else:
-    print("Negative number")
+# num = -12
+# if num >= 0:
+#     print("Positive number")
+# else:
+#     print("Negative number")
 
 
 
