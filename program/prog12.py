@@ -240,13 +240,18 @@ while start == 1:
             modify = 1
             
             while modify == 1:
-                update = int(input(""" Update the started menu order:
-    1. Started menu add item for press 1
-    2. Started menu delete item for press 2
-    3. Started menu delete item for particular name so press 3
-    4. If you no iterested for update started manu so press 4
-    choice one option: """))
-        
+
+                update = int(input("""
+        ---------------------------------------------------------                                   
+                    Update the Started menu:
+            1. Add item for press 1
+            2. Delete item for press 2
+            3. Delete item for particular name so press 3
+            4. Exit for press 4
+            choice one option: """))
+                
+                
+                
                 if update == 1:
                     item = int(input("How mmany item you want to add: "))
                     for i in range(item):
@@ -301,12 +306,14 @@ while start == 1:
             modify = 1
             
             while modify == 1:
-                update = int(input(""" Update the main menu order:
-    1. Main menu add item for press 1
-    2. Main menu delete item for press 2
-    3. Main menu delete item for particular name so press 3
-    4. If you no iterested for update main manu so press 4
-    choice one option: """))
+                update = int(input("""
+        ---------------------------------------------------------                                   
+                    Update the Started menu:
+            1. Add item for press 1
+            2. Delete item for press 2
+            3. Delete item for particular name so press 3
+            4. Exit for press 4
+            choice one option: """))
         
                 if update == 1:
                     item = int(input("How mmany item you want to add: "))
@@ -363,12 +370,14 @@ while start == 1:
             modify = 1
             
             while modify == 1:
-                update = int(input(""" Update the desart menu order:
-    1. Desart menu add item for press 1
-    2. Desart menu delete item for press 2
-    3. Desart menu delete item for particular name so press 3
-    4. If you no iterested for update desart manu so press 4
-    choice one option: """))
+                update = int(input("""
+        ---------------------------------------------------------                                   
+                    Update the Started menu:
+            1. Add item for press 1
+            2. Delete item for press 2
+            3. Delete item for particular name so press 3
+            4. Exit for press 4
+            choice one option: """))
         
                 if update == 1:
                     item = int(input("How many item you want to add: "))
