@@ -7,6 +7,12 @@ while start == 1:
     
     again = 1
     
+    
+    print("\n")
+    print("---------------------------------------------------------")
+    print("""--------------------- Admin Side -----------------------""")
+    print("---------------------------------------------------------")
+    
     while again == 1:
         choice = int(input("""
     1. Started menu add then press 1
@@ -166,14 +172,16 @@ while start == 1:
     #     print(f"{count}. {x}  ----------- Rs.{y} ")
     #     count += 1
 
-
+    
+    
     def display(**item):
         count = 1
         for x,y in item.items():
             print(f"{count}. {x}  ----------- Rs.{y} ")
             count += 1
     
-    print("\n")        
+    print("\n")
+    print("---------------------------------------------------------")      
     print("Started menu list: ")
     display(**statred)
     print("\n")
@@ -186,6 +194,11 @@ while start == 1:
 
 
 
+    print("\n")
+    print("----------------------------------------------------------------")
+    print("""----------------- User Penal (Customer side) -----------------""")
+    print("----------------------------------------------------------------")
+    print("\n")
 
     userStart = 1
     
@@ -391,6 +404,32 @@ while start == 1:
     print("""----------------Your Order (User side)------------------""")
     print("---------------------------------------------------------")
     
-    def userOrderDisplay():
-        print("\n")
+    def userOrderDisplay(**order):
+        count = 1
+        totalAmount = 0
+        for x,y in order.items():
+            print(f"{count}. {x} ------------ =>  Rs.{y}")
+            totalAmount += y
+            count += 1
+        print("Your Total Amount is: ", "Rs.",totalAmount)
         
+    print("\n")
+    print("---------------------------------------------------------")
+    print("Your Started order: ")  
+    userOrderDisplay(**startedOrder)
+    
+    print("\n")
+    print("---------------------------------------------------------")
+    print("Your Main order: ")
+    userOrderDisplay(**mainOrder)
+    
+    print("\n")
+    print("---------------------------------------------------------")
+    print("Your Desart order: ")  
+    userOrderDisplay(**desrtOrder)
+    print("\n")
+    
+    
+    print("*******************Thank You For Visit*******************")
+    print("\n")
+    print("\n")
