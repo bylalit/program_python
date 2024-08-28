@@ -389,7 +389,4 @@ while start == 1:
         userStart = int(input("Do you want to continue for useradmin page so press 1: "))
                         
 
-
-
-
     start = int(input("Do you continue for All program then press 1: "))
