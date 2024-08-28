@@ -15,10 +15,11 @@ while start == 1:
     
     while again == 1:
         choice = int(input("""
-    1. Started menu add then press 1
-    2. Main menu add then press 2
-    3. Desart menu add then press 3
-    choice one option: """))
+    ---------------------------------------------------------
+        1. Started menu add then press 1
+        2. Main menu add then press 2
+        3. Desart menu add then press 3
+        choice one option: """))
         
         if choice == 1:
             dishWant = int(input("How many diceses add in statred: "))
@@ -31,12 +32,14 @@ while start == 1:
             modify = 1
             
             while modify == 1:
-                update = int(input(""" Modify the started menu:
-    1. Started menu add item for press 1
-    2. Started menu delete item for press 2
-    3. Started menu delete item for particular name so press 3
-    4. If you no iterested for modify started manu so press 4
-    choice one option: """))
+                update = int(input("""
+        ---------------------------------------------------------                                   
+                    Modify the Started menu:
+            1. Add item for press 1
+            2. Delete item for press 2
+            3. Delete item for particular name so press 3
+            4. Exit for press 4
+            choice one option: """))
                 
                 if update == 1:
                     num = int(input("How many item add for secound time in Statred: "))
