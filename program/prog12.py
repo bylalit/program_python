@@ -15,7 +15,7 @@ while start == 1:
     
     while again == 1:
         choice = int(input("""
-        ---------------------------------------------------------
+-------------------------------------------------------------
             1. Started menu add then press 1
             2. Main menu add then press 2
             3. Desart menu add then press 3
@@ -33,7 +33,7 @@ while start == 1:
             
             while modify == 1:
                 update = int(input("""
-        ---------------------------------------------------------                                   
+---------------------------------------------------------------                                   
                     Modify the Started menu:
             1. Add item for press 1
             2. Delete item for press 2
@@ -78,7 +78,7 @@ while start == 1:
             
             while modify == 1:
                 update = int(input("""
-        ---------------------------------------------------------                                   
+---------------------------------------------------------------                                   
                     Modify the Main menu:
             1. Add item for press 1
             2. Delete item for press 2
@@ -124,7 +124,7 @@ while start == 1:
             
             while modify == 1:
                 update = int(input("""
-        ---------------------------------------------------------                                   
+-----------------------------------------------------------------                                   
                     Modify the Started menu:
             1. Add item for press 1
             2. Delete item for press 2
@@ -215,8 +215,10 @@ while start == 1:
     
     while userStart == 1:
         
+        custemerName = input("Enter Your name: ")
+        
         userInput = int(input("""
-        ---------------------------------------------------------
+-------------------------------------------------------------
                 Order for menu list:
         1. Started menu order so press 1
         2. Main menu order so press 2
@@ -242,7 +244,7 @@ while start == 1:
             while modify == 1:
 
                 update = int(input("""
-        ---------------------------------------------------------                                   
+-------------------------------------------------------------                                   
                     Update the Started menu:
             1. Add item for press 1
             2. Delete item for press 2
@@ -307,7 +309,7 @@ while start == 1:
             
             while modify == 1:
                 update = int(input("""
-        ---------------------------------------------------------                                   
+-----------------------------------------------------------------                                   
                     Update the Started menu:
             1. Add item for press 1
             2. Delete item for press 2
@@ -371,7 +373,7 @@ while start == 1:
             
             while modify == 1:
                 update = int(input("""
-        ---------------------------------------------------------                                   
+--------------------------------------------------------------                                   
                     Update the Started menu:
             1. Add item for press 1
             2. Delete item for press 2
@@ -420,7 +422,7 @@ while start == 1:
 
     print("\n")
     print("---------------------------------------------------------")
-    print("""----------------Your Order (User side)------------------""")
+    print(f"""---------------- {custemerName} Order ---------------------""")
     print("---------------------------------------------------------")
     
     def userOrderDisplay(**order):
@@ -449,6 +451,6 @@ while start == 1:
     print("\n")
     
     
-    print("******************* Thank You For Visit *******************")
+    print(f"******************* Thank You {custemerName} For Visit *******************")
     print("\n")
     print("\n")
