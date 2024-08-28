@@ -213,9 +213,9 @@ while start == 1:
     mainOrder = {}
     desrtOrder = {}
     
+    custemerName = input("Enter Your name: ")
+    
     while userStart == 1:
-        
-        custemerName = input("Enter Your name: ")
         
         userInput = int(input("""
 -------------------------------------------------------------
@@ -421,9 +421,9 @@ while start == 1:
     start = int(input("Do you continue for All program then press 1: "))
 
     print("\n")
-    print("---------------------------------------------------------")
-    print(f"""---------------- {custemerName} Order ---------------------""")
-    print("---------------------------------------------------------")
+    print("****************************************************************")
+    print(f"""---------------- {custemerName} Order ------------------------""")
+    print("****************************************************************")
     
     def userOrderDisplay(**order):
         count = 1
@@ -432,24 +432,35 @@ while start == 1:
             print(f"{count}. {x} ------------ =>  Rs.{y}")
             totalAmount += y
             count += 1
-        print("Your Total Amount is: ", "Rs.",totalAmount)
+        return totalAmount
+        # print("Your Total Amount is: ", "Rs.",totalAmount)
         
     print("\n")
     print("---------------------------------------------------------")
     print("Your Started order: ")  
-    userOrderDisplay(**startedOrder)
+    startedTotal = userOrderDisplay(**startedOrder)
+    print("Your Total Amount is: ", "Rs.",startedTotal)
     
     print("\n")
     print("---------------------------------------------------------")
     print("Your Main order: ")
-    userOrderDisplay(**mainOrder)
+    mainTotal = userOrderDisplay(**mainOrder)
+    print("Your Total Amount is: ", "Rs.",mainTotal)
     
     print("\n")
     print("---------------------------------------------------------")
     print("Your Desart order: ")  
-    userOrderDisplay(**desrtOrder)
+    desrtTotal = userOrderDisplay(**desrtOrder)
+    print("Your Total Amount is: ", "Rs.",desrtTotal)
     print("\n")
     
+    
+    finalAmount = startedTotal +  mainTotal + desrtTotal
+
+    print(f"""*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+                Your Final Amount Is: Rs.{finalAmount}
+*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+          """)
     
     print(f"******************* Thank You {custemerName} For Visit *******************")
     print("\n")
