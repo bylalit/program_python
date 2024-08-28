@@ -259,7 +259,75 @@ while start == 1:
                 else:
                     modify = int(input("Can you again repeat update for statered order so press 1: "))
 
+
+                
+                
+        elif userInput == 2:
+            print("Main menu list: ")
+            display(**main)
+            
+            item = int(input("How many item you want to order: "))
+            for i in range(item):
+                userOrder = input("Enter your order item name: ").upper()
+                if userOrder in main:
+                    mainOrder[userOrder] = main[userOrder]
+                else:
+                    print("Not available this dish")
+              
+            print("Your main order: ", mainOrder)
         
+            modify = 1
+            
+            while modify == 1:
+                update = int(input(""" Update the main menu order:
+    1. Main menu add item for press 1
+    2. Main menu delete item for press 2
+    3. Main menu delete item for particular name so press 3
+    4. If you no iterested for update main manu so press 4
+    choice one option: """))
+        
+                if update == 1:
+                    item = int(input("How mmany item you want to add: "))
+                    for i in range(item):
+                        iName = input("Enter your  order item name: ").upper()
+                        if iName in main:
+                            mainOrder[iName] = main[iName]
+                        else:
+                            print("Not  available this dish")
+                    print("Your main order: ", mainOrder)
+                    
+                elif  update == 2:
+                    item = int(input("How mmany item you want to delete: "))
+                    for i in range(item):
+                        mainOrder.popitem()
+                    print("Your main order: ", mainOrder)
+                    
+                elif  update == 3:
+                    item = int(input("How mmany item you want to delete: "))
+                    for i in range(item):
+                        iName = input("Enter your  order item name: ").upper()
+                        if iName in mainOrder:
+                            mainOrder.pop(iName)
+                        else:
+                            print("Not available this dish")
+                    print("Your main order: ", mainOrder)
+                            
+                elif update == 4:
+                    modify = 0
+                
+            
+                if update == 4:
+                    modify = 0
+                else:
+                    modify = int(input("Can you again repeat update for main order so press 1: "))       
+                
+                
+                
+                
+                
+                
+                
+                
         userStart = int(input("Do you want to continue for useradmin page so press 1: "))
                         
 
