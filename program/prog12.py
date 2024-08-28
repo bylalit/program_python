@@ -261,7 +261,6 @@ while start == 1:
 
 
                 
-                
         elif userInput == 2:
             print("Main menu list: ")
             display(**main)
@@ -330,8 +329,6 @@ while start == 1:
                 
         userStart = int(input("Do you want to continue for useradmin page so press 1: "))
                         
-
-
 
 
 
