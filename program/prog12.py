@@ -323,19 +323,19 @@ while start == 1:
                 
        
        
-        elif userInput == 2:
-            print("Main menu list: ")
-            display(**main)
+        elif userInput == 3:
+            print("Desart menu list: ")
+            display(**desart)
             
             item = int(input("How many item you want to order: "))
             for i in range(item):
                 userOrder = input("Enter your order item name: ").upper()
-                if userOrder in main:
-                    mainOrder[userOrder] = main[userOrder]
+                if userOrder in desart:
+                    desrtOrder[userOrder] = desart[userOrder]
                 else:
                     print("Not available this dish")
               
-            print("Your main order: ", mainOrder)
+            print("Your desart order: ", desrtOrder)
         
             modify = 1
             
