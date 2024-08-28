@@ -430,6 +430,6 @@ while start == 1:
     print("\n")
     
     
-    print("*******************Thank You For Visit*******************")
+    print("******************* Thank You For Visit *******************")
     print("\n")
     print("\n")
