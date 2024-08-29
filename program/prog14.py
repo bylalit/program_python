@@ -1,3 +1,5 @@
+import math
+
 # 1. program
 
 # a = 10
@@ -97,7 +99,8 @@
 # 9. program
 
 # 1. pi * r * r
-# 2.  pi * r * h
+# 2. s = (a + b + c) / 2
+    # area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 # 3. pi * r * r * h
 # 4. pi * r * r * l
 
@@ -112,5 +115,13 @@ while choice == 0:
     option = int(input("Enter your choice: "))
     
     if option == 1:
-        
+        print("a")
+    elif choice == 2:
+        a = float(input("Enter the first side of the triangle: "))
+        b = float(input("Enter the second side of the triangle: "))
+        c = float(input("Enter the third side of the triangle: "))
+
+        s = (a + b + c) / 2
+        area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+        print(f"The area of the triangle is: {area}")
         
