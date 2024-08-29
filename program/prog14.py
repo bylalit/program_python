@@ -102,7 +102,7 @@ import math
 # 2. s = (a + b + c) / 2
     # area = math.sqrt(s * (s - a) * (s - b) * (s - c))
 # 3. pi * r * r * h
-# 4. pi * r * r * l
+# 4. simple_interest = (principal * rate * time) / 100
 
 choice = 0
 while choice == 0:
