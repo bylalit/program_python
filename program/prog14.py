@@ -124,4 +124,13 @@ while choice == 0:
         s = (a + b + c) / 2
         area = math.sqrt(s * (s - a) * (s - b) * (s - c))
         print(f"The area of the triangle is: {area}")
-        
+
+    elif choice == 3:
+        side = float(input("Enter the side length of the square: "))
+        square_area = side * side
+        print(f"The area of the square is: {square_area}")
+
+        length = float(input("Enter the length of the rectangle: "))
+        width = float(input("Enter the width of the rectangle: "))
+        rectangle_area = length * width
+        print(f"The area of the rectangle is: {rectangle_area}")
