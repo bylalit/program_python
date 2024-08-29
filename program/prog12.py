@@ -49,11 +49,15 @@ while start == 1:
                         statred[itemName] = itemPrice
                     print(statred)
                 elif update == 2:
-                    statred.popitem()
+                    idelet = int(input("Hoe many item delete you want? "))
+                    for i in range(idelet):
+                        statred.popitem()
                     print(statred)
                 elif update == 3:
-                    nameItem = input("Which Item you want to delete? please write the Item name: ")
-                    statred.pop(nameItem)
+                    idelet = int(input("Hoe many item delete you want? "))
+                    for i in range(idelet):
+                        nameItem = input("Which Item you want to delete? please write the Item name: ").upper()
+                        statred.pop(nameItem)
                     print(statred)
                 elif update == 4:
                     modify = 0
@@ -94,11 +98,15 @@ while start == 1:
                         main[itemName] = itemPrice
                     print(main)
                 elif update == 2:
-                    main.popitem()
+                    idelet = int(input("Hoe many item delete you want? "))
+                    for i in range(idelet):
+                        main.popitem()
                     print(main)
                 elif update == 3:
-                    nameItem = input("Which Item you want to delete? please write the Item name: ")
-                    main.pop(nameItem)
+                    idelet = int(input("Hoe many item delete you want? "))
+                    for i in range(idelet):
+                        nameItem = input("Which Item you want to delete? please write the Item name: ").upper()
+                        main.pop(nameItem)
                     print(main)
                 elif update == 4:
                     modify = 0
@@ -140,11 +148,15 @@ while start == 1:
                         desart[itemName] = itemPrice
                     print(desart)
                 elif update == 2:
-                    desart.popitem()
+                    idelet = int(input("Hoe many item delete you want? "))
+                    for i in range(idelet):
+                        desart.popitem()
                     print(desart)
                 elif update == 3:
-                    nameItem = input("Which Item you want to delete? please write the Item name: ")
-                    desart.pop(nameItem)
+                    idelet = int(input("Hoe many item delete you want? "))
+                    for i in range(idelet):
+                        nameItem = input("Which Item you want to delete? please write the Item name: ").upper()
+                        desart.pop(nameItem)
                     print(desart)
                 elif update == 4:
                     modify = 0
