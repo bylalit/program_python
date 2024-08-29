@@ -241,7 +241,7 @@ while start == 1:
             print("Started menu list: ")
             display(**statred)
             
-            item = int(input("How mmany item you want to order: "))
+            item = int(input("How many item you want to order: "))
             for i in range(item):
                 userOrder = input("Enter your order item name: ").upper()
                 if userOrder in statred:
@@ -267,7 +267,7 @@ while start == 1:
                 
                 
                 if update == 1:
-                    item = int(input("How mmany item you want to add: "))
+                    item = int(input("How many item you want to add: "))
                     for i in range(item):
                         iName = input("Enter your  order item name: ").upper()
                         if iName in statred:
@@ -277,13 +277,13 @@ while start == 1:
                     print("Your started order: ", startedOrder)
                     
                 elif  update == 2:
-                    item = int(input("How mmany item you want to delete: "))
+                    item = int(input("How many item you want to delete: "))
                     for i in range(item):
                         startedOrder.popitem()
                     print("Your started order: ", startedOrder)
                     
                 elif  update == 3:
-                    item = int(input("How mmany item you want to delete: "))
+                    item = int(input("How many item you want to delete: "))
                     for i in range(item):
                         iName = input("Enter your  order item name: ").upper()
                         if iName in startedOrder:
@@ -330,7 +330,7 @@ while start == 1:
             choice one option: """))
         
                 if update == 1:
-                    item = int(input("How mmany item you want to add: "))
+                    item = int(input("How many item you want to add: "))
                     for i in range(item):
                         iName = input("Enter your  order item name: ").upper()
                         if iName in main:
@@ -340,13 +340,13 @@ while start == 1:
                     print("Your main order: ", mainOrder)
                     
                 elif  update == 2:
-                    item = int(input("How mmany item you want to delete: "))
+                    item = int(input("How many item you want to delete: "))
                     for i in range(item):
                         mainOrder.popitem()
                     print("Your main order: ", mainOrder)
                     
                 elif  update == 3:
-                    item = int(input("How mmany item you want to delete: "))
+                    item = int(input("How many item you want to delete: "))
                     for i in range(item):
                         iName = input("Enter your  order item name: ").upper()
                         if iName in mainOrder:
@@ -446,6 +446,7 @@ while start == 1:
             count += 1
         return totalAmount
         # print("Your Total Amount is: ", "Rs.",totalAmount)
+    
         
     print("\n")
     print("---------------------------------------------------------")
