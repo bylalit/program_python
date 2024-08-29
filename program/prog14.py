@@ -116,7 +116,7 @@ while choice == 0:
     
     if option == 1:
         print("a")
-    elif choice == 2:
+    elif option == 2:
         a = float(input("Enter the first side of the triangle: "))
         b = float(input("Enter the second side of the triangle: "))
         c = float(input("Enter the third side of the triangle: "))
@@ -125,7 +125,7 @@ while choice == 0:
         area = math.sqrt(s * (s - a) * (s - b) * (s - c))
         print(f"The area of the triangle is: {area}")
 
-    elif choice == 3:
+    elif option == 3:
         side = float(input("Enter the side length of the square: "))
         square_area = side * side
         print(f"The area of the square is: {square_area}")
@@ -135,10 +135,13 @@ while choice == 0:
         rectangle_area = length * width
         print(f"The area of the rectangle is: {rectangle_area}")
         
-    elif choice == 4:
+    elif option == 4:
         principal = float(input("Enter the principal amount: "))
         rate = float(input("Enter the rate of interest: "))
         time = float(input("Enter the time in years: "))
         
         simple_interest = (principal * rate * time) / 100
         print(f"The simple interest is: {simple_interest}")
+        
+    elif option == 5:
+        option = 1
