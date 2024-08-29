@@ -144,4 +144,4 @@ while choice == 0:
         print(f"The simple interest is: {simple_interest}")
         
     elif option == 5:
-        option = 1
+        choice = 1
