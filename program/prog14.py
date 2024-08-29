@@ -134,3 +134,6 @@ while choice == 0:
         width = float(input("Enter the width of the rectangle: "))
         rectangle_area = length * width
         print(f"The area of the rectangle is: {rectangle_area}")
+        
+    elif choice == 4:
+        
