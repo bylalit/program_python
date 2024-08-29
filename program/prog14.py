@@ -130,18 +130,18 @@ import math
 #         square_area = side * side
 #         print(f"The area of the square is: {square_area}")
 
-        length = float(input("Enter the length of the rectangle: "))
-        width = float(input("Enter the width of the rectangle: "))
-        rectangle_area = length * width
-        print(f"The area of the rectangle is: {rectangle_area}")
+#         length = float(input("Enter the length of the rectangle: "))
+#         width = float(input("Enter the width of the rectangle: "))
+#         rectangle_area = length * width
+#         print(f"The area of the rectangle is: {rectangle_area}")
         
-    elif option == 4:
-        principal = float(input("Enter the principal amount: "))
-        rate = float(input("Enter the rate of interest: "))
-        time = float(input("Enter the time in years: "))
+#     elif option == 4:
+#         principal = float(input("Enter the principal amount: "))
+#         rate = float(input("Enter the rate of interest: "))
+#         time = float(input("Enter the time in years: "))
         
-        simple_interest = (principal * rate * time) / 100
-        print(f"The simple interest is: {simple_interest}")
+#         simple_interest = (principal * rate * time) / 100
+#         print(f"The simple interest is: {simple_interest}")
         
-    elif option == 5:
-        choice = 1
+#     elif option == 5:
+#         choice = 1
