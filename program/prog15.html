@@ -4,14 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Mangment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #f2f2f2;
+            font-family: monospace;
+        }
+
+        .home{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        form{
+            width: 350px;
+            height: 400px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.932);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h2{
+            font-size: 2rem;
+            padding-bottom: 20px;
+        }
+        label{
+            padding: 10px 0;
+            font-size: 25px;
+        }
+
+        input{
+            padding: 10px 20px;
+            outline: none;
+        }
+        #btn{
+            margin: 20px;
+            border: none;
+            background-color: green;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 <body>
+    <div class="home">
+        <form action="">
+            <h2>Hotel Menu</h2>
+            <label for="name">Dish Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="Price" required>
+    
+            <input type="submit" value="ADD ITEM" id="btn">
+        </form>
+    </div>
     
 
 
-
-
-    
 
 </body>
 
