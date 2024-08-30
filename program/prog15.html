@@ -76,6 +76,72 @@
 
 <script>
 
+    let menuName =  document.getElementById("name");
+    let menuPrice = document.getElementById("price");
+    let btn = document.getElementById("btn");
+
+
+    let menu = {};
+
+    btn.addEventListener("click", function(){
+        let name = menuName.value;
+        let price = parseInt(menuPrice.value);
+
+        menu[name] = price;
+        console.log(menu);
+        alert("Cheak the consol code")
+    });
+
+    
+
+
+
+
+
+
+
+
+    // let  menu = ["banana": 20,];
+    // let count = 0;
+    // btn.addEventListener("click", function(){
+    //     let name = menuName.value;
+    //     let price = menuPrice.value;
+    //     if(name && price){
+    //         menu.push({name:name, price:price});
+    //     }
+    // });
+    // console.log(menu);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // console.log("Hello  World");
 
     // menu = {
