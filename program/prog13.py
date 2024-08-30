@@ -61,17 +61,32 @@ student = {
     "Lait" :{
         "Maths": 85,
         "Science": 90,
-        "English": 78
+        "English": 78,
+        "cours":{
+            "c++":1000,
+            "python": 2000,
+            "c#": 1000
+        }
         },
     "Rohan" :{
         "Maths": 90,
         "Science": 85,
-        "English": 92
+        "English": 92,
+        "cours":{
+            "c++":1000,
+            "python": 2000,
+            "c#": 1000
+        }
         },
     "Aman" :{
         "Maths": 78,
         "Science": 92,
-        "English": 85
+        "English": 85,
+        "cours":{
+            "c++": 1000,
+            "python": 2000,
+            "c#": 1000
+        }
     }
 }
 
@@ -79,3 +94,5 @@ for i in student:
     print(i)
     for x,y in student[i].items():
         print(f"{x} : {y}")
+        
+        if 
