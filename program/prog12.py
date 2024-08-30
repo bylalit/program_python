@@ -49,12 +49,12 @@ while start == 1:
                         statred[itemName] = itemPrice
                     print(statred)
                 elif update == 2:
-                    idelet = int(input("Hoe many item delete you want? "))
+                    idelet = int(input("How many item delete you want? "))
                     for i in range(idelet):
                         statred.popitem()
                     print(statred)
                 elif update == 3:
-                    idelet = int(input("Hoe many item delete you want? "))
+                    idelet = int(input("How many item delete you want? "))
                     for i in range(idelet):
                         nameItem = input("Which Item you want to delete? please write the Item name: ").upper()
                         statred.pop(nameItem)
@@ -98,12 +98,12 @@ while start == 1:
                         main[itemName] = itemPrice
                     print(main)
                 elif update == 2:
-                    idelet = int(input("Hoe many item delete you want? "))
+                    idelet = int(input("How many item delete you want? "))
                     for i in range(idelet):
                         main.popitem()
                     print(main)
                 elif update == 3:
-                    idelet = int(input("Hoe many item delete you want? "))
+                    idelet = int(input("How many item delete you want? "))
                     for i in range(idelet):
                         nameItem = input("Which Item you want to delete? please write the Item name: ").upper()
                         main.pop(nameItem)
@@ -148,12 +148,12 @@ while start == 1:
                         desart[itemName] = itemPrice
                     print(desart)
                 elif update == 2:
-                    idelet = int(input("Hoe many item delete you want? "))
+                    idelet = int(input("How many item delete you want? "))
                     for i in range(idelet):
                         desart.popitem()
                     print(desart)
                 elif update == 3:
-                    idelet = int(input("Hoe many item delete you want? "))
+                    idelet = int(input("How many item delete you want? "))
                     for i in range(idelet):
                         nameItem = input("Which Item you want to delete? please write the Item name: ").upper()
                         desart.pop(nameItem)
@@ -242,10 +242,12 @@ while start == 1:
             display(**statred)
             
             item = int(input("How many item you want to order: "))
-            for i in range(item):
+            count = 0
+            while item > count:
                 userOrder = input("Enter your order item name: ").upper()
                 if userOrder in statred:
                     startedOrder[userOrder] = statred[userOrder]
+                    count += 1
                 else:
                     print("Not available this dish")
               
@@ -268,10 +270,12 @@ while start == 1:
                 
                 if update == 1:
                     item = int(input("How many item you want to add: "))
-                    for i in range(item):
+                    count = 0
+                    while item > count:
                         iName = input("Enter your  order item name: ").upper()
                         if iName in statred:
                             startedOrder[iName] = statred[iName]
+                            count += 1
                         else:
                             print("Not  available this dish")
                     print("Your started order: ", startedOrder)
@@ -284,10 +288,12 @@ while start == 1:
                     
                 elif  update == 3:
                     item = int(input("How many item you want to delete: "))
-                    for i in range(item):
+                    count = 0
+                    while item > count:
                         iName = input("Enter your  order item name: ").upper()
                         if iName in startedOrder:
                             startedOrder.pop(iName)
+                            count += 1
                         else:
                             print("Not available this dish")
                     print("Your started order: ", startedOrder)
@@ -308,10 +314,12 @@ while start == 1:
             display(**main)
             
             item = int(input("How many item you want to order: "))
-            for i in range(item):
+            count = 0
+            while item > count:
                 userOrder = input("Enter your order item name: ").upper()
                 if userOrder in main:
                     mainOrder[userOrder] = main[userOrder]
+                    count += 1
                 else:
                     print("Not available this dish")
               
@@ -331,10 +339,12 @@ while start == 1:
         
                 if update == 1:
                     item = int(input("How many item you want to add: "))
-                    for i in range(item):
+                    count = 0
+                    while item > count:
                         iName = input("Enter your  order item name: ").upper()
                         if iName in main:
                             mainOrder[iName] = main[iName]
+                            count += 1
                         else:
                             print("Not  available this dish")
                     print("Your main order: ", mainOrder)
@@ -347,10 +357,12 @@ while start == 1:
                     
                 elif  update == 3:
                     item = int(input("How many item you want to delete: "))
-                    for i in range(item):
+                    count = 0
+                    while item > count:
                         iName = input("Enter your  order item name: ").upper()
                         if iName in mainOrder:
                             mainOrder.pop(iName)
+                            count += 1
                         else:
                             print("Not available this dish")
                     print("Your main order: ", mainOrder)
@@ -372,10 +384,12 @@ while start == 1:
             display(**desart)
             
             item = int(input("How many item you want to order: "))
-            for i in range(item):
+            count = 0
+            while item > count:
                 userOrder = input("Enter your order item name: ").upper()
                 if userOrder in desart:
                     desrtOrder[userOrder] = desart[userOrder]
+                    count += 1
                 else:
                     print("Not available this dish")
               
@@ -395,10 +409,12 @@ while start == 1:
         
                 if update == 1:
                     item = int(input("How many item you want to add: "))
-                    for i in range(item):
+                    count = 0
+                    while item > count:
                         iName = input("Enter your  order item name: ").upper()
                         if iName in desart:
                             desrtOrder[iName] = desart[iName]
+                            count += 1
                         else:
                             print("Not  available this dish")
                     print("Your desart order: ", desrtOrder)
@@ -411,10 +427,12 @@ while start == 1:
                     
                 elif  update == 3:
                     item = int(input("How many item you want to delete: "))
-                    for i in range(item):
+                    count = 0
+                    while item > count:
                         iName = input("Enter your  order item name: ").upper()
                         if iName in desrtOrder:
                             desrtOrder.pop(iName)
+                            count += 1
                         else:
                             print("Not available this dish")
                     print("Your desart order: ", desrtOrder)
