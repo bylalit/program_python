@@ -81,12 +81,10 @@
         }
         
         th{
-            /* border: 2px solid yellow; */
             font-size: 20px;
             padding: 10px 20px;
         }
         td{
-            /* border: 2px solid yellow; */
             font-size: 20px;
             padding: 10px 20px;
             text-align: center;
@@ -144,7 +142,7 @@
     let menuPrice = document.getElementById("price");
     let btn = document.getElementById("btn");
 
-    
+    let hotelMenu = {};
 
     function display(){
         console.log("Hello");
@@ -164,7 +162,7 @@
             console.log("Hello world");
             let name = menuName.value;
             let price = parseInt(menuPrice.value);
-
+            
             if (name && (price)){
                 text += `
                     <tr>
@@ -190,146 +188,5 @@
     display();
     
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // let menuName =  document.getElementById("name");
-    // let menuPrice = document.getElementById("price");
-    // let btn = document.getElementById("btn");
-
-
-    // let menu = {};
-
-    // btn.addEventListener("click", function(){
-    //     let name = menuName.value;
-    //     let price = parseInt(menuPrice.value);
-
-    //     menu[name] = price;
-    //     console.log(menu);
-    //     alert("Cheak the consol code")
-    // });
-
-    
-
-
-
-
-
-
-
-
-    // let  menu = ["banana": 20,];
-    // let count = 0;
-    // btn.addEventListener("click", function(){
-    //     let name = menuName.value;
-    //     let price = menuPrice.value;
-    //     if(name && price){
-    //         menu.push({name:name, price:price});
-    //     }
-    // });
-    // console.log(menu);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // console.log("Hello  World");
-
-    // menu = {
-    //     "tost": 30,
-    //     "sandwich": 50,
-    //     "pizza": 70,
-    //     "burger": 40,
-    //     "fries": 20,
-    //     "salad": 15
-    // };
-
-
-    // for (const key in menu) {
-    //     console.log(`${key} => ${menu[key]}`);
-    // }
-
-
-    // // for (let element of menu) {
-    // //     console.log(element);
-    // // }
-
-
-    // // menu.forEach(element => {
-    // //     console.log(element);
-    // // });
-
-
-
-
-    // // Empty object to store user input
-    // let userObject = {};
-
-    // // Number of key-value pairs user wants to add
-    // let numPairs = parseInt(prompt("How many key-value pairs do you want to add?"));
-
-    // // Loop to get user input for keys and values
-    // // for (let i = 0; i < numPairs; i++) {
-    // //     let key = prompt(`Enter key ${i + 1}:`);
-    // //     let value = prompt(`Enter value for key "${key}":`);
-    // //     userObject[key] = value;  // Store key-value pair in the object
-    // // }
-
-    // // Display the final object
-    // console.log("Your final object is:", userObject);
 </script>
 </html>
