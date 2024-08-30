@@ -57,3 +57,25 @@
 
 
 
+student = {
+    "Lait" :{
+        "Maths": 85,
+        "Science": 90,
+        "English": 78
+        },
+    "Rohan" :{
+        "Maths": 90,
+        "Science": 85,
+        "English": 92
+        },
+    "Aman" :{
+        "Maths": 78,
+        "Science": 92,
+        "English": 85
+    }
+}
+
+for i in student:
+    print(i)
+    for x,y in student[i].items():
+        print(f"{x} : {y}")
