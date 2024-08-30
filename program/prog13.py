@@ -56,7 +56,7 @@ for x,y in order.items():
 
 
 
-
+# nested loop in dicxnary okk
 # student = {
 #     "Lait" :{
 #         "Maths": 85,
