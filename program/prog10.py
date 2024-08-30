@@ -227,17 +227,17 @@
 
 
 
-# # 18 program maximum out of four number
-# a = 303
-# b = 262
-# c = 50
-# d = 2055
+# 18 program maximum out of four number
+a = 303
+b = 262
+c = 50
+d = 2055
 
-# if a > b and a > c and a > d:
-#     print("A is maximum")
-# elif b > a and b > c and b > d:
-#     print("B is maximum")
-# elif c > a and c > b and c > d:
-#     print("C is maximum")
-# else:
-#     print("D is maximum")
+if a > b and a > c and a > d:
+    print("A is maximum")
+elif b > a and b > c and b > d:
+    print("B is maximum")
+elif c > a and c > b and c > d:
+    print("C is maximum")
+else:
+    print("D is maximum")
