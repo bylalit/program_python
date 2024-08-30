@@ -93,6 +93,11 @@ student = {
 for i in student:
     print(i)
     for x,y in student[i].items():
-        print(f"{x} : {y}")
+        if x  == "cours":
+            print("Cours Fee: ")
+            for z in y:
+                print(f"{z} : {y[z]}")
+        else:
+            print(f"{x} : {y}")
         
-        if 
+    print()
