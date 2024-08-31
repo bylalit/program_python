@@ -145,3 +145,40 @@ import math
         
 #     elif option == 5:
 #         choice = 1
+
+
+
+# 10. program
+
+# num = int(input("Enter a number: "))
+# assert num >= 0, "Only positive numbers accepted."
+# print("Your Enterd: ", num)
+
+
+# 11. program
+
+# def search(list, n):
+#     for i in list:
+#         # print(i)
+#         if i == n:
+#             return True
+        
+        
+# list = ["sachin", 23 , 12, "python", 90]
+
+# n = "python"
+
+# if search(list, n):
+#     print("Found")
+# else:
+#     print("Not found")
+
+
+
+# 12. program 
+
+# cm = int(input("Enter the length in cm: "))
+# if cm < 0:
+#     print("Invalid Entery")
+# else:
+#     print(cm/2.54, "inches")
