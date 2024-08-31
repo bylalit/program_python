@@ -32,9 +32,19 @@
 
 
 
-with open("sample.txt", "r") as f:
-    data = f.read()
-    print(data)
+# syntex  of open() function and with () function
+
+# new  file create when no file is hear and  if file is hear then it will delete the file and write new one 
+
+
+
+
+# with open("sample.txt", "r") as f:
+#     data = f.read()
+#     print(data)
     
-with open("sample.txt", "w") as f:
-    f.write("Hello world")
+# with open("sample.txt", "w") as f:
+#     f.write("Hello world")
+
+
+
