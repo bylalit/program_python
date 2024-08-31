@@ -1,4 +1,4 @@
-f = open("D:\program_py\program_python\program\demo.txt", "a")
+# f = open("D:\program_py\program_python\program\demo.txt", "a")
 
 
 #   reading a file mode! 
@@ -15,7 +15,24 @@ f = open("D:\program_py\program_python\program\demo.txt", "a")
 
 # writting  a file mode! 
 
-f.write("Then  we are going to write some text in this.")
+# f.write("\n Then  we are going to write some text in this. \n")
+# f.write("Hello the new one line. 22")
+# f.close()
 
 
-f.close()
+
+
+
+# new file create when no file is hear
+
+# w = open("sample.txt", "a")
+# w.write("Hello")
+# f.close()
+
+
+
+
+with open("sample.txt", "r") as f:
+    data = f.read()
+    print(data)
+    
