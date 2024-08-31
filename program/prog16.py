@@ -49,6 +49,15 @@
 
 
 
-import os
+# import os
 
-os.remove("sample.txt")
+# os.remove("sample.txt")
+
+
+
+with open("practice.txt", "a") as f:
+    f.write("Hi everyone  \n")
+    f.write("We are learing File I/O \n")
+    f.write("using  python \n")
+    f.write("I like programming in Java.")
+
