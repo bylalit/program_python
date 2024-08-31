@@ -67,14 +67,23 @@
 
 
 
+# with open("practice.txt", "r") as f:
+#     data = f.read()
+    
+# new_data = data.replace("Java", "Python")
+# print(new_data)
+
+
+# with open("practice.txt", "w") as f:
+#     f.write(new_data)
+
+
+    
+    
+word = "learing"
 with open("practice.txt", "r") as f:
     data = f.read()
-    # print(data)
-    
-new_data = data.replace("Java", "Python")
-print(new_data)
-
-
-with open("practice.txt", "w") as f:
-    f.write(new_data)
-    
+    if  word in data:
+        print(f"{word} is found in the file")
+    else:
+        print("Not found!")
