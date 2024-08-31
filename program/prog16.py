@@ -1,4 +1,4 @@
-f = open("D:\program_py\program_python\program\demo.txt", "w")
+f = open("D:\program_py\program_python\program\demo.txt", "a")
 
 
 #   reading a file mode! 
@@ -15,6 +15,7 @@ f = open("D:\program_py\program_python\program\demo.txt", "w")
 
 # writting  a file mode! 
 
-f.write("I want to learn javascrpit 123.")
+f.write("Then  we are going to write some text in this.")
+
 
 f.close()
