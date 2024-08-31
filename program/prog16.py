@@ -49,8 +49,10 @@
 
 
 
-# import os
 
+# deleting the file for delete the file we use os module
+
+# import os
 # os.remove("sample.txt")
 
 
