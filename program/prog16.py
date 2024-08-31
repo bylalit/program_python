@@ -55,9 +55,15 @@
 
 
 
-with open("practice.txt", "a") as f:
-    f.write("Hi everyone  \n")
-    f.write("We are learing File I/O \n")
-    f.write("using  python \n")
-    f.write("I like programming in Java.")
+# with open("practice.txt", "a") as f:
+#     f.write("Hi everyone  \n")
+#     f.write("We are learing File I/O \n")
+#     f.write("using  Java \n")
+#     f.write("I like programming in Java.")
 
+    
+
+
+
+with open("practice.txt", "r") as f:
+    
