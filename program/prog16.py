@@ -81,31 +81,33 @@
     
     
 
-def check_for_word():
-    word = "learing"
-    with open("practice.txt", "r") as f:
-        data = f.read()
-        if word in data:
-            print(f"{word} is found in the file")
-        else:
-            print("Not found!")
+# def check_for_word():
+#     word = "learing"
+#     with open("practice.txt", "r") as f:
+#         data = f.read()
+#         if word in data:
+#             print(f"{word} is found in the file")
+#         else:
+#             print("Not found!")
 
 
 # check_for_word()
 
 
-def cheak_for_line():
-    word = "learing"
-    data = True
-    line_no = 1
-    with open("practice.txt", "r") as f:
-        while data:
-            data = f.readline()
-            if word in data:
-                print(line_no)
-                return
-            line_no += 1
+# def cheak_for_line():
+#     word = "learing"
+#     data = True
+#     line_no = 1
+#     with open("practice.txt", "r") as f:
+#         while data:
+#             data = f.readline()
+#             if word in data:
+#                 print(line_no)
+#                 return
+#             line_no += 1
         
-    return -1
+#     return -1
 
-cheak_for_line()
+# cheak_for_line()
+
+
