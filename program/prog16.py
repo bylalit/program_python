@@ -91,4 +91,6 @@ def check_for_word():
             print("Not found!")
 
 
-check_for_word()
+# check_for_word()
+
+
