@@ -81,4 +81,14 @@
     
     
 
+def check_for_word():
+    word = "learing"
+    with open("practice.txt", "r") as f:
+        data = f.read()
+        if word in data:
+            print(f"{word} is found in the file")
+        else:
+            print("Not found!")
 
+
+check_for_word()
