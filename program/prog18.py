@@ -49,14 +49,12 @@ student = {
     },
 }
 
-
 for name in student:
     print()
     print(name)
     for key, val in student[name].items():
         print(key.capitalize(), "  ==>  " , val)
 print()
-
 
 print("""---------------------------------------
         what will be search ?
