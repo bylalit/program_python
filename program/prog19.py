@@ -35,4 +35,28 @@ import random
 # program 1.
 # gusees the  random number between 1 to 100
 
+target = random.randint(1, 100)
+
+while True:
+    guess = input("Guess a number between 1 and 100 or Quit(Q): ").upper()
+    
+    if guess == "Q":
+        break
+    
+    guess = int(guess)
+    
+    if guess == target:
+        print("You guessed it!")
+        break
+    elif guess < target:
+        print("Too low!")
+    else:
+        print("To high!")
+
+print("------GAME OVER------")
+
+
+
+
+# program 2.
 
