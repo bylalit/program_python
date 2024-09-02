@@ -48,3 +48,10 @@ student = {
         "address": "pune"
     },
 }
+
+
+for name in student:
+    print()
+    for key, val in student[name].items():
+        print(key,  val)
+print()
