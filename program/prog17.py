@@ -148,11 +148,28 @@
 
 
 
-class Student:
-    def __init__(self, name):
-        self.name = name
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
         
-s1 = Student("Lalit")
-print(s1.name)
-# delete for obj 
-del s1.name
+# s1 = Student("Lalit")
+# print(s1.name)
+# # delete for obj 
+# del s1.name
+
+
+
+class A:
+    varA = "Welcome  to class A"
+    
+class B:
+    varB = "Welcome to class B"
+    
+class C(A,B):
+    varC = "Welcome to class C"
+    
+c1 = C()
+
+print(c1.varC)
+print(c1.varB)
+print(c1.varA) 
