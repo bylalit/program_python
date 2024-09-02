@@ -55,3 +55,27 @@ for name in student:
     for key, val in student[name].items():
         print(key,  val)
 print()
+
+
+print("""---------------------------------------
+        what will be search ?
+            1. Full_name
+            2. Age
+            3. Grade
+            4. bood_group
+            5. gender
+            6. address
+            7. exit      
+    """)
+
+keyValue = input("Enter the key  to search: ")
+
+
+
+
+
+for i in student:
+    print()
+    for k, v in student[i].items():
+        print(k, v)
+print()
