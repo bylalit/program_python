@@ -1,6 +1,6 @@
 student = {
     "lalit": {
-        "name": "prajapati lalit",
+        "name": "lalit",
         "Age": 25,
         "Grade": "A",
         "blood": "AB",
@@ -8,7 +8,7 @@ student = {
         "address": "Ahmedabad",
     },
     "vidhi": {
-        "name": "nager vidhi",
+        "name": "vidhi",
         "Age":  22,
         "Grade": "E",
         "blood": "AB",
@@ -16,7 +16,7 @@ student = {
         "address": "pune"
     },
     "suresh": {
-        "name": "prajapati suresh",
+        "name": "suresh",
         "Age": 30,
         "Grade": "B",
         "blood": "O",
@@ -24,7 +24,7 @@ student = {
         "address": "surat"
     },
     "ramesh": {
-        "name":  "prajapati ramesh",
+        "name":  "ramesh",
         "Age": 35,
         "Grade":  "C",
         "blood": "A",
@@ -32,7 +32,7 @@ student = {
         "address": "rajkot"
     },
     "roshni":{
-        "name": "prajapati roshni",
+        "name": "roshni",
         "Age": 20,
         "Grade": "D",
         "blood":  "B",
@@ -40,7 +40,7 @@ student = {
         "address": "mumbai"
     },
     "vidhi": {
-        "name": "nager vidhi",
+        "name": "vidhi",
         "Age":  22,
         "Grade": "E",
         "blood": "AB",
@@ -69,27 +69,28 @@ print("""---------------------------------------
             7. Exit      
     """)
 
-keyValue = input("Enter the key  to search: ").capitalize()
 
-if keyValue == "Age":
-    valueSearch = int(input("Enter the value to search: "))
-else:
-    valueSearch = input("Enter the  value to search: ")
+start = 1
 
+while start == 1:
+    keyValue = input("Enter the key  to search: ").capitalize()
 
+    if keyValue == "Age":
+        valueSearch = int(input("Enter the value to search: "))
+    else:
+        valueSearch = input("Enter the  value to search: ")
 
-
-for i in student:
     print()
-    for k, v in student[i].items():
-        if  k.capitalize() == keyValue:
-            if keyValue == "Age":
-                if v == valueSearch:
-                    print(i.upper())
-                    print(k.capitalize(), "==>" , v)
-            else:
-                if v == valueSearch:
-                    print(i.upper())
-                    print(k.capitalize(), "==>" , v.capitalize())
+    for i in student:
+        for k, v in student[i].items():
+            if  k.capitalize() == keyValue:
+                if keyValue == "Age":
+                    if v == valueSearch:
+                        print(i.upper())
+                        print(k.capitalize(), "==>" , v, "\n")
+                else:
+                    if v == valueSearch:
+                        print(i.upper())
+                        print(k.capitalize(), "==>" , v.capitalize(),  "\n")
 
-print()
+    print()
