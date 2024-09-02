@@ -68,14 +68,17 @@ print("""---------------------------------------
             7. exit      
     """)
 
-keyValue = input("Enter the key  to search: ")
-
+keyValue = input("Enter the key  to search: ").capitalize()
+valueSearch = input("Enter the  value to search: ")
 
 
 
 
 for i in student:
     print()
+    print(i)
     for k, v in student[i].items():
-        print(k, v)
+        if  k.capitalize() == keyValue:
+            print(k.capitalize(), v)
+
 print()
