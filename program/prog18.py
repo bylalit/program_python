@@ -60,17 +60,21 @@ print()
 
 print("""---------------------------------------
         what will be search ?
-            1. name
+            1. Name
             2. Age
             3. Grade
-            4. blood
-            5. gender
-            6. address
-            7. exit      
+            4. Blood
+            5. Gender
+            6. Address
+            7. Exit      
     """)
 
 keyValue = input("Enter the key  to search: ").capitalize()
-valueSearch = input("Enter the  value to search: ")
+
+if keyValue == "Age":
+    valueSearch = int(input("Enter the value to search: "))
+else:
+    valueSearch = input("Enter the  value to search: ")
 
 
 
@@ -79,8 +83,13 @@ for i in student:
     print()
     for k, v in student[i].items():
         if  k.capitalize() == keyValue:
-            if  v == valueSearch:
-                print(i)
-                print(k.capitalize(), v)
+            if keyValue == "Age":
+                if v == valueSearch:
+                    print(i.upper())
+                    print(k.capitalize(), "==>" , v)
+            else:
+                if v == valueSearch:
+                    print(i.upper())
+                    print(k.capitalize(), "==>" , v.capitalize())
 
 print()
