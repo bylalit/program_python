@@ -1,7 +1,7 @@
 # random function
 
 import random
- 
+import string
 # n = random.randint(2,8)
 # print(n)
 
@@ -35,28 +35,48 @@ import random
 # program 1.
 # gusees the  random number between 1 to 100
 
-target = random.randint(1, 100)
+# target = random.randint(1, 100)
 
-while True:
-    guess = input("Guess a number between 1 and 100 or Quit(Q): ").upper()
+# while True:
+#     guess = input("Guess a number between 1 and 100 or Quit(Q): ").upper()
     
-    if guess == "Q":
-        break
+#     if guess == "Q":
+#         break
     
-    guess = int(guess)
+#     guess = int(guess)
     
-    if guess == target:
-        print("You guessed it!")
-        break
-    elif guess < target:
-        print("Too low!")
-    else:
-        print("To high!")
+#     if guess == target:
+#         print("You guessed it!")
+#         break
+#     elif guess < target:
+#         print("Too low!")
+#     else:
+#         print("To high!")
 
-print("------GAME OVER------")
+# print("------GAME OVER------")
 
 
 
 
 # program 2.
+# Random password  generator
 
+
+# print(string.ascii_letters)
+# print(string.digits)
+# print(string.punctuation)
+
+pass_len = 8
+charValue =  string.ascii_letters + string.digits + string.punctuation
+
+# password = ""
+# for i in range(pass_len):
+#     password += random.choice(charValue)
+
+
+# list comprehension
+password = "".join([random.choice(charValue) for i in range(pass_len)])
+
+
+
+print("your random password is: ", password)
