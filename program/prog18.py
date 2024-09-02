@@ -76,9 +76,10 @@ valueSearch = input("Enter the  value to search: ")
 
 for i in student:
     print()
-    print(i)
     for k, v in student[i].items():
         if  k.capitalize() == keyValue:
-            print(k.capitalize(), v)
+            if  v == valueSearch:
+                print(i)
+                print(k.capitalize(), v)
 
 print()
