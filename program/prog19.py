@@ -1,5 +1,14 @@
 # random function
 
+# random.randint(2,8)
+# random.randrange(2,4)
+# random.choice([12,11,10])
+
+# random.random()*5
+# random.shuffle([2,4,5,6])
+# random.uniform(3,9)
+
+
 import random
 import string
 # n = random.randint(2,8)
