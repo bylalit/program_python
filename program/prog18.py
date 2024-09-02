@@ -75,10 +75,13 @@ start = 1
 while start == 1:
     keyValue = input("Enter the key  to search: ").capitalize()
 
-    if keyValue == "Age":
-        valueSearch = int(input("Enter the value to search: "))
+    if keyValue == "Exit":
+        start = 0
     else:
-        valueSearch = input("Enter the  value to search: ")
+        if keyValue == "Age":
+            valueSearch = int(input("Enter the value to search: "))
+        else:
+            valueSearch = input("Enter the  value to search: ").capitalize()
 
     print()
     for i in student:
@@ -89,8 +92,15 @@ while start == 1:
                         print(i.upper())
                         print(k.capitalize(), "==>" , v, "\n")
                 else:
-                    if v == valueSearch:
+                    if v.capitalize() == valueSearch:
                         print(i.upper())
                         print(k.capitalize(), "==>" , v.capitalize(),  "\n")
 
     print()
+    
+    if keyValue == "Exit":
+        start = 0
+    else:
+        start = int(input("Can  you search again ? 1. yes 2. no: "))
+    print(" Thank you for using this program. ")
+    
