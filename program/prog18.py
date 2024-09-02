@@ -1,49 +1,49 @@
 student = {
     "lalit": {
-        "Full_Name": "prajapati lalit",
+        "name": "prajapati lalit",
         "Age": 25,
         "Grade": "A",
-        "bood_group": "AB",
+        "blood": "AB",
         "gender":"male",
         "address": "Ahmedabad",
     },
     "vidhi": {
-        "Full_Name": "nager vidhi",
+        "name": "nager vidhi",
         "Age":  22,
         "Grade": "E",
-        "bood_group": "AB",
+        "blood": "AB",
         "gender":"female",
         "address": "pune"
     },
     "suresh": {
-        "Full_Name": "prajapati suresh",
+        "name": "prajapati suresh",
         "Age": 30,
         "Grade": "B",
-        "bood_group": "O",
+        "blood": "O",
         "gender":"male",
         "address": "surat"
     },
     "ramesh": {
-        "Full_name":  "prajapati ramesh",
+        "name":  "prajapati ramesh",
         "Age": 35,
         "Grade":  "C",
-        "bood_group": "A",
+        "blood": "A",
         "gender":"male",
         "address": "rajkot"
     },
     "roshni":{
-        "Full_Name": "prajapati roshni",
+        "name": "prajapati roshni",
         "Age": 20,
         "Grade": "D",
-        "bood_group":  "B",
+        "blood":  "B",
         "gender":"female",
         "address": "mumbai"
     },
     "vidhi": {
-        "Full_Name": "nager vidhi",
+        "name": "nager vidhi",
         "Age":  22,
         "Grade": "E",
-        "bood_group": "AB",
+        "blood": "AB",
         "gender":"female",
         "address": "pune"
     },
@@ -52,17 +52,18 @@ student = {
 
 for name in student:
     print()
+    print(name)
     for key, val in student[name].items():
-        print(key,  val)
+        print(key.capitalize(), "  ==>  " , val)
 print()
 
 
 print("""---------------------------------------
         what will be search ?
-            1. Full_name
+            1. name
             2. Age
             3. Grade
-            4. bood_group
+            4. blood
             5. gender
             6. address
             7. exit      
