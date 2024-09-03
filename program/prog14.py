@@ -240,22 +240,55 @@ import math
 
 # 5. progaram
 
-a = 10
-b = 20
-lis = [2,4,5,6,7,9]
+# a = 10
+# b = 20
+# lis = [2,4,5,6,7,9]
 
-if a in lis:
-    print("a is avalable in list")
-else:
-    print("A is not avalable in the list.")
+# if a in lis:
+#     print("a is avalable in list")
+# else:
+#     print("A is not avalable in the list.")
     
-if b not in lis:
-    print("B is not in list.")
-else:
-    print("B is  avalable in list.")   
+# if b not in lis:
+#     print("B is not in list.")
+# else:
+#     print("B is  avalable in list.")   
     
-a = 2
-if a in lis:
-    print("A is avalable in list.")
+# a = 2
+# if a in lis:
+#     print("A is avalable in list.")
+# else:
+#     print("A is not avalable in list.")
+
+
+
+
+#  6. program
+
+a = 20
+b = 20
+
+if a is b:
+    print("Same as its")
 else:
-    print("A is not avalable in list.")
+    print("Not same")
+    
+    
+if id(a) == id(b):
+    print("same to same")
+else:
+    print("Not same")
+    
+    
+b = 30
+
+if a is b :
+    print("same")
+else:
+    print("not same")
+    
+
+if a is not b:
+    print("not same")
+else:
+    print('same')
