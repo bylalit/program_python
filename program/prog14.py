@@ -232,3 +232,10 @@ import math
 
 # 4. program
 
+# y = range(1,30, 2)
+
+# for i in y:
+#     print(i, end=" ")
+
+
+# 5. progaram
