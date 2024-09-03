@@ -218,13 +218,17 @@ import math
 
 # 3. progaram
 
-nub = 6
-arr = bytes(nub)
-print(arr)
+# nub = 6
+# arr = bytes(nub)
+# print(arr)
 
-arr = bytes(3)
-print(arr)
+# arr = bytes(3)
+# print(arr)
 
-lis = [12,10,4,5]
-arr = bytes(lis)
-print(arr)
+# lis = [12,10,4,5]
+# arr = bytes(lis)
+# print(arr)
+
+
+# 4. program
+
