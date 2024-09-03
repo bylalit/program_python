@@ -182,3 +182,49 @@ import math
 #     print("Invalid Entery")
 # else:
 #     print(cm/2.54, "inches")
+
+
+
+
+
+
+
+
+
+
+# 1 program
+
+# a = 10
+# b = 20
+
+# a = a+b
+# b = a-b
+# a = a-b
+
+# print(a)
+# print(b)
+
+
+
+# 2. program
+
+# n1 = 2 + 3j
+# n2 = 3 + 2j
+
+# sum = n1 + n2
+
+# print(sum)
+
+
+# 3. progaram
+
+nub = 6
+arr = bytes(nub)
+print(arr)
+
+arr = bytes(3)
+print(arr)
+
+lis = [12,10,4,5]
+arr = bytes(lis)
+print(arr)
