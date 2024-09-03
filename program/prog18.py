@@ -1,3 +1,5 @@
+# this program search for the data in the given object of dict..
+
 student = {
     "lalit": {
         "name": "lalit",
@@ -82,17 +84,17 @@ while start == 1:
             valueSearch = input("Enter the  value to search: ").capitalize()
 
     print()
-    for i in student:
-        for k, v in student[i].items():
-            if  k.capitalize() == keyValue:
-                if keyValue == "Age":
-                    if v == valueSearch:
-                        print(i.upper())
-                        print(k.capitalize(), "==>" , v, "\n")
-                else:
-                    if v.capitalize() == valueSearch:
-                        print(i.upper())
-                        print(k.capitalize(), "==>" , v.capitalize(),  "\n")
+    # for i in student:
+    #     for k, v in student[i].items():
+    #         if  k.capitalize() == keyValue:
+    #             if keyValue == "Age":
+    #                 if v == valueSearch:
+    #                     print(i.upper())
+    #                     print(k.capitalize(), "==>" , v, "\n")
+    #             else:
+    #                 if v.capitalize() == valueSearch:
+    #                     print(i.upper())
+    #                     print(k.capitalize(), "==>" , v.capitalize(),  "\n")
 
     print()
     
