@@ -265,30 +265,37 @@ import math
 
 #  6. program
 
-a = 20
-b = 20
+# a = 20
+# b = 20
 
-if a is b:
-    print("Same as its")
-else:
-    print("Not same")
+# if a is b:
+#     print("Same as its")
+# else:
+#     print("Not same")
     
     
-if id(a) == id(b):
-    print("same to same")
-else:
-    print("Not same")
+# if id(a) == id(b):
+#     print("same to same")
+# else:
+#     print("Not same")
     
     
-b = 30
+# b = 30
 
-if a is b :
-    print("same")
-else:
-    print("not same")
+# if a is b :
+#     print("same")
+# else:
+#     print("not same")
     
 
-if a is not b:
-    print("not same")
-else:
-    print('same')
+# if a is not b:
+#     print("not same")
+# else:
+#     print('same')
+
+
+#  7. program
+
+
+# x = input("Enter the value: ")
+# print(eval(x))
