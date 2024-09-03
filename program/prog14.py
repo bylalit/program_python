@@ -303,18 +303,23 @@ import math
 
 # 8. program
 
-a = int(input("Enter the starting number: "))
-b = int(input("Enter the ending number: "))
+# a = int(input("Enter the starting number: "))
+# b = int(input("Enter the ending number: "))
 
-even_num = 0
-odd_num = 0
+# even_num = 0
+# odd_num = 0
 
-for i in range(a, b+1):
-    if i % 2 == 0:
-        even_num += i
-    else:
-        odd_num += i
+# for i in range(a, b+1):
+#     if i % 2 == 0:
+#         even_num += i
+#     else:
+#         odd_num += i
         
-print("The sum of even number: ",  even_num)
-print("The sum of odd number: ",  odd_num)
+# print("The sum of even number: ",  even_num)
+# print("The sum of odd number: ",  odd_num)
+
+
+
+
+# 9. program
 
