@@ -381,31 +381,31 @@ import math
 
 
 
- 11. program
+#  11. program
 
-def search(list, n):
-    for i in list:
-        # print(list[i])
-        if i == n:
-            return True
+# def search(list, n):
+#     for i in list:
+#         # print(list[i])
+#         if i == n:
+#             return True
         
-    # list = [2, 5, 8, 12, 16, 23
-    # n = 12
-list = [2, 5, 8, 12, 16, 23]
-n = 1
-# print(search(list, n))
-if  search(list, n):
-    print("Element is present in the list")
-else:
-    print("not found!")
+#     # list = [2, 5, 8, 12, 16, 23
+#     # n = 12
+# list = [2, 5, 8, 12, 16, 23]
+# n = 1
+# # print(search(list, n))
+# if  search(list, n):
+#     print("Element is present in the list")
+# else:
+#     print("not found!")
 
 
 
-12. program
+# # 12. program
 
-cm = int(input("Enter length in cm: "))
-if cm < 0:
-    print("Invalid input")
-else:
-    print(cm/ 2.54, "inches")
+# cm = int(input("Enter length in cm: "))
+# if cm < 0:
+#     print("Invalid input")
+# else:
+#     print(cm/ 2.54, "inches")
     
