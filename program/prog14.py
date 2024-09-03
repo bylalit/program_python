@@ -326,3 +326,24 @@ import math
 # num = int(input("Enter the number: "))
 # assert num >= 0, "Only positiv enumber accpted."
 # print("Your number: ", num)
+
+
+
+#  11. program
+
+def search(list, n):
+    for i in list:
+        # print(list[i])
+        if i == n:
+            return True
+        
+    # list = [2, 5, 8, 12, 16, 23
+    # n = 12
+list = [2, 5, 8, 12, 16, 23]
+n = 1
+# print(search(list, n))
+if  search(list, n):
+    print("Element is present in the list")
+else:
+    print("not found!")
+
