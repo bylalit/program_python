@@ -239,3 +239,23 @@ import math
 
 
 # 5. progaram
+
+a = 10
+b = 20
+lis = [2,4,5,6,7,9]
+
+if a in lis:
+    print("a is avalable in list")
+else:
+    print("A is not avalable in the list.")
+    
+if b not in lis:
+    print("B is not in list.")
+else:
+    print("B is  avalable in list.")   
+    
+a = 2
+if a in lis:
+    print("A is avalable in list.")
+else:
+    print("A is not avalable in list.")
