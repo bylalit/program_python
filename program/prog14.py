@@ -321,5 +321,8 @@ import math
 
 
 
-# 9. program
+# 10. program
 
+# num = int(input("Enter the number: "))
+# assert num >= 0, "Only positiv enumber accpted."
+# print("Your number: ", num)
