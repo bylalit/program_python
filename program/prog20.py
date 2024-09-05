@@ -1,7 +1,7 @@
 # ATM program in python
 
-print("Welcome to ABC Bank\n\n")
-print("Insert your ATM card")
+print("\nWelcome to ABC Bank\n")
+print("Insert your ATM card\n")
 
 password = 1234
 balance = 10000
@@ -12,7 +12,9 @@ choice = 0
 if pin == password:
     
     while choice != 4:
-        choice = int(input("****Menu****\n1. ** Balance\n2. ** Deposit\n3. ** Withdraw\n4. ** Cancel"))
+        print("\n\n****Menu****\n1. ** Balance\n2. ** Deposit\n3. ** Withdraw\n4. ** Cancel")
+    
+        choice = int(input("\nEnter your choice: "))
     
         if choice == 1:
             print("Your corrent balance is: Rs.", balance)
