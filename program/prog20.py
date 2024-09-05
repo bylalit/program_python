@@ -12,7 +12,7 @@ choice = 0
 if pin == password:
     
     while choice != 4:
-        print("****Menu****")
+        print("****Menu****\n1. ** Balance\n2. ** Deposit\n3. ** Withdraw\n4. ** Cancel")
     
     
     
