@@ -5,7 +5,7 @@ print("Insert your ATM card\n")
 
 password = 1234
 balance = 10000
-pin = int(input("Enter your Four digit pin: "))
+pin = int(input("Enter your Four digit card pin number: "))
 
 
 choice = 0
@@ -35,7 +35,7 @@ if pin == password:
             print("Thank you for using our ATM service")
         
         else:
-            print("Invalid choice, please try again")
+            print("Invalid choice, please try again!")
 
 
     print("---Repl Closed---")
