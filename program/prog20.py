@@ -18,7 +18,11 @@ if pin == password:
             print("Your corrent balance is: Rs.", balance)
             
         elif choice == 2:
-            
+            dep = int(input("Enter  the amount you want to deposit: Rs."))
+            balance += dep
+            print("Your deposit aount is:  Rs.", dep)
+            print("Your new balance is: Rs.", balance)
+
 
     
 else:
