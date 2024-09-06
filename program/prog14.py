@@ -441,7 +441,7 @@ import math
 
 # 3. progaram
 
-a = [12,34,21,45,67,11]
+a = [12,34,21,45,67,11, 21]
 a.append(55)
 a.insert(2,90)
 print(a)
@@ -449,3 +449,4 @@ a.remove(45)
 print(a)
 a.pop()
 print(a.index(12))
+print(a.count(21))
