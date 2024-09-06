@@ -504,11 +504,23 @@ import math
 
 # 7. progaram
 
-list1 = [1,1,2,3,4,5,5,6,6,5,7,8,9,1]
-list2 = []
+# list1 = [1,1,2,3,4,5,5,6,6,5,7,8,9,1]
+# list2 = []
 
-for i in list1:
-    if i not in list2:
-        list2.append(i)
+# for i in list1:
+#     if i not in list2:
+#         list2.append(i)
         
-print(list2)
+# print(list2)
+
+
+
+# 8. progaram
+
+def diaplay_list(a):
+    for i in a:
+        print(i)
+        
+        
+list1 = [1,2,3,4,5,6,7,8]
+diaplay_list(list1)
