@@ -415,3 +415,12 @@ import math
 
 # Unit 2 practical example
 
+# 1. program
+
+x = [12, 23, 45, 78, 12, 32, 43]
+print("Original Array")
+print(x)
+y = []
+y[:] = x
+print("New Array")
+print(y)
