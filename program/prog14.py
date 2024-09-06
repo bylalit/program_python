@@ -538,5 +538,5 @@ import math
 
 # 11. progaram
 
-val = lambda x,y:max(x,y)
-print(val(21,53))
+# val = lambda x,y:max(x,y)
+# print(val(21,53))
