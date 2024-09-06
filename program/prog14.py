@@ -533,3 +533,10 @@ import math
 #         print(a[i])
 
 # variable_length('a','b','c','d','e','f','g','h')
+
+
+
+# 11. progaram
+
+val = lambda x,y:max(x,y)
+print(val(21,53))
