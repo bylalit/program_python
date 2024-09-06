@@ -428,11 +428,16 @@ import math
 
 # 2. progaram
 
-import array as arr
+# import array as arr
 
-a = arr.array('i', [1,2,3,4,5])
-print(a) #display array
-a[0] = 7 #update array using indexing
-print(a) #display updated array
-a[0:2] = arr.array('i',[8,9])
-print(a) #display updated array
+# a = arr.array('i', [1,2,3,4,5])
+# print(a) #display array
+# a[0] = 7 #update array using indexing
+# print(a) #display updated array
+# a[1:3] = arr.array('i',[8,9])
+# print(type(a)) #display updated array
+
+
+
+# 3. progaram
+
