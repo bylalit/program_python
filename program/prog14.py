@@ -526,5 +526,10 @@ import math
 
 
 
-# 9. progaram
+# 10. progaram
 
+def variable_length(*a):
+    for i in range(0, len(a)):
+        print(a[i])
+
+variable_length('a','b','c','d','e','f','g','h')
