@@ -455,18 +455,30 @@ import math
 
 # 4. program
 
-def bubblesort(arr):
-    n = len(arr)
-    # print(n)
-    for i in range(n-1):
-        # print(i)
-        for j in range(0, n-i-1):
-            # print(arr[j])
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-        # print(arr)
-arr = [2,5,1,6,8,4,2,7]
-bubblesort(arr)
-print("Sorting of Array: ")
-for i in arr:
-    print(i)
+# def bubblesort(arr):
+#     n = len(arr)
+#     # print(n)
+#     for i in range(n-1):
+#         # print(i)
+#         for j in range(0, n-i-1):
+#             # print(arr[j])
+#             if arr[j] > arr[j+1]:
+#                 arr[j], arr[j+1] = arr[j+1], arr[j]
+#         # print(arr)
+# arr = [2,5,1,6,8,4,2,7]
+# bubblesort(arr)
+# print("Sorting of Array: ")
+# for i in arr:
+#     print(i)
+
+
+
+# 5. progaram
+
+# list1 = ["hello", 'a', 'c', 'y', 'w']
+# print(list1)
+# position = list1.index(input("Enter the  element to be above list: "))
+# print(position)
+
+
+
