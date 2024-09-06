@@ -417,10 +417,22 @@ import math
 
 # 1. program
 
-x = [12, 23, 45, 78, 12, 32, 43]
-print("Original Array")
-print(x)
-y = []
-y[:] = x
-print("New Array")
-print(y)
+# x = [12, 23, 45, 78, 12, 32, 43]
+# print("Original Array")
+# print(x)
+# y = []
+# y[:] = x
+# print("New Array")
+# print(y)
+
+
+# 2. progaram
+
+import array as arr
+
+a = arr.array('i', [1,2,3,4,5])
+print(a) #display array
+a[0] = 7 #update array using indexing
+print(a) #display updated array
+a[0:2] = arr.array('i',[8,9])
+print(a) #display updated array
