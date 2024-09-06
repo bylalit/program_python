@@ -441,12 +441,32 @@ import math
 
 # 3. progaram
 
-a = [12,34,21,45,67,11, 21]
-a.append(55)
-a.insert(2,90)
-print(a)
-a.remove(45)
-print(a)
-a.pop()
-print(a.index(12))
-print(a.count(21))
+# a = [12,34,21,45,67,11, 21]
+# a.append(55)
+# a.insert(2,90)
+# print(a)
+# a.remove(45)
+# print(a)
+# a.pop()
+# print(a.index(12))
+# print(a.count(21))
+
+
+
+# 4. program
+
+def bubblesort(arr):
+    n = len(arr)
+    # print(n)
+    for i in range(n-1):
+        # print(i)
+        for j in range(0, n-i-1):
+            # print(arr[j])
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+        # print(arr)
+arr = [2,5,1,6,8,4,2,7]
+bubblesort(arr)
+print("Sorting of Array: ")
+for i in arr:
+    print(i)
