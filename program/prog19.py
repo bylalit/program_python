@@ -116,4 +116,4 @@ import string
 #     else:
 #         print("Too high!")
 
-# print("-----Game Over------")
+print("-----Game Over------")
