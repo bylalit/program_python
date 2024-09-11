@@ -38,7 +38,7 @@ if pin == password:
             print("Invalid choice, please try again!")
 
 
-    print("---Repl Closed---")
+    # print("---Repl Closed---")
     
 else:
     print("Incorrect password try again!")
