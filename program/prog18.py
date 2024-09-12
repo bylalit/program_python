@@ -10,7 +10,7 @@ students = {
         'area': 'ranip',
         'add': 'c,13 rajendra park, ranip',
         'pincode': 380787,
-        'blood_group': 'B+',
+        'bloodgroup': 'B+',
     },
     "vidhi" : {
         "fname": 'nagar',
@@ -21,7 +21,7 @@ students = {
         'area': 'odhav',
         'add': 'c,13 arbudhanager, odhav, ahemdhabad',
         'pincode': 382024,
-        'blood_group': 'B+',
+        'bloodgroup': 'B+',
     },
     "manshi" : {
         "fname": 'thakor',
@@ -32,7 +32,7 @@ students = {
         'area': 'rajendra',
         'add': '65 mukeshnagar odhav',
         'pincode': 382024,
-        'blood_group': 'A+',
+        'bloodgroup': 'A+',
     },
     "mittal" : {
         "fname": 'prajapati',
@@ -43,7 +43,7 @@ students = {
         'area': 'cmc',
         'add': '25 ctm char rasta odhav',
         'pincode': 382415,
-        'blood_group': 'AB',
+        'bloodgroup': 'AB',
     },
     "lalit" : {
         "fname": 'prajapati',
@@ -54,7 +54,7 @@ students = {
         'area': 'odhav',
         'add': 'c, 25 rajendra park, ranip',
         'pincode': 382415,
-        'blood_group': 'AB',
+        'bloodgroup': 'AB',
     },
     "sid" : {
         "fname": 'deshai',
@@ -65,7 +65,7 @@ students = {
         'area': 'odhav',
         'add': '78 rajendra park, ranip, ahemdhabad',
         'pincode': 382024,
-        'blood_group': 'B+',
+        'bloodgroup': 'B+',
     },
     "aadity" : {
         "fname": 'puvar',
@@ -76,7 +76,7 @@ students = {
         'area': 'ranip',
         'add': '56 rajendra park, ranip, ahemdhabad',
         'pincode': 382024,
-        'blood_group': 'B+',
+        'bloodgroup': 'B+',
     },
     "rishi" : {
         "fname": 'prajapati',
@@ -87,7 +87,7 @@ students = {
         'area': 'odhav',
         'add': '56 tulshi park',
         'pincode': 382024,
-        'blood_group': 'B+',
+        'bloodgroup': 'B+',
     },
     "sneh" : {
         "fname": 'bharvad',
@@ -98,7 +98,7 @@ students = {
         'area': 'shitalchaya',
         'add': '16 vrundhavan vatica',
         'pincode': 382415,
-        'blood_group': 'AB',
+        'bloodgroup': 'AB',
     },
     "jay" : {
         "fname": 'deshai',
@@ -109,7 +109,7 @@ students = {
         'area': 'bhavani nagar',
         'add': '34 hastinapur socity',
         'pincode': 382415,
-        'blood_group': 'AB-',
+        'bloodgroup': 'AB-',
     },
         "riddhi":{
         "fname":"nagar",
@@ -120,7 +120,7 @@ students = {
         "address":"404 vrundavan vatika",
         "pincode":382415,
         "age":20,
-        "blood_group":"A+",
+        "bloodgroup":"A+",
     },
     "bhavya":{
         "fname":"nagar",
@@ -131,7 +131,7 @@ students = {
         "address":"34 jogeshwari",
         "pincode":382415,
         "age":20,
-        "blood_group":"A+",
+        "bloodgroup":"A+",
     },
     "ronak":{
         "fname":"parmar",
@@ -142,7 +142,7 @@ students = {
         "address":"20  jogeshwari",
         "pincode":382415,
         "age":20,
-        "blood_group":"A+",
+        "bloodgroup":"A+",
     },
     "suresh":{
         "fname":"prajapati",
@@ -153,7 +153,7 @@ students = {
         "address":"20 maheshvari",
         "pincode":382024,
         "age":23,
-        "blood_group":"AB",
+        "bloodgroup":"AB",
     },
     "ronak":{
         "fname":"parmar",
@@ -164,7 +164,7 @@ students = {
         "address":"20  jogeshwari",
         "pincode":382415,
         "age":20,
-        "blood_group":"A+",
+        "bloodgroup":"A+",
     },
 }
 
@@ -181,15 +181,15 @@ for student in students:
 
 print()
 print("""----------------Select one of the following options to search----------------
-                1. Fname for press 1 
-                2. Mname for press 2
-                3. Lname for press 3
-                4. Gender for press 4
-                5. Area for press 5
-                6. Address for press 6
-                7. Pincode for press 7
-                8. Age for press 8
-                9. Blood Group for press 9
+                1. Fname 
+                2. Mname
+                3. Lname
+                4. Gender
+                5. Area
+                6. Address
+                7. Pincode
+                8. Age
+                9. Bloodgroup
     """)
 
 
@@ -216,6 +216,7 @@ while start == 1:
                     if b.capitalize() == z:
                         print(i.upper())
                         print(f"       {a.capitalize()}:=> {b.capitalize()}       ")
+
 
     
     print()
