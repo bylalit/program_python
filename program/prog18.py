@@ -1,6 +1,6 @@
 # this program search for the data in the given object of dict..
 
-student = {
+students = {
     "rakesh" : {
         "fname": 'prajapati',
         'mname': 'rakesh',
@@ -167,3 +167,42 @@ student = {
         "blood_group":"A+",
     },
 }
+
+print("")
+for student in students:
+    print("")
+    print(student.upper())
+    for a,b in students[student].items():
+        if type(b) == str:
+            print(f"            {a.capitalize()}:=> {b.capitalize()}            ")
+        else:
+            print(f"            {a.capitalize()}:=> {b}            ")
+            
+
+print("""----------------Select one of the following options to search----------------
+    1. Fname for press 1 
+    2. Mname for press 2
+    3. Lname for press 3
+    4. Gender for press 4
+    5. Area for press 5
+    6. Address for press 6
+    7. Pincode for press 7
+    8. Age for press 8
+    9. Blood Group for press 9
+    """)
+
+
+start = 1
+
+while start == 1:
+    option = input("Enter your choice: ").capitalize()
+    
+    for i in students:
+        for a,b in students[i].items():
+            if  a.capitalize() == option:
+                print(a,b)
+
+
+    
+    
+    start = int(input("Can you repete again the : "))
