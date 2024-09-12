@@ -168,9 +168,9 @@ students = {
     },
 }
 
-print("")
+print()
 for student in students:
-    print("")
+    print()
     print(student.upper())
     for a,b in students[student].items():
         if type(b) == str:
@@ -179,16 +179,17 @@ for student in students:
             print(f"            {a.capitalize()}:=> {b}            ")
             
 
+print()
 print("""----------------Select one of the following options to search----------------
-    1. Fname for press 1 
-    2. Mname for press 2
-    3. Lname for press 3
-    4. Gender for press 4
-    5. Area for press 5
-    6. Address for press 6
-    7. Pincode for press 7
-    8. Age for press 8
-    9. Blood Group for press 9
+                1. Fname for press 1 
+                2. Mname for press 2
+                3. Lname for press 3
+                4. Gender for press 4
+                5. Area for press 5
+                6. Address for press 6
+                7. Pincode for press 7
+                8. Age for press 8
+                9. Blood Group for press 9
     """)
 
 
@@ -197,12 +198,29 @@ start = 1
 while start == 1:
     option = input("Enter your choice: ").capitalize()
     
+    if  option == "Age" or option == "Pincode":
+        z = int(input("Enter the you want to search: "))
+    else:
+        z = input("Enter the you want to search: ").capitalize()
+
+
     for i in students:
+        # print()
         for a,b in students[i].items():
             if  a.capitalize() == option:
-                print(a,b)
-
+                if  option == "Age" or option == "Pincode":
+                    if b == z:
+                        print(i.upper())
+                        print(f"       {a.capitalize()}:=> {b}       ")
+                else:
+                    if b.capitalize() == z:
+                        print(i.upper())
+                        print(f"       {a.capitalize()}:=> {b.capitalize()}       ")
 
     
+    print()
+    start = int(input("what can you again search? 1 for yes 0 for no: "))
+    print()
     
-    start = int(input("Can you repete again the : "))
+print("Thank you for using the student Database")
+print()
