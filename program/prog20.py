@@ -31,11 +31,11 @@ if pin == password:
             print("Your withdraw aount is:  Rs.", wid)
             print("Your new balance is: Rs.", balance)
             
-        # elif choice == 4:
-        #     print("Thank you for using our ATM service")
+        elif choice == 4:
+            print("Thank you for using our ATM service")
         
-        # else:
-        #     print("Invalid choice, please try again!")
+        else:
+            print("Invalid choice, please try again!")
 
 
     print("---Repl Closed---")
