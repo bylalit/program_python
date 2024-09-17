@@ -219,9 +219,9 @@ while start == 1:
 
 
     
-    # print()
-    # start = int(input("what can you again search? 1 for yes 0 for no: "))
-    # print()
+    print()
+    start = int(input("what can you again search? 1 for yes 0 for no: "))
+    print()
     
 print("Thank you for using the student Database")
 print()
