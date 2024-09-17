@@ -528,11 +528,11 @@ import math
 
 # 10. progaram
 
-def variable_length(*a):
-    for i in range(0, len(a)):
-        print(a[i])
+# def variable_length(*a):
+#     for i in range(0, len(a)):
+#         print(a[i])
 
-variable_length('a','b','c','d','e','f','g','h')
+# variable_length('a','b','c','d','e','f','g','h')
 
 
 
