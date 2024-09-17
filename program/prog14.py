@@ -517,12 +517,12 @@ import math
 
 # 8. progaram
 
-# def diaplay_list(a):
-#     for i in a:
-#         print(i)
+def diaplay_list(a):
+    for i in a:
+        print(i)
         
-# list1 = [1,2,3,4,5,6,7,8]
-# diaplay_list(list1)
+list1 = [1,2,3,4,5,6,7,8]
+diaplay_list(list1)
 
 
 
