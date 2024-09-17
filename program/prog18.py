@@ -180,17 +180,17 @@ for student in students:
             
 
 print()
-# print("""----------------Select one of the following options to search----------------
-#                 1. Fname 
-#                 2. Mname
-#                 3. Lname
-#                 4. Gender
-#                 5. Area
-#                 6. Address
-#                 7. Pincode
-#                 8. Age
-#                 9. Bloodgroup
-#     """)
+print("""----------------Select one of the following options to search----------------
+                1. Fname 
+                2. Mname
+                3. Lname
+                4. Gender
+                5. Area
+                6. Address
+                7. Pincode
+                8. Age
+                9. Bloodgroup
+    """)
 
 
 start = 1
