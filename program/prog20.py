@@ -25,14 +25,14 @@ if pin == password:
             print("Your deposit aount is:  Rs.", dep)
             print("Your new balance is: Rs.", balance)
             
-        elif choice == 3:
-            wid = int(input("Enter  the amount you want to withdraw: Rs."))
-            balance -= wid
-            print("Your withdraw aount is:  Rs.", wid)
-            print("Your new balance is: Rs.", balance)
+        # elif choice == 3:
+        #     wid = int(input("Enter  the amount you want to withdraw: Rs."))
+        #     balance -= wid
+        #     print("Your withdraw aount is:  Rs.", wid)
+        #     print("Your new balance is: Rs.", balance)
             
-        elif choice == 4:
-            print("Thank you for using our ATM service")
+        # elif choice == 4:
+        #     print("Thank you for using our ATM service")
         
         else:
             print("Invalid choice, please try again!")
