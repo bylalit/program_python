@@ -207,15 +207,15 @@ while start == 1:
     for i in students:
         # print()
         for a,b in students[i].items():
-            # if  a.capitalize() == option:
-            #     if  option == "Age" or option == "Pincode":
-            #         if b == z:
-            #             print(i.upper())
-            #             print(f"       {a.capitalize()}:=> {b}       ")
-            #     else:
-            #         if b.capitalize() == z:
-            #             print(i.upper())
-            #             print(f"       {a.capitalize()}:=> {b.capitalize()}       ")
+            if  a.capitalize() == option:
+                if  option == "Age" or option == "Pincode":
+                    if b == z:
+                        print(i.upper())
+                        print(f"       {a.capitalize()}:=> {b}       ")
+                else:
+                    if b.capitalize() == z:
+                        print(i.upper())
+                        print(f"       {a.capitalize()}:=> {b.capitalize()}       ")
 
 
     
