@@ -198,10 +198,10 @@ start = 1
 while start == 1:
     option = input("Enter your choice: ").capitalize()
     
-    if  option == "Age" or option == "Pincode":
-        z = int(input("Enter the you want to search: "))
-    else:
-        z = input("Enter the you want to search: ").capitalize()
+    # if  option == "Age" or option == "Pincode":
+    #     z = int(input("Enter the you want to search: "))
+    # else:
+    #     z = input("Enter the you want to search: ").capitalize()
 
 
     for i in students:
