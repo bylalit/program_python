@@ -71,9 +71,9 @@ import string
 # Random password  generator
 
 
-# print(string.ascii_letters)
-# print(string.digits)
-# print(string.punctuation)
+print(string.ascii_letters)
+print(string.digits)
+print(string.punctuation)
 
 # pass_len = 8
 # charValue =  string.ascii_letters + string.digits + string.punctuation
