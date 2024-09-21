@@ -478,12 +478,12 @@ while start == 1:
     mainTotal = userOrderDisplay(**mainOrder)
     print("Your Total Amount is: ", "Rs.",mainTotal)
     
-    # print("\n")
-    # print("---------------------------------------------------------")
-    # print("Your Desart order: ")  
-    # desrtTotal = userOrderDisplay(**desrtOrder)
-    # print("Your Total Amount is: ", "Rs.",desrtTotal)
-    # print("\n")
+    print("\n")
+    print("---------------------------------------------------------")
+    print("Your Desart order: ")  
+    desrtTotal = userOrderDisplay(**desrtOrder)
+    print("Your Total Amount is: ", "Rs.",desrtTotal)
+    print("\n")
     
     
     finalAmount = startedTotal +  mainTotal + desrtTotal
