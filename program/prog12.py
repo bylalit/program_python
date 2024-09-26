@@ -466,11 +466,11 @@ while start == 1:
         # print("Your Total Amount is: ", "Rs.",totalAmount)
     
         
-    # print("\n")
-    # print("---------------------------------------------------------")
-    # print("Your Started order: ")  
-    # startedTotal = userOrderDisplay(**startedOrder)
-    # print("Your Total Amount is: ", "Rs.",startedTotal)
+    print("\n")
+    print("---------------------------------------------------------")
+    print("Your Started order: ")  
+    startedTotal = userOrderDisplay(**startedOrder)
+    print("Your Total Amount is: ", "Rs.",startedTotal)
     
     print("\n")
     print("---------------------------------------------------------")
