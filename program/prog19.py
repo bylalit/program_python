@@ -71,23 +71,23 @@ import string
 # Random password  generator
 
 
-# print(string.ascii_letters)
-# print(string.digits)
-# print(string.punctuation)
+print(string.ascii_letters)
+print(string.digits)
+print(string.punctuation)
 
-# pass_len = 8
-# charValue =  string.ascii_letters + string.digits + string.punctuation
+pass_len = 8
+charValue =  string.ascii_letters + string.digits + string.punctuation
 
-# # password = ""
-# # for i in range(pass_len):
-# #     password += random.choice(charValue)
-
-
-# # list comprehension
-# password = "".join([random.choice(charValue) for i in range(pass_len)])
+# password = ""
+# for i in range(pass_len):
+#     password += random.choice(charValue)
 
 
-# print("your random password is: ", password)
+# list comprehension
+password = "".join([random.choice(charValue) for i in range(pass_len)])
+
+
+print("your random password is: ", password)
 
 
 
