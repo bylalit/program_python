@@ -349,23 +349,23 @@ while start == 1:
                             print("Not  available this dish")
                     print("Your main order: ", mainOrder)
                     
-                # elif  update == 2:
-                #     item = int(input("How many item you want to delete: "))
-                #     for i in range(item):
-                #         mainOrder.popitem()
-                #     print("Your main order: ", mainOrder)
+                elif  update == 2:
+                    item = int(input("How many item you want to delete: "))
+                    for i in range(item):
+                        mainOrder.popitem()
+                    print("Your main order: ", mainOrder)
                     
-                # elif  update == 3:
-                #     item = int(input("How many item you want to delete: "))
-                #     count = 0
-                #     while item > count:
-                #         iName = input("Enter your  order item name: ").upper()
-                #         if iName in mainOrder:
-                #             mainOrder.pop(iName)
-                #             count += 1
-                #         else:
-                #             print("Not available this dish")
-                #     print("Your main order: ", mainOrder)
+                elif  update == 3:
+                    item = int(input("How many item you want to delete: "))
+                    count = 0
+                    while item > count:
+                        iName = input("Enter your  order item name: ").upper()
+                        if iName in mainOrder:
+                            mainOrder.pop(iName)
+                            count += 1
+                        else:
+                            print("Not available this dish")
+                    print("Your main order: ", mainOrder)
                             
                 elif update == 4:
                     modify = 0
