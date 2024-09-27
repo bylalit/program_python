@@ -87,7 +87,7 @@ import string
 # password = "".join([random.choice(charValue) for i in range(pass_len)])
 
 
-# print("your random password is: ", password)
+print("your random password is: ", password)
 
 
 
