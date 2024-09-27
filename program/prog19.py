@@ -117,3 +117,76 @@ import string
 #         print("Too high!")
 
 # print("-----Game Over------")
+
+
+
+
+
+
+
+import random
+print("Hello and welcome to my game...")
+min = int(input("Enter the min length= "))
+max = int(input("Enter the max length = "))
+
+ans = random.randrange(min,max)
+print(ans)
+
+
+for i in range(0,5):
+    guess = int(input("enter any number= "))
+    if i==0:
+        if ans == guess:
+            print("you are win")
+            break
+        elif guess > ans:
+            print("Enter the less number")
+        elif guess < ans:
+            print("enter the greater number")
+
+    elif i==1:
+        if ans == guess:
+            print("you are win")
+            break
+        elif guess > ans:
+            print("Enter the less number")
+        elif guess < ans:
+            print("enter the greater number")
+
+    elif i==2:
+        if ans == guess:
+            print("you are win")
+            break
+        elif guess > ans:
+            print("Enter the less number")
+        elif guess < ans:
+            print("enter the greater number")
+        
+    elif i==3:
+        if ans == guess:
+            print("you are win")
+            break
+        elif guess > ans:
+            print("Enter the less number")
+        elif guess < ans:
+            print("enter the greater number")
+        
+    elif i==4:
+        if ans == guess:
+            print("you are win")
+            break
+        elif guess > ans:
+            print("Enter the less number")
+        elif guess < ans:
+            print("enter the greater number")
+        
+    elif i==5:
+        if ans == guess:
+            print("you are win")
+            break
+        elif guess > ans:
+            print("Enter the less number")
+        elif guess < ans:
+            print("enter the greater number")
+        
+print("Game over...")
