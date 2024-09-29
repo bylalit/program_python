@@ -9,8 +9,8 @@
 # random.uniform(3,9)
 
 
-import random
-import string
+# import random
+# import string
 # n = random.randint(2,8)
 # print(n)
 
@@ -132,3 +132,80 @@ import string
 # # print(d.items())
 # # print(d.keys())
 # print(d.popitem())
+
+
+
+
+# import random
+
+# ques1 = ["name","age","address","number"]
+# ans = ["vidhi",20,"amdavad",98]
+# # print(ans[0],ans[1])
+
+# for i in ques1:
+#     pcount=0
+
+#     # print(i)
+#     if i=="name":
+#         new = input("write your name=")
+
+#         if new==ans[0]:
+#             print("pass")
+#             pcount += 1
+#             print(pcount)
+#         else:
+#             print("fail")
+#     elif i=="age":
+#         new2 = int(input("write age="))
+#         if new2 == ans[1]:
+#             print("pass")
+#             pcount += 1
+#             print(pcount)
+
+#         else:
+#             print("fail")
+
+#     elif i=="address":
+#         new = input("enter address=")
+#         if new == ans[2]:
+#             print("pass")
+#             pcount += 1
+#             print(pcount)
+#         else:
+#             print("fail")
+
+#     elif i == "number":
+#         new = int(input("enter number="))
+#         if new == ans[3]:
+#             print("pass")
+#             pcount += 1
+#             print(pcount)
+#         else:
+#             print("fail")
+
+#         print("your marks is",pcount)
+
+
+
+
+
+ques1 = ["name","age","address","number"]
+ans = ["vidhi","20","amdavad","98"]
+pcount = 0
+loop_num = 0
+
+for i in  ques1:
+    answer = input("Enter your answer for "+i+"= ")
+    for j in ans:
+        print("Your ans: ", answer)
+        break
+    if ans[loop_num] == answer:
+        print("pass")
+        pcount += 1
+    else:
+        print("fail")
+        
+    loop_num += 1 
+    
+print("your marks is",pcount)
+print("Thank You")
