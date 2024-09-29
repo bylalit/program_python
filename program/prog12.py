@@ -398,14 +398,14 @@ while start == 1:
             modify = 1
             
             while modify == 1:
-#                 update = int(input("""
-# --------------------------------------------------------------                                   
-#                     Update the Started menu:
-#             1. Add item for press 1
-#             2. Delete item for press 2
-#             3. Delete item for particular name so press 3
-#             4. Exit for press 4
-#             choice one option: """))
+                update = int(input("""
+--------------------------------------------------------------                                   
+                    Update the Started menu:
+            1. Add item for press 1
+            2. Delete item for press 2
+            3. Delete item for particular name so press 3
+            4. Exit for press 4
+            choice one option: """))
         
                 if update == 1:
                     item = int(input("How many item you want to add: "))
