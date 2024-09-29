@@ -225,7 +225,7 @@ while start == 1:
     mainOrder = {}
     desrtOrder = {}
     
-    custemerName = input("Enter Your name: ")
+    # custemerName = input("Enter Your name: ")
     
     while userStart == 1:
         
