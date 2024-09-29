@@ -425,17 +425,17 @@ while start == 1:
                         desrtOrder.popitem()
                     print("Your desart order: ", desrtOrder)
                     
-                elif  update == 3:
-                    item = int(input("How many item you want to delete: "))
-                    count = 0
-                    while item > count:
-                        iName = input("Enter your  order item name: ").upper()
-                        if iName in desrtOrder:
-                            desrtOrder.pop(iName)
-                            count += 1
-                        else:
-                            print("Not available this dish")
-                    print("Your desart order: ", desrtOrder)
+                # elif  update == 3:
+                #     item = int(input("How many item you want to delete: "))
+                #     count = 0
+                #     while item > count:
+                #         iName = input("Enter your  order item name: ").upper()
+                #         if iName in desrtOrder:
+                #             desrtOrder.pop(iName)
+                #             count += 1
+                #         else:
+                #             print("Not available this dish")
+                #     print("Your desart order: ", desrtOrder)
                             
                 elif update == 4:
                     modify = 0

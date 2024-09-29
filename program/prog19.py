@@ -128,7 +128,7 @@ import string
 # }
 # # print(d)
 
-# print(d.get('b'))
-# print(d.items())
-# print(d.keys())
-print(d.popitem())
+# # print(d.get('b'))
+# # print(d.items())
+# # print(d.keys())
+# print(d.popitem())
