@@ -486,12 +486,12 @@ while start == 1:
     print("\n")
     
     
-    # finalAmount = startedTotal +  mainTotal + desrtTotal
+    finalAmount = startedTotal +  mainTotal + desrtTotal
 
-    print(f"""*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
-                Your Final Amount Is: Rs.{finalAmount}
-*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
-          """)
+#     print(f"""*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+#                 Your Final Amount Is: Rs.{finalAmount}
+# *=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+#           """)
     
     print(f"******************* Thank You {custemerName} For Visit *******************")
     print("\n")
