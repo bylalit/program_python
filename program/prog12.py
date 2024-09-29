@@ -419,11 +419,11 @@ while start == 1:
                             print("Not  available this dish")
                     print("Your desart order: ", desrtOrder)
                     
-                # elif  update == 2:
-                #     item = int(input("How many item you want to delete: "))
-                #     for i in range(item):
-                #         desrtOrder.popitem()
-                #     print("Your desart order: ", desrtOrder)
+                elif  update == 2:
+                    item = int(input("How many item you want to delete: "))
+                    for i in range(item):
+                        desrtOrder.popitem()
+                    print("Your desart order: ", desrtOrder)
                     
                 elif  update == 3:
                     item = int(input("How many item you want to delete: "))
