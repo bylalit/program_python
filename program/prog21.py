@@ -1,7 +1,7 @@
 class Car:
-    print("hello")
-    brand = None
-    model = None
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
     
-my_car = Car()
-print(my_car)
+my_car = Car("toyota", "corolla")
+print(my_car.brand)
