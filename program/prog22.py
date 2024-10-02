@@ -13,4 +13,3 @@ class student:
 s = student("Raj", "20","89")
 
 s.display()
-
