@@ -11,3 +11,10 @@ while start > 0:
 
     start -= 1
 print(dic)
+
+print()
+
+for x, y in dic.items():
+    print("key: ", x, "val: ", y)
+
+print()
