@@ -5,12 +5,12 @@ class student:
         self.marks = marks
         
         
-    def display(self):
-        print("Name: ", self.name)
-        print("Age: ", self.age)
-        print("Marks: ", self.marks)
+#     def display(self):
+#         print("Name: ", self.name)
+#         print("Age: ", self.age)
+#         print("Marks: ", self.marks)
         
-s = student("Raj", "20","89")
+# s = student("Raj", "20","89")
 
-s.display()
+# s.display()
 
