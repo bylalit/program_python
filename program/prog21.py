@@ -3,11 +3,11 @@ class Car:
         self.__brand = brand
         self.model = model
         
-    def get_brand(self):
-        return self.__brand + " ! "
+    # def get_brand(self):
+    #     return self.__brand + " ! "
         
-    def full_name(self):
-        return f"{self.__brand} {self.model}"
+    # def full_name(self):
+    #     return f"{self.__brand} {self.model}"
 
 
 class ElectricCar(Car):
