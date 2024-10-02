@@ -9,5 +9,5 @@ while start > 0:
 
     dic[key] = val
 
-    print(dic)
     start -= 1
+print(dic)
