@@ -44,14 +44,14 @@ def update_videos(videos):
     else:
         print("Invalid index seleted")
     
-def delete_videos(videos):
-    list_all_videos(videos)
-    index = int(input("Enter the video number to be delete: "))
-    if 1 <= index <= len(index):
-        del videos[index-1]
-        save_data_helper(videos)
-    else:
-        print("Invalid videos index seleted")
+# def delete_videos(videos):
+#     list_all_videos(videos)
+#     index = int(input("Enter the video number to be delete: "))
+#     if 1 <= index <= len(index):
+#         del videos[index-1]
+#         save_data_helper(videos)
+#     else:
+#         print("Invalid videos index seleted")
     
     
 def main():
