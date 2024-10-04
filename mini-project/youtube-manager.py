@@ -67,19 +67,19 @@ def main():
         print(videos)
         
         
-        # match choice:
-        #     case '1':
-        #         list_all_videos(videos)
-        #     case '2':
-        #         add_videos(videos)
-        #     case '3':
-        #         update_videos(videos)
-        #     case '4':
-        #         delete_videos(videos)
-        #     case '5':
-        #         break
-        #     case _:
-        #         print("Invalid Choice")
+        match choice:
+            case '1':
+                list_all_videos(videos)
+            case '2':
+                add_videos(videos)
+            case '3':
+                update_videos(videos)
+            case '4':
+                delete_videos(videos)
+            case '5':
+                break
+            case _:
+                print("Invalid Choice")
                 
 if __name__ == "__main__":
     main()
