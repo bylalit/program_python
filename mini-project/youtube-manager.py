@@ -33,16 +33,16 @@ def add_videos(videos):
     videos.append({'name': name, 'time': time})
     save_data_helper(videos)
 
-def update_videos(videos):
-    list_all_videos(videos)
-    index = int(input("Enter the video number to update: "))
-    if 1 <= index <= len(index):
-        name = input("Enter the new video name: ")
-        time = input("Enter the new video time: ")
-        videos[index-1] = {'name':name, 'time': time}
-        save_data_helper(videos)
-    else:
-        print("Invalid index seleted")
+# def update_videos(videos):
+#     list_all_videos(videos)
+#     index = int(input("Enter the video number to update: "))
+#     if 1 <= index <= len(index):
+#         name = input("Enter the new video name: ")
+#         time = input("Enter the new video time: ")
+#         videos[index-1] = {'name':name, 'time': time}
+#         save_data_helper(videos)
+#     else:
+#         print("Invalid index seleted")
     
 def delete_videos(videos):
     list_all_videos(videos)
