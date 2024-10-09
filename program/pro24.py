@@ -7,9 +7,9 @@ item = []
 while True:
     input_data = input("Please Enter Your request: ")
     count = 0
-    if input_data == 'quit':
-        print("Quit Task")
-        break
+    # if input_data == 'quit':
+    #     print("Quit Task")
+    #     break
     
     if input_data == 'list':
         print("--------------")
@@ -21,4 +21,4 @@ while True:
         add = input("Enter your task to add: ")
         item.append(add)
         print("Task added")
-        
+    
