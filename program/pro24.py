@@ -6,6 +6,7 @@ item = []
 
 while True:
     input_data = input("Please Enter Your request: ")
+    count = 0
     if input_data == 'quit':
         print("Quit Task")
         break
@@ -13,8 +14,8 @@ while True:
     if input_data == 'list':
         print("--------------")
         for i in item:
-            print(f"{i} {item[i]}")
-        # print(item)
+            count += 1
+            print(f"{count}. {i}")
         print("--------------")
     elif input_data == 'add':
         add = input("Enter your task to add: ")
