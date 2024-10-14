@@ -21,6 +21,3 @@ while True:
         add = input("Enter your task to add: ")
         item.append(add)
         print("Task added")
-        
-        # 
-        # 
