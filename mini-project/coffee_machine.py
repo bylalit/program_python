@@ -40,10 +40,10 @@ while is_on:
     if choice == "off":
         is_on = False
     elif choice == "report":
-        print(f"Water={resourcess['water']}ml")
-        print(f"Water={resourcess['milk']}ml")
-        print(f"Water={resourcess['coffee']}g")
-        print(f"Money=Rs{profit}")
+        print(f"Water = {resourcess['water']}ml")
+        print(f"Water = {resourcess['milk']}ml")
+        print(f"Water = {resourcess['coffee']}g")
+        print(f"Money = Rs{profit}")
     else:
         coffee_type = menu[choice]
         print(coffee_type)
