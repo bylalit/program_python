@@ -35,7 +35,7 @@ boy_1 = Boy("Lalit")
 # boy_1.eat()
 # boy_1.flirt()
 # boy_1.work()
-# print(Boy.mro())
+print(Boy.mro())
 
 # Human.work(boy_1)
 

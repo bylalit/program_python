@@ -18,10 +18,37 @@ class Female(Human):
         print("I can work")
         
 female_1 = Female("lalit", 18)
-female_1.showDetailes()
+# female_1.showDetailes()
 # female_1.work()
 # female_1.eat()
 
 # male_1 = Male()
 # male_1.eat()
 # male_1.sleep()
+
+
+
+
+class A:
+    def dispaly(self):
+        print("Inside class A")
+        
+class B(A):
+    def dispaly(self):
+        print("Inside class B")
+        
+class C:
+    def dispaly(self):
+        print("Inside class C")
+
+class D(B,C):
+    def dispaly(self):
+        print("Inside  class D")
+        
+d1 = D()
+d1.dispaly()
+# print(D.mro())
+    
+
+
+
