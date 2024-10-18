@@ -23,9 +23,11 @@ b = Bank(name)
 while True:
     print("d/D -deposite, w/W -withdrawal, e/E -exits")
     choice = input("Enter Your Choice: ")
+    print()
     
     if choice == "e" or choice == "E":
-        print("Thanks for using our Bank")
+        print("Thanks for visiting our Bank")
+        print()
         sys.exit()
         
     amount = float(input("Enter amount: "))
