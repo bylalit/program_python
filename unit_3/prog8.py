@@ -15,6 +15,6 @@ class myClass:
         e.salary += 1000
         e.display()
         
-# f = Emp(1, "Rahul", 5000)
-# myClass.myMethod(f)
+f = Emp(1, "Rahul", 5000)
+myClass.myMethod(f)
 
