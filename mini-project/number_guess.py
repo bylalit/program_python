@@ -12,8 +12,8 @@ else:
     print("Please type a number next time.")
     quit()
 
-random_number = random.randint(0, top_of_range)
-guesses = 0
+# random_number = random.randint(0, top_of_range)
+# guesses = 0
 
 while True:
     guesses += 1
