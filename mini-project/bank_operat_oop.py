@@ -28,7 +28,9 @@ class Bank:
             print(f'{amount} withdrawn successfully!')
     
     
-    
+    # ministatement
+    def ministatement(self):
+        print(f'Your account balance is {self.balance}')
     
     
     
@@ -59,6 +61,9 @@ while True:
     if option == 2:
         amount = float(input("Enter Withdraw amount: "))
         b.withdraw(amount)    
+    
+    if option == 3:
+        b.ministatement()
     
     if option == 4:
         print(f'Thanking for using {Bank.bankname} ...')
