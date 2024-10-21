@@ -27,3 +27,14 @@ pan = input("Enter PAN card number: ")
 address = input("Enter Your Address: ")
 
 b = Bank(username, pan, address)
+
+
+while True:
+    print('Please choose from below options: ')
+    print('1. Deposite\n2. Withdraw\n3. Ministatement\n4. Exit')
+    
+    option = int(input(''))
+    
+    if option == 1:
+        amount = float(input("Enter Deposite amount: "))
+        b.deposite(amount)
