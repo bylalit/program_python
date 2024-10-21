@@ -13,10 +13,25 @@ class Bank:
         print(f'Hello {self.username} cong! your account created successfully!')
 
 
+    # deposit
     def deposite(self, amount):
         self.balance = self.balance + amount
         print(f'{amount} deposited successfully!')
 
+
+    # withdraw
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print("Low Balance, Can Not WithDrow")
+        else:
+            self.balance -= amount
+            print(f'{amount} withdrawn successfully!')
+    
+    
+    
+    
+    
+    
 
 print()
 print(f'Welcome to {Bank.bankname}, {Bank.branch}')      
@@ -30,11 +45,21 @@ b = Bank(username, pan, address)
 
 
 while True:
+    print()
     print('Please choose from below options: ')
     print('1. Deposite\n2. Withdraw\n3. Ministatement\n4. Exit')
     
-    option = int(input(''))
+    option = int(input('Enter your choice: '))
+    print()
     
     if option == 1:
         amount = float(input("Enter Deposite amount: "))
         b.deposite(amount)
+    
+    if option == 2:
+        amount = float(input("Enter Withdraw amount: "))
+        b.withdraw(amount)    
+    
+    if option == 4:
+        print(f'Thanking for using {Bank.bankname} ...')
+        break
