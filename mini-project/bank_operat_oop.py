@@ -47,9 +47,9 @@ b = Bank(username, pan, address)
 
 
 while True:
-    print()
-    print('Please choose from below options: ')
-    print('1. Deposite\n2. Withdraw\n3. Ministatement\n4. Exit')
+    # print()
+    # print('Please choose from below options: ')
+    # print('1. Deposite\n2. Withdraw\n3. Ministatement\n4. Exit')
     
     # option = int(input('Enter your choice: '))
     option = input('Enter your choice: ')
@@ -78,11 +78,6 @@ while True:
     
     else:
         print("Please selected a valid option")
-
-
-
-
-
 
 
 
