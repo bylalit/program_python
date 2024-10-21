@@ -130,33 +130,33 @@ while True:
 
 # b = Bank(username, pan, address)
 
-while True:
-    print()
-    print("Please choose from below options: ")
-    print("1. Deposite\n2. Withdraw\n3. Ministatement\n4. Exit")
+# while True:
+#     print()
+#     print("Please choose from below options: ")
+#     print("1. Deposite\n2. Withdraw\n3. Ministatement\n4. Exit")
     
-    option = input("Enter your choice: ")
+#     option = input("Enter your choice: ")
     
-    print()
+#     print()
     
-    if option.isdigit():
-        option = int(option)
-    else:
-        print("Please enter a valid option")
-        continue
+#     if option.isdigit():
+#         option = int(option)
+#     else:
+#         print("Please enter a valid option")
+#         continue
         
-    if option == 1:
-        amount = float(input("Enter Deposite amount: "))
-        b.deposite(amount)
-    elif option == 2:
-        amount = float(input("Enter Withdraw amount: "))
-        b.withdraw(amount)
-    elif option == 3:
-        b.ministatement()
-    elif option == 4:
-        print(f"Thanking for using {Bank.bankName} ...")
-        break
-    else:
-        print("Please selected a valid option")
+#     if option == 1:
+#         amount = float(input("Enter Deposite amount: "))
+#         b.deposite(amount)
+#     elif option == 2:
+#         amount = float(input("Enter Withdraw amount: "))
+#         b.withdraw(amount)
+#     elif option == 3:
+#         b.ministatement()
+#     elif option == 4:
+#         print(f"Thanking for using {Bank.bankName} ...")
+#         break
+#     else:
+#         print("Please selected a valid option")
     
 
