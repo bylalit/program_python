@@ -197,26 +197,27 @@ elif option == 2:
 
 
 
-elif option == 2:
-    print("Main Menu")
+
+elif option == 3:
+    print("Deseart Menu")
     how = int(input("How many item you want to add? "))
     while how > 0:
         name = input("Enter the name of item: ")
         price = int(input("Enter the price of item: "))
-        menu.add_item(name, price,2)
+        menu.add_item(name, price,3)
         how -= 1
-    print(menu.main)
+    print(menu.deseart)
     
     
     modify = 1
     
     while modify == 1:
         print()
-        update = input("Do you want to update the main menu so press y or n: ")
+        update = input("Do you want to update the Deseart menu so press y or n: ")
         print()
         
         if update == "y":
-            print("""Modify Your Main Menu:
+            print("""Modify Your Deseart Menu:
                    1. Press 1 for Insert Item
                    2. Press 2 for Delete Item
                    3. Press 3 for Delete Item by index
@@ -229,24 +230,24 @@ elif option == 2:
                 while how > 0:
                     name = input("Enter the name of item: ")
                     price = int(input("Enter the price of item: "))
-                    menu.add_item(name, price,2)
+                    menu.add_item(name, price,3)
                     how -= 1
                 print()
-                print(menu.main)
+                print(menu.deseart)
                 
             elif choice == 2:
-                menu.delete_item(2)
+                menu.delete_item(3)
                 print()
-                print(menu.main)
+                print(menu.deseart)
                 
             elif choice == 3:
                 how = int(input("How many item you want to delete? "))
                 while how > 0:
                     name = input("Enter the name of item you want to delete: ")
-                    menu.del_index_item(name,2)
+                    menu.del_index_item(name,3)
                     how -= 1
                 print()
-                print(menu.main)
+                print(menu.deseart)
                 
             elif choice == 4:
                 modify = 0
