@@ -129,10 +129,6 @@ if option == 1:
             print("Thanking For Visit Us Again :)")
 
 
-# elif option == 2:
-#     print("Main Menu ")
-
-
 
 elif option == 2:
     print("Main Menu")
@@ -192,7 +188,6 @@ elif option == 2:
         elif update == "n":
             modify = 0
             print("Thanking For Visit Us Again :)")
-
 
 
 elif option == 3:
