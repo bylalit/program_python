@@ -30,16 +30,34 @@ class HotelMenu:
                 self.deseart[item] = price
                 print("Item added successfully")
     
-    def delete_item(self):
-        HotelMenu.started.popitem()
+    def delete_item(self,choice):
+        if choice == 1:
+            HotelMenu.started.popitem()
+        elif choice == 2:
+            HotelMenu.main.popitem()
+        elif choice == 3:
+            HotelMenu.deseart.popitem()
         print("Item deleted successfully")
             
-    def del_index_item(self, item):
-        if item in self.started:
-            HotelMenu.started.pop(item)
-            print("Item deleted successfully")
-        else:
-            print("Item not found")
+    def del_index_item(self, item, choice):
+        if choice == 1:
+            if item in self.started:
+                HotelMenu.started.pop(item)
+                print("Item deleted successfully")
+            else:
+                print("Item not found")
+        elif choice == 2:
+            if item in self.main:
+                HotelMenu.main.pop(item)
+                print("Item deleted successfully")
+            else:
+                print("Item not found")
+        elif choice == 3:
+            if item in self.deseart:
+                HotelMenu.deseart.pop(item)
+                print("Item deleted successfully")
+            else:
+                print("Item not found")
     
 menu = HotelMenu("Lalit")
 
@@ -58,7 +76,7 @@ if option == 1:
     while how > 0:
         name = input("Enter the name of item: ")
         price = int(input("Enter the price of item: "))
-        menu.add_item(name, price)
+        menu.add_item(name, price,1)
         how -= 1
     print(menu.started)
     
@@ -84,13 +102,13 @@ if option == 1:
                 while how > 0:
                     name = input("Enter the name of item: ")
                     price = int(input("Enter the price of item: "))
-                    menu.add_item(name, price)
+                    menu.add_item(name, price,1)
                     how -= 1
                 print()
                 print(menu.started)
                 
             elif choice == 2:
-                menu.delete_item()
+                menu.delete_item(1)
                 print()
                 print(menu.started)
                 
@@ -98,7 +116,7 @@ if option == 1:
                 how = int(input("How many item you want to delete? "))
                 while how > 0:
                     name = input("Enter the name of item you want to delete: ")
-                    menu.del_index_item(name)
+                    menu.del_index_item(name,1)
                     how -= 1
                 print()
                 print(menu.started)
@@ -115,3 +133,63 @@ if option == 1:
 elif option == 2:
     print("Main Menu ")
 
+
+
+if option == 1:
+    print("Started Menu")
+    how = int(input("How many item you want to add? "))
+    while how > 0:
+        name = input("Enter the name of item: ")
+        price = int(input("Enter the price of item: "))
+        menu.add_item(name, price,1)
+        how -= 1
+    print(menu.started)
+    
+    
+    modify = 1
+    
+    while modify == 1:
+        print()
+        update = input("Do you want to update the startes menu so press y or n: ")
+        print()
+        
+        if update == "y":
+            print("""Modify Your Startes Menu:
+                   1. Press 1 for Insert Item
+                   2. Press 2 for Delete Item
+                   3. Press 3 for Delete Item by index
+                   4. Press 4 for Exit in Modify""")
+            
+            choice = int(input("Enter Your choice for Modify: "))
+            
+            if choice == 1:
+                how = int(input("How many item you want to add? "))
+                while how > 0:
+                    name = input("Enter the name of item: ")
+                    price = int(input("Enter the price of item: "))
+                    menu.add_item(name, price,1)
+                    how -= 1
+                print()
+                print(menu.started)
+                
+            elif choice == 2:
+                menu.delete_item(1)
+                print()
+                print(menu.started)
+                
+            elif choice == 3:
+                how = int(input("How many item you want to delete? "))
+                while how > 0:
+                    name = input("Enter the name of item you want to delete: ")
+                    menu.del_index_item(name,1)
+                    how -= 1
+                print()
+                print(menu.started)
+                
+            elif choice == 4:
+                modify = 0
+                print("Order is placed")
+
+        elif update == "n":
+            modify = 0
+            print("Thanking For Visit Us Again :)")
