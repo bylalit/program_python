@@ -237,18 +237,18 @@ elif option == 3:
                 print()
                 print(menu.deseart)
                 
-            elif choice == 3:
-                how = int(input("How many item you want to delete? "))
-                while how > 0:
-                    name = input("Enter the name of item you want to delete: ")
-                    menu.del_index_item(name,3)
-                    how -= 1
-                print()
-                print(menu.deseart)
+            # elif choice == 3:
+            #     how = int(input("How many item you want to delete? "))
+            #     while how > 0:
+            #         name = input("Enter the name of item you want to delete: ")
+            #         menu.del_index_item(name,3)
+            #         how -= 1
+            #     print()
+            #     print(menu.deseart)
                 
-            elif choice == 4:
-                modify = 0
-                print("Order is placed")
+            # elif choice == 4:
+            #     modify = 0
+            #     print("Order is placed")
 
         elif update == "n":
             modify = 0
