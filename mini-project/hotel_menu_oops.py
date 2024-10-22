@@ -193,3 +193,65 @@ elif option == 2:
         elif update == "n":
             modify = 0
             print("Thanking For Visit Us Again :)")
+
+
+
+
+elif option == 2:
+    print("Main Menu")
+    how = int(input("How many item you want to add? "))
+    while how > 0:
+        name = input("Enter the name of item: ")
+        price = int(input("Enter the price of item: "))
+        menu.add_item(name, price,2)
+        how -= 1
+    print(menu.main)
+    
+    
+    modify = 1
+    
+    while modify == 1:
+        print()
+        update = input("Do you want to update the main menu so press y or n: ")
+        print()
+        
+        if update == "y":
+            print("""Modify Your Main Menu:
+                   1. Press 1 for Insert Item
+                   2. Press 2 for Delete Item
+                   3. Press 3 for Delete Item by index
+                   4. Press 4 for Exit in Modify""")
+            
+            choice = int(input("Enter Your choice for Modify: "))
+            
+            if choice == 1:
+                how = int(input("How many item you want to add? "))
+                while how > 0:
+                    name = input("Enter the name of item: ")
+                    price = int(input("Enter the price of item: "))
+                    menu.add_item(name, price,2)
+                    how -= 1
+                print()
+                print(menu.main)
+                
+            elif choice == 2:
+                menu.delete_item(2)
+                print()
+                print(menu.main)
+                
+            elif choice == 3:
+                how = int(input("How many item you want to delete? "))
+                while how > 0:
+                    name = input("Enter the name of item you want to delete: ")
+                    menu.del_index_item(name,2)
+                    how -= 1
+                print()
+                print(menu.main)
+                
+            elif choice == 4:
+                modify = 0
+                print("Order is placed")
+
+        elif update == "n":
+            modify = 0
+            print("Thanking For Visit Us Again :)")
