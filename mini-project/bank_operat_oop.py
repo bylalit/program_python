@@ -5,12 +5,12 @@ class Bank:
     branch = "Kolkata, India"
     
     # create account
-    def __init__(self, username,pan,address):
-        self.username = username
-        self.pan = pan
-        self.address = address
-        self.balance = 0.0
-        print(f'Hello {self.username} cong! your account created successfully!')
+    # def __init__(self, username,pan,address):
+    #     self.username = username
+    #     self.pan = pan
+    #     self.address = address
+    #     self.balance = 0.0
+    #     print(f'Hello {self.username} cong! your account created successfully!')
 
 
     # deposit
