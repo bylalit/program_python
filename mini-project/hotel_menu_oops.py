@@ -80,7 +80,6 @@ if option == 1:
         how -= 1
     print(menu.started)
     
-    
     modify = 1
     
     while modify == 1:
@@ -193,8 +192,6 @@ elif option == 2:
         elif update == "n":
             modify = 0
             print("Thanking For Visit Us Again :)")
-
-
 
 
 
