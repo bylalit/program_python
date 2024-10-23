@@ -99,3 +99,31 @@
 
 # list_cloneing = list3[:]
 # print(list_cloneing)
+
+
+
+
+
+
+
+
+# 16 program
+list1 = [i for i in range(1,8)]
+print(list1)
+print()
+
+list1.append(12)
+print(list1)
+print()
+
+list1.insert(1,10)
+print(list1)
+print()
+
+list2 = list1.copy()
+print(list2)
+print()
+
+
+c = list1.count(5)
+print(c)
