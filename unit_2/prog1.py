@@ -12,3 +12,8 @@
 
 
 # 21 program
+keys = ['Cricket', 'BasketBall', 'Hockey']
+valus = ['11', '5', '11']
+
+combine_dic = dict(zip(keys, valus))
+print(combine_dic)
