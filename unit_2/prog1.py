@@ -67,16 +67,35 @@
 
 
 # 14 program
-list1 = [i for i in range(0,9)]
-print(list1)
-list1.append(12)
-print(list1)
+# list1 = [i for i in range(0,9)]
+# print(list1)
+# list1.append(12)
+# print(list1)
 
-list1.insert(1, 15)
-print(list1)
+# list1.insert(1, 15)
+# print(list1)
 
-list1.reverse()
-print(list1)
+# list1.reverse()
+# print(list1)
 
-list1.remove(7)
+# list1.remove(7)
+# print(list1)
+
+
+
+
+
+# 15 program
+list1 = [i for i in range(1,6)]
+list2 = [i for i in range(7,11)]
 print(list1)
+print(list2)
+print()
+list3 = list1 + list2
+print(list3)
+
+new_list = [i for i in list3 for x in (0,1)]
+print(new_list)
+
+list_cloneing = list3[:]
+print(list_cloneing)
