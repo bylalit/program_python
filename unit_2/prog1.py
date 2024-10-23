@@ -21,9 +21,26 @@
 
 
 # 20 program
-my_dict = {'name': 'Jack', 'age': 26}
-print(my_dict['name'])
-print()
-print(my_dict.get('age'))
-print()
-print(my_dict.get('address'))
+# my_dict = {'name': 'Jack', 'age': 26}
+# print(my_dict['name'])
+# print()
+# print(my_dict.get('age'))
+# print()
+# print(my_dict.get('address'))
+
+
+
+
+# 19 program
+
+
+
+
+
+# 18 program
+tup = (1,2,3,4,5,6,7,8)
+
+print("Max: ", max(tup))
+print("Max: ", min(tup))
+print("Max: ", sum(tup))
+print("Max: ", sum(tup)/len(tup))
