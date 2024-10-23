@@ -51,7 +51,7 @@
 
 
 # 17 program
-list1 = [[1,2,3], [4,5,6,7], [8,9,0]]
+# list1 = [[1,2,3], [4,5,6,7], [8,9,0]]
 # 1 method
 # for i in list1:
 #     print(i)
@@ -63,3 +63,20 @@ list1 = [[1,2,3], [4,5,6,7], [8,9,0]]
 #     print(" ".join(map(str, x)))
 
 
+
+
+
+# 14 program
+list1 = [i for i in range(0,9)]
+print(list1)
+list1.append(12)
+print(list1)
+
+list1.insert(1, 15)
+print(list1)
+
+list1.reverse()
+print(list1)
+
+list1.remove(7)
+print(list1)
