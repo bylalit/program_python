@@ -38,9 +38,28 @@
 
 
 # 18 program
-tup = (1,2,3,4,5,6,7,8)
+# tup = (1,2,3,4,5,6,7,8)
 
-print("Max: ", max(tup))
-print("Max: ", min(tup))
-print("Max: ", sum(tup))
-print("Max: ", sum(tup)/len(tup))
+# print("Max: ", max(tup))
+# print("Max: ", min(tup))
+# print("Max: ", sum(tup))
+# print("Max: ", sum(tup)/len(tup))
+
+
+
+
+
+
+# 17 program
+list1 = [[1,2,3], [4,5,6,7], [8,9,0]]
+# 1 method
+# for i in list1:
+#     print(i)
+#     for j in i:
+#         print(j)
+
+# 2 method
+# for x in list1:
+#     print(" ".join(map(str, x)))
+
+
