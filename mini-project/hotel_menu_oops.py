@@ -6,9 +6,9 @@ class HotelMenu:
     deseart = {}
     
     
-    # def __init__(self, name):
-    #     print("--------------------------HOTEL MENU ADMIN SIDE PENAL--------------------------")
-    #     self.name = name
+    def __init__(self, name):
+        print("--------------------------HOTEL MENU ADMIN SIDE PENAL--------------------------")
+        self.name = name
         
     def add_item(self, item, price, choice):
         if choice == 1:
