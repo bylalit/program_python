@@ -108,13 +108,13 @@
 
 
 # 16 program
-# list1 = [i for i in range(1,8)]
-# print(list1)
-# print()
+list1 = [i for i in range(1,8)]
+print(list1)
+print()
 
-# list1.append(12)
-# print(list1)
-# print()
+list1.append(12)
+print(list1)
+print()
 
 list1.insert(1,10)
 print(list1)
