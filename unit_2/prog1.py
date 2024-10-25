@@ -58,9 +58,9 @@
 #     for j in i:
 #         print(j)
 
-# 2 method
-# for x in list1:
-#     print(" ".join(map(str, x)))
+2 method
+for x in list1:
+    print(" ".join(map(str, x)))
 
 
 
