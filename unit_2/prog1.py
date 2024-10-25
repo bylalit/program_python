@@ -116,14 +116,14 @@ list1.append(12)
 print(list1)
 print()
 
-list1.insert(1,10)
-print(list1)
-print()
+# list1.insert(1,10)
+# print(list1)
+# print()
 
-list2 = list1.copy()
-print(list2)
-print()
+# list2 = list1.copy()
+# print(list2)
+# print()
 
 
-c = list1.count(5)
-print(c)
+# c = list1.count(5)
+# print(c)
