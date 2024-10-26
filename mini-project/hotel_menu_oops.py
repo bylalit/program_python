@@ -1,28 +1,28 @@
 # Hotem menu program using oops
 
-# class HotelMenu:
-#     started = {}
-#     main = {}
-#     deseart = {}
+class HotelMenu:
+    started = {}
+    main = {}
+    deseart = {}
     
     
-#     def __init__(self, name):
-#         print("--------------------------HOTEL MENU ADMIN SIDE PENAL--------------------------")
-#         self.name = name
+    def __init__(self, name):
+        print("--------------------------HOTEL MENU ADMIN SIDE PENAL--------------------------")
+        self.name = name
         
-#     def add_item(self, item, price, choice):
-#         if choice == 1:
-#             if item in self.started:
-#                 print("Item already exists")
-#             else:
-#                 self.started[item] = price
-#                 print("Item added successfully")
-#         elif choice == 2:
-#             if item in self.main:
-#                 print("Item already exists")
-#             else:
-#                 self.main[item] = price
-#                 print("Item added successfully")
+    def add_item(self, item, price, choice):
+        if choice == 1:
+            if item in self.started:
+                print("Item already exists")
+            else:
+                self.started[item] = price
+                print("Item added successfully")
+        elif choice == 2:
+            if item in self.main:
+                print("Item already exists")
+            else:
+                self.main[item] = price
+                print("Item added successfully")
         elif choice == 3:
             if item in self.deseart:
                 print("Item already exists")
