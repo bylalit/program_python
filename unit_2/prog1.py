@@ -51,16 +51,16 @@
 
 
 # 17 program
-# list1 = [[1,2,3], [4,5,6,7], [8,9,0]]
+list1 = [[1,2,3], [4,5,6,7], [8,9,0]]
 # 1 method
-# for i in list1:
-#     print(i)
-#     for j in i:
-#         print(j)
+for i in list1:
+    print(i)
+    for j in i:
+        print(j)
 
 # 2 method
-# for x in list1:
-#     print(" ".join(map(str, x)))
+for x in list1:
+    print(" ".join(map(str, x)))
 
 
 
