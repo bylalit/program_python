@@ -9,6 +9,7 @@ class Bank:
         self.username = username
         self.pan = pan
         self.address = address
+        self.balance = 0.0
         print(f'Hello {self.username} cong! your account created successfully!')
 
 
