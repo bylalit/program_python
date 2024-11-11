@@ -61,26 +61,26 @@ class HotelMenu:
     
 menu = HotelMenu("Lalit")
 
-# print("""Select One Choice
-#                    1. Press 1 for Started
-#                    2. Press 2 for Main
-#                    3. Press 3 for Deserted
-#                    Enter Your Choice: """)
-# print()
-# option = int(input("Enter Your Choice: "))
-# print()
+print("""Select One Choice
+                   1. Press 1 for Started
+                   2. Press 2 for Main
+                   3. Press 3 for Deserted
+                   Enter Your Choice: """)
+print()
+option = int(input("Enter Your Choice: "))
+print()
 
-# if option == 1:
-#     print("Started Menu")
-#     how = int(input("How many item you want to add? "))
-#     while how > 0:
-#         name = input("Enter the name of item: ")
-#         price = int(input("Enter the price of item: "))
-#         menu.add_item(name, price,1)
-#         how -= 1
-#     print(menu.started)
+if option == 1:
+    print("Started Menu")
+    how = int(input("How many item you want to add? "))
+    while how > 0:
+        name = input("Enter the name of item: ")
+        price = int(input("Enter the price of item: "))
+        menu.add_item(name, price,1)
+        how -= 1
+    print(menu.started)
     
-#     modify = 1
+    modify = 1
     
     while modify == 1:
         print()
