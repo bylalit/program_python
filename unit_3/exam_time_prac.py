@@ -45,3 +45,33 @@
 # b1 = bookx(100)
 # b2 = booky(200)
 # print("Total Pages: ", b1 + b2)
+
+
+# pro 15
+
+class dog:
+    def bark(self):
+        print("Bow Bow")
+
+class duck:
+    def talk(self):
+        print("Quack Quack")
+        
+class human:
+    def talk(self):
+        print("Hello, Hii") 
+        
+        
+def call_talk(obj):
+    if hasattr(obj, "talk"):
+        obj.talk()
+    elif hasattr(obj, "bark"):
+        obj.bark()
+    else:
+        print("Wrong object Passed")
+        
+x = duck()
+call_talk(x)
+
+x = human()
+call_talk(x)
