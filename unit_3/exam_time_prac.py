@@ -110,6 +110,6 @@
 #         super().method()
         
         
-# p1 = p()
-# print(p.mro())
-# p1.method()
+p1 = p()
+print(p.mro())
+p1.method()
