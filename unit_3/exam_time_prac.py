@@ -62,19 +62,19 @@
 #         print("Hello, Hii") 
         
         
-def call_talk(obj):
-    if hasattr(obj, "talk"):
-        obj.talk()
-    elif hasattr(obj, "bark"):
-        obj.bark()
-    else:
-        print("Wrong object Passed")
+# def call_talk(obj):
+#     if hasattr(obj, "talk"):
+#         obj.talk()
+#     elif hasattr(obj, "bark"):
+#         obj.bark()
+#     else:
+#         print("Wrong object Passed")
         
-x = duck()
-call_talk(x)
+# x = duck()
+# call_talk(x)
 
-x = human()
-call_talk(x)
+# x = human()
+# call_talk(x)
 
 
 
