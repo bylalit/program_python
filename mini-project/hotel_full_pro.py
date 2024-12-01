@@ -190,18 +190,18 @@ while start == 1:
         count += 1
         
 
-    print("\n")
-    print("Main Menu List")
-    count = 1
+    # print("\n")
+    # print("Main Menu List")
+    # count = 1
     
-    for x,y in main.items():
-        print(f"{count}. {x}  ----------- Rs.{y} ")
-        count += 1
+    # for x,y in main.items():
+    #     print(f"{count}. {x}  ----------- Rs.{y} ")
+    #     count += 1
         
         
-    print("\n")
-    print("Desarte Menu List")
-    count = 1
+    # print("\n")
+    # print("Desarte Menu List")
+    # count = 1
     
     
     for x,y in desart.items():
