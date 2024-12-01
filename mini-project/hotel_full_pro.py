@@ -18,11 +18,28 @@ while True:
     choice = int(input("Choice One Option: "))
     
     if choice == 1:
+        print("WelCome To Started Menu")
         addDish = int(input("How many dish add in started: "))
         
-        while addDish < 0:
+        for i in range(addDish):
             dish = input("Enter the Dish name: ")
-            price = input("Enter the Dish price: ")
-            
+            price = input("Enter the Dish price: ")  
             started[dish] = price
+        
+        print(started)
+        
+        
+        update = 1
+        while update == 1:
+            modify = input("""----------------------------------------------------
+                                Modify the Started Menu
+                    1. Add Item for Press 1
+                    2. Delete Item for Press 2
+                    3. Delete Item for Perticuler name so Press 3
+                    4. Add Item for Press 4""")
             
+            if modify == 1:
+                wantDish = int(input("How many item add for secound time in started ?:  "))
+                
+                for i in range(addDish):
+                    
