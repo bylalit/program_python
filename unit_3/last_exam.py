@@ -403,3 +403,28 @@
 #     elif choice == 'w' or choice == 'W':
 #         print("Balance after withdrawals: ", b.withdrow(amount)) 
         
+        
+        
+# unit 1
+
+# 1
+# a = 10
+# b = 20
+
+# a = a+b
+# b = a -b
+# a = a-b
+
+# print(a)
+# print(b)
+
+# 2
+# print("Enter two compalex number in form of a + bj: ")
+
+# n1 = complex(input())
+# n2 = complex(input())
+
+# print("Sum = ", n1 + n2)
+
+
+# 3
