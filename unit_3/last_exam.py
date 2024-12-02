@@ -233,3 +233,50 @@
 
 
 # 11
+# val = lambda x,y:max(x,y)
+# print(val(120,150))
+
+
+# 12
+# def plue_one(num):
+#     def add_one(num):
+#         return num + 3
+#     result = add_one(num)
+#     return result
+
+# print(plue_one(10))
+
+
+
+# 14
+
+# list1 = [i for i in range(0, 9)]
+# print(list1)
+
+# list1.append(22)
+# print("Append method: ", list1)
+
+# list1.insert(1, 88)
+# print("Append method: ", list1)
+
+# list1.remove(7)
+# print("Append method: ", list1)
+
+
+
+# 15
+
+# list1 = [i for i in range(1,6)]
+# list2 = [i for i in range(7,11)]
+
+# print(list1)
+# print(list2)
+
+# list3 = list1 + list2
+# print(list3)
+
+# # new_list = [i for i in list3 for x in (0,1)]
+# # print(new_list)
+
+# list_clone = list3[:]
+# print(list_clone)
