@@ -428,3 +428,120 @@
 
 
 # 3
+# number = 6
+# arr = bytes(number)
+# print(arr)
+
+# arr =bytes(3)
+# print(arr)
+
+# lis = [1,2,3,4,5]
+# arr = bytes(lis)
+# print(arr)
+
+
+
+# 4 
+# y = range(1,30,2)
+
+# for i in y:
+#     print(i, end=" ")
+
+
+# 5 
+# a = 10
+# b = 20
+
+# lis = [1,2,3,4,5,6,7]
+
+# if a in lis:
+#     print('Yes')
+# else:
+#     print("No")
+    
+    
+# if b not in lis:
+#     print('Yes')
+# else:
+#     print('No')
+
+
+
+
+#  6
+# a = 20
+# b = 20
+
+# if a is b:
+#     print("A and B have same identity")
+# else:
+#     print("A and B do not have same identity")
+    
+    
+# if id(a) == id(b):
+#     print("A and B have same identity")
+# else:
+#     print("A and B do not have same identity")
+    
+# b = 30
+
+
+
+
+
+#  7 
+# x = input("Enter any exaprextion: ")
+# print(eval(x))
+
+
+
+# 8
+# minimum = int(input("Please Enter minimum value: "))
+# maximum = int(input("Please Enter maxmum value: "))
+# even_total = 0
+# odd_total = 0
+
+# for number in range(minimum, maximum + 1):
+#     if number % 2 == 0:
+#         even_total += number
+#     else:
+#         odd_total += number
+        
+# print("The sum of Even numbers form 1 to {0} = {1}".format(number,even_total))
+# print("The sum of odd numbers form 1 to {0} = {1}".format(number,odd_total))
+
+# print(even_total)
+# print(odd_total)
+
+
+
+
+
+# 10
+
+# num = int(input("Enter a number: "))
+# assert num >= 0, "Only Positive number accpected."
+# print("Your Entered", num)
+
+
+
+
+# 11
+# def search(list, n):
+#     for i in range(len(list)):
+#         if list[i] == n:
+#             # print("Found")
+#             return True
+#     return False
+        
+        
+# list1 = [1,2,3,'python', 6]
+
+# n = 'python'
+# search(list1, n)
+
+# if search(list1, n):
+#     print('Found')
+# else:
+#     print("Not Found")
+    
