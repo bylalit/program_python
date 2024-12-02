@@ -107,3 +107,64 @@
 
 
 
+# class student:
+#     marks = 10
+#     @classmethod
+    
+#     def modify(cls, name):
+        
+#         print(" {} scored {} marks".format(name, cls.marks))
+        
+# student.modify("Lalit")
+# student.modify("Rakesh")
+
+
+
+
+
+# 1
+
+# x = [24, 27, 30, 18, 17]
+# print("Origanal Array: ", x)
+
+# y = []
+# y[:] = x
+# print("New Array: ", y)
+
+
+# 2
+# import array as arr
+
+# a = arr.array('i', [1,2,3,4,5])
+# print(a)
+
+# a[0] = 7
+# print(a)
+
+# a[0:2] = arr.array('i', [8,9])
+# print(a)
+
+# 3
+
+list1 = [1,2,3,4,3,5,6,7,3]
+
+# list1.append(8)
+# print("Append method: ", list1)
+
+# list1.insert(2, 9)
+# print("Insert method: ", list1)
+
+# list1.remove(5)
+# print("Remove method: ", list1)
+
+# list1.pop(4)
+# print("Pop method: ", list1)
+
+# print(list1.index(3))
+# print(list1.count(3))
+
+
+# import numpy as np
+
+# arr = np.array([1,2,3,4,5])
+# print(arr.tolist())
