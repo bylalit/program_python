@@ -203,4 +203,33 @@
 
 
 # 7 
+# list1 = [1,2,3,4,1,2,5,6,4,8,6,9,8,0,3]
+# list2 = []
 
+# for i in list1:
+#     if i not in list2:
+#         list2.append(i)
+        
+# print(list2)
+
+
+# 8
+# def display_list(list1):
+#     for i in list1:
+#         print(i)
+        
+# list1 = [1,2,3,4,5,6]
+# display_list(list1)
+
+
+# 10
+# def var_length(*args):
+#     for val in range(0, len(args)):
+#         print(args[val])
+#         print(val)
+        
+# var_length('a','b','c','d')
+
+
+
+# 11
