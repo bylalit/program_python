@@ -280,3 +280,126 @@
 
 # list_clone = list3[:]
 # print(list_clone)
+
+
+
+
+
+# 17
+
+# list1 = [[1,2,3], [4,5,6], [7,8,9]]
+
+# for x in list1:
+#     # print(x)
+#     print(" ".join(map(str, x)))
+
+
+
+# 18
+
+# tup = (1,2,3,4,5,6,7,8)
+
+# print("Max", max(tup))
+# print("Min", min(tup))
+# print("Sum", sum(tup))
+# print("Avg", sum(tup) / len(tup))
+
+
+# 19
+
+# tup = [(1,(2,3)), (3, (2,1)), (2, (2,1))]
+
+# sort = sorted(tup, key=lambda t: (t[1][1], t[0]))
+# print(sort)
+
+
+
+
+# 20
+
+# my_dict = {'name': 'Lalit', 'age': 20}
+# print(my_dict['name'])
+# print(my_dict['age'])
+# print(my_dict['address'])
+
+
+
+# 21
+
+# keys = ['Cricket', 'BasketBall', 'Hockey']
+# values = ['11', '5', '11']
+
+# combine_dict = dict(zip(keys, values))
+# print(combine_dict)
+
+
+
+# 22
+
+# def func(d):
+#     for key in d:
+#         print("Key:", key , 'Values: ', d[key])
+        
+# D = {'a':1, 'b':2, 'c':3}
+# func(D)
+
+
+
+
+
+# 6
+
+# class myclass:
+#     n = 0
+    
+#     def __init__(self):
+#         myclass.n += 1
+        
+#     @staticmethod
+#     def no_of_obj():
+#         print("No of instances created are: ", myclass.n)
+        
+        
+# obj1 = myclass()
+# obj2 = myclass()
+# obj3 = myclass()
+
+# myclass.no_of_obj()
+
+
+
+# # 7
+# import sys
+
+# class bank(object):
+#     def __init__(self, name, balance=0.0):
+#         self.name = name
+#         self.balance = balance
+        
+#     def deposit(self, amount):
+#         self.balance += amount
+#         return self.balance
+    
+#     def withdrow(self, amount):
+#         if amount > self.balance:
+#             print("Low Balance, Can not withdrow")
+#         else:
+#             self.balance -= amount
+#             return self.balance
+        
+# name = input("Enter Name: ")
+# b = bank(name)
+
+# while True:
+#     print("d/D -deposit, w/W -withdrawal, e/E -exit")
+#     choice = input("Enter your choice: ")
+#     if choice == 'e' or choice == 'E':
+#         sys.exit()
+        
+#     amount = float(input("Enter amount: "))
+    
+#     if choice == 'd' or choice == 'D':
+#         print("Balance After deposite: ", b.deposit(amount))
+#     elif choice == 'w' or choice == 'W':
+#         print("Balance after withdrawals: ", b.withdrow(amount)) 
+        
