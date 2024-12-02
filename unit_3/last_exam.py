@@ -146,7 +146,7 @@
 
 # 3
 
-list1 = [1,2,3,4,3,5,6,7,3]
+# list1 = [1,2,3,4,3,5,6,7,3]
 
 # list1.append(8)
 # print("Append method: ", list1)
@@ -168,3 +168,39 @@ list1 = [1,2,3,4,3,5,6,7,3]
 
 # arr = np.array([1,2,3,4,5])
 # print(arr.tolist())
+
+
+
+
+
+
+# 5 
+# list1 = ['hello', 'a','b','c']
+# print(list1)
+
+# position = list1.index(input("Enter element for aboue list: "))
+# print(position)
+
+
+# 6
+
+# def test_prime(num):
+#     if num > 1:
+#         for i in range(2, num):
+#             if(num % i) == 0:
+#                 print(num, "is not a prime number")
+#                 break
+#             else:
+#                 print(num, "is a prime number")
+#                 break
+                
+#     else:
+#         print(num, "is not a prime number")
+        
+# test_prime(18)
+
+
+
+
+# 7 
+
