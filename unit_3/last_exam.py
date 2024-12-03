@@ -672,3 +672,19 @@
 
 
 # 5
+
+import datetime
+
+year = int(input("Enter your birth year: "))
+month = int(input("Enter your birth month: "))
+day = int(input("Enter your birth date: "))
+
+birthday = datetime.datetime(year, month, day)
+print(birthday)
+
+now = datetime.datetime.now()
+print(birthday)
+
+Diffrent = now - birthday
+
+print("Diffrent Is: ", Diffrent.days)
