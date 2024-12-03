@@ -555,3 +555,38 @@
 #     print("Invalid Entry ")
 # else:
 #     print(cm/2.54, "Inches")
+
+
+
+
+# # 9 
+# class student:
+#     def setid(self, id):
+#         self.id = id
+#     def getid(self):
+#         return self.id
+#     def setname(self, name):
+#         self.name = name
+#     def getname(self):
+#         return self.name
+#     def setaddress(self, address):
+#         self.address = address
+#     def getaddress(self):
+#         return self.address
+    
+#     def setmarks(self,marks):
+#         self.marks = marks
+#     def getmarks(self):
+#         return self.marks
+    
+# s = student()
+# s.setid(101)
+# s.setname("Lalit")
+# s.setaddress("Rajendar")
+# s.setmarks(65)
+
+
+# print("id: ", s.getid())
+# print("id: ", s.getname())
+# print("id: ", s.getaddress())
+# print("id: ", s.getmarks())
