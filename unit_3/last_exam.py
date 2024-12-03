@@ -635,4 +635,40 @@
 
 
 
-# 
+# 1
+
+# a = int(input("Enter a dividend: "))
+# b = int(input("Enter a dividend: "))
+
+# try:
+#     Ans = a/b
+# except ZeroDivisionError:
+#     print("Zero division error")
+# else:
+#     print("Answer: ", Ans)
+
+
+
+# 2
+
+# try:
+#     a = (input("Enter a dividend: "))
+#     b = (input("Enter a dividend: "))
+    
+#     Ans = a/b
+# except (TypeError, SyntaxError):
+#     print("Error")
+# else:
+#     print("Answer =", Ans)
+
+
+
+# 3
+
+# import os
+
+# print(os.getcwd())
+# print(dir(os))
+
+
+# 5
