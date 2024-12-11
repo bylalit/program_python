@@ -637,15 +637,15 @@
 
 # 1
 
-# a = int(input("Enter a dividend: "))
-# b = int(input("Enter a dividend: "))
+a = int(input("Enter a dividend: "))
+b = int(input("Enter a dividend: "))
 
-# try:
-#     Ans = a/b
-# except ZeroDivisionError:
-#     print("Zero division error")
-# else:
-#     print("Answer: ", Ans)
+try:
+    Ans = a/b
+except ZeroDivisionError:
+    print("Zero division error")
+else:
+    print("Answer: ", Ans)
 
 
 
