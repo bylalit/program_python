@@ -177,19 +177,19 @@ while start == 1:
     # print("\n")
     
     
-    print("\n")
-    print("Main menu list: ")
-    count = 1
-    for x,y in main.items():
-        print(f"{count}. {x}  ----------- Rs.{y} ")
-        count += 1
+    # print("\n")
+    # print("Main menu list: ")
+    # count = 1
+    # for x,y in main.items():
+    #     print(f"{count}. {x}  ----------- Rs.{y} ")
+    #     count += 1
     
-    print("\n")
-    print("Desart menu list: ")
-    count = 1
-    for x,y in desart.items():
-        print(f"{count}. {x}  ----------- Rs.{y} ")
-        count += 1
+    # print("\n")
+    # print("Desart menu list: ")
+    # count = 1
+    # for x,y in desart.items():
+    #     print(f"{count}. {x}  ----------- Rs.{y} ")
+    #     count += 1
 
     
     
