@@ -22,104 +22,104 @@ while start == 1:
         choice = int(input("Choice One Option: "))
         
         if choice == 1:
-        #     print("WelCome To Started Menu")
-        #     addDish = int(input("How many dish add in started: "))
+            print("WelCome To Started Menu")
+            addDish = int(input("How many dish add in started: "))
             
-        #     for i in range(addDish):
-        #         dish = input("Enter the Dish name: ").upper()
-        #         price = input("Enter the Dish price: ")  
-        #         started[dish] = price
+            for i in range(addDish):
+                dish = input("Enter the Dish name: ").upper()
+                price = input("Enter the Dish price: ")  
+                started[dish] = price
             
-        #     print(started)
+            print(started)
             
             
-        #     update = 1
-        #     while update == 1:
-        #         modify = int(input("""----------------------------------------------------
-        #                             Modify the Started Menu
-        #                 1. Add Item for Press 1
-        #                 2. Delete Item for Press 2
-        #                 3. Delete Item for Perticuler name so Press 3
-        #                 4. Add Item for Press 4"""))
+            update = 1
+            while update == 1:
+                modify = int(input("""----------------------------------------------------
+                                    Modify the Started Menu
+                        1. Add Item for Press 1
+                        2. Delete Item for Press 2
+                        3. Delete Item for Perticuler name so Press 3
+                        4. Add Item for Press 4"""))
                 
-        #         if modify == 1:
-        #             wantDish = int(input("How many item add for secound time in started ?:  "))
+                if modify == 1:
+                    wantDish = int(input("How many item add for secound time in started ?:  "))
                     
-        #             for i in range(wantDish):
-        #                 dish = input("Enter the Dish name: ").upper()
-        #                 price = input("Enter the Dish price: ")  
-        #                 started[dish] = price
+                    for i in range(wantDish):
+                        dish = input("Enter the Dish name: ").upper()
+                        price = input("Enter the Dish price: ")  
+                        started[dish] = price
                         
-        #             print(started)
+                    print(started)
                     
-        #         elif modify == 2:
-        #             started.popitem()
-        #             print(started)
+                elif modify == 2:
+                    started.popitem()
+                    print(started)
                     
-        #         elif modify == 3:
-        #             del_want = int(input("How many dish want to delete: "))
+                elif modify == 3:
+                    del_want = int(input("How many dish want to delete: "))
                     
-        #             for i in range(del_want):
-        #                 dish_name = input("Enter your dish name, You want to delete: ").upper()
-        #                 started.pop(dish_name)
-        #             print(started)
+                    for i in range(del_want):
+                        dish_name = input("Enter your dish name, You want to delete: ").upper()
+                        started.pop(dish_name)
+                    print(started)
                         
-        #         elif modify ==4:
-        #             update = 0
+                elif modify ==4:
+                    update = 0
                     
-        #         if modify == 4:
-        #             update = 0
-        #         else:
-        #             update = int(input("Do you want again modify started so press 1: "))
-                    
-                    
+                if modify == 4:
+                    update = 0
+                else:
+                    update = int(input("Do you want again modify started so press 1: "))
                     
                     
-        # elif choice == 2:
-        #     print("WelCome To Main Menu")
-        #     addDish = int(input("How many dish add in main: "))
+                    
+                    
+        elif choice == 2:
+            print("WelCome To Main Menu")
+            addDish = int(input("How many dish add in main: "))
             
-        #     for i in range(addDish):
-        #         dish = input("Enter the Dish name: ").upper()
-        #         price = input("Enter the Dish price: ")  
-        #         main[dish] = price
+            for i in range(addDish):
+                dish = input("Enter the Dish name: ").upper()
+                price = input("Enter the Dish price: ")  
+                main[dish] = price
             
-        #     print(main)
+            print(main)
             
             
-        #     update = 1
-        #     while update == 1:
-        #         modify = int(input("""----------------------------------------------------
-        #                             Modify the Main Menu
-        #                 1. Add Item for Press 1
-        #                 2. Delete Item for Press 2
-        #                 3. Delete Item for Perticuler name so Press 3
-        #                 4. Add Item for Press 4"""))
+            update = 1
+            while update == 1:
+                modify = int(input("""----------------------------------------------------
+                                    Modify the Main Menu
+                        1. Add Item for Press 1
+                        2. Delete Item for Press 2
+                        3. Delete Item for Perticuler name so Press 3
+                        4. Add Item for Press 4"""))
                 
-        #         if modify == 1:
-        #             wantDish = int(input("How many item add for secound time in main ?:  "))
+                if modify == 1:
+                    wantDish = int(input("How many item add for secound time in main ?:  "))
                     
-        #             for i in range(wantDish):
-        #                 dish = input("Enter the Dish name: ").upper()
-        #                 price = input("Enter the Dish price: ")  
-        #                 main[dish] = price
+                    for i in range(wantDish):
+                        dish = input("Enter the Dish name: ").upper()
+                        price = input("Enter the Dish price: ")  
+                        main[dish] = price
                         
-        #             print(main)
+                    print(main)
                     
-        #         elif modify == 2:
-        #             main.popitem()
-        #             print(main)
+                elif modify == 2:
+                    main.popitem()
+                    print(main)
                     
-        #         elif modify == 3:
-        #             del_want = int(input("How many dish want to delete: "))
+                elif modify == 3:
+                    del_want = int(input("How many dish want to delete: "))
                     
-        #             for i in range(del_want):
-        #                 dish_name = input("Enter your dish name, You want to delete: ").upper()
-        #                 main.pop(dish_name)
-        #             print(main)
+                    for i in range(del_want):
+                        dish_name = input("Enter your dish name, You want to delete: ").upper()
+                        main.pop(dish_name)
+                    print(main)
                         
-        #         elif modify ==4:
-        #             update = 0
+                elif modify ==4:
+                    update = 0
                     
                 if modify == 4:
                     update = 0
