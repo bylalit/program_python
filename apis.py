@@ -72,13 +72,13 @@ def api_user():
         raise Exception("Failed to featch user data.")
     
 def main():
-    try:
-        username, date = api_user()  #stock_data
-        print()
-        print(f"Stock Name: {username} \nListing Date: {date}") #\nStorck data: {stock_data}
-        print()
-    except Exception as e:
-        print(f"Error: {str(e)}")
+    # try:
+    #     username, date = api_user()  #stock_data
+    #     print()
+    #     print(f"Stock Name: {username} \nListing Date: {date}") #\nStorck data: {stock_data}
+    #     print()
+    # except Exception as e:
+    #     print(f"Error: {str(e)}")
         
 if  __name__ == "__main__":
     main()
