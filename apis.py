@@ -64,10 +64,10 @@ def api_user():
         # print(data)
         # print(data["data"])
         
-        # stock_data = data["data"]
-        # username = stock_data["Name"]
-        # date = stock_data["ListingDate"]
-        # return username, date  #stock_data
+        stock_data = data["data"]
+        username = stock_data["Name"]
+        date = stock_data["ListingDate"]
+        return username, date  #stock_data
     else:
         raise Exception("Failed to featch user data.")
     
