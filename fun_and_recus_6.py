@@ -18,9 +18,7 @@ def evenodd(a):
     else:
         print("odd")
         
-        
 # evenodd(8)
-
 
 def show(n):
     if n == 0:

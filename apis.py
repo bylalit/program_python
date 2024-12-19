@@ -70,6 +70,7 @@ def api_user():
         return username, date  #stock_data
     else:
         raise Exception("Failed to featch user data.")
+ 
     
 def main():
     try:
@@ -79,6 +80,7 @@ def main():
         print()
     except Exception as e:
         print(f"Error: {str(e)}")
-        
+               
 if  __name__ == "__main__":
     main()
+
