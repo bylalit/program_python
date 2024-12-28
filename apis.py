@@ -86,3 +86,25 @@
 
 
 
+
+import requests
+
+def fectch_random_user():
+    url = "https://api.freeapi.app/api/v1/public/randomusers/user/random"
+    response = requests.get(url)
+    # print(response.json())
+    data = response.json()
+    
+    if data["success"] and "data" in data:
+        user_data = data["data"]
+        # print(user_data)
+        username = user_data["login"]["username"]
+        conuntry = user_data["location"]["contry"]
+        return username, conuntry
+    else:
+        raise Exception("failed to fecth user data")
+    
+fectch_random_user()
+
+
+
