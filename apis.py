@@ -53,34 +53,36 @@
     
     
 
-import requests
+# import requests
 
-def api_user():
-    url = "https://api.freeapi.app/api/v1/public/stocks/stock/random"
-    response = requests.get(url)
-    data = response.json()
+# def api_user():
+#     url = "https://api.freeapi.app/api/v1/public/stocks/stock/random"
+#     response = requests.get(url)
+#     data = response.json()
     
-    if data["success"] and "data" in data:
-        # print(data)
-        # print(data["data"])
+#     if data["success"] and "data" in data:
+#         # print(data)
+#         # print(data["data"])
         
-        stock_data = data["data"]
-        username = stock_data["Name"]
-        date = stock_data["ListingDate"]
-        return username, date  #stock_data
-    else:
-        raise Exception("Failed to featch user data.")
+#         stock_data = data["data"]
+#         username = stock_data["Name"]
+#         date = stock_data["ListingDate"]
+#         return username, date  #stock_data
+#     else:
+#         raise Exception("Failed to featch user data.")
  
     
-def main():
-    try:
-        username, date = api_user()  #stock_data
-        print()
-        print(f"Stock Name: {username} \nListing Date: {date}") #\nStorck data: {stock_data}
-        print()
-    except Exception as e:
-        print(f"Error: {str(e)}")
+# def main():
+#     try:
+#         username, date = api_user()  #stock_data
+#         print()
+#         print(f"Stock Name: {username} \nListing Date: {date}") #\nStorck data: {stock_data}
+#         print()
+#     except Exception as e:
+#         print(f"Error: {str(e)}")
                
-if  __name__ == "__main__":
-    main()
+# if  __name__ == "__main__":
+#     main()
+
+
 
