@@ -99,12 +99,21 @@ def fectch_random_user():
         user_data = data["data"]
         # print(user_data)
         username = user_data["login"]["username"]
-        conuntry = user_data["location"]["contry"]
+        conuntry = user_data["location"]["country"]
         return username, conuntry
     else:
         raise Exception("failed to fecth user data")
-    
-fectch_random_user()
 
+    
+def main():
+    try:
+        username, conuntry = fectch_random_user()
+        print(f"Username: {username} \nConuntry: {conuntry}")
+    except Exception as e:
+        print(f"Error: {str(e)}")
+
+
+if __name__ == "__main__":
+    main()
 
 
