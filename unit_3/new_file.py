@@ -97,3 +97,22 @@ def fibo(prev1, prev2):
 #         break
 
 # print("Sorted array:", arr)    
+
+
+
+
+# selection sort
+
+
+def sort(arr):
+    for i in range(len(arr)):
+        min = i
+        for j in range(i+1, len(arr)):
+            if arr[j] < arr[min]:
+                min = j
+        arr[i], arr[min] = arr[min], arr[i]
+    return arr
+
+arr = [15,89,34,2,56,45,78,56]
+
+print(sort(arr))
