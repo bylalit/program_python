@@ -68,23 +68,32 @@ def fibo(prev1, prev2):
 
 
 
-my_array = [64, 34, 25, 12, 22, 11, 90, 5]
+# my_array = [64, 34, 25, 12, 22, 11, 90, 5]
 
-n = len(my_array)
-for i in range(n-1):
-    for j in range(n-i-1):
-        if my_array[j] > my_array[j+1]:
-            my_array[j], my_array[j+1] = my_array[j+1], my_array[j]
+# n = len(my_array)
+# for i in range(n-1):
+#     for j in range(n-i-1):
+#         if my_array[j] > my_array[j+1]:
+#             my_array[j], my_array[j+1] = my_array[j+1], my_array[j]
 
-print("Sorted array:", my_array)
+# print("Sorted array:", my_array)
 
-# a = []
-# for i in my_array:
-#     a = a + [i]
-#     reversed(i)
-#     # print(i, end=" ")
-#     # print(my_array[:-1])
-    
-# print(a)
 
-print(reversed(my_array))
+
+# arr = [15,89,34,2,56,45,78,56]
+
+# n = len(arr)
+# for i in range(n-1):
+#     swapped = False
+#     for j in range(n-i-1):
+#         if arr[j] < arr[j+1]:
+#             # arr[j], arr[j+1] = arr[j+1], arr[j]
+#             temp = arr[j]
+#             arr[j] = arr[j+1]
+#             arr[j+1] = temp
+#             swapped = True
+
+#     if not swapped:
+#         break
+
+# print("Sorted array:", arr)    
