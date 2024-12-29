@@ -115,4 +115,43 @@ def sort(arr):
 
 arr = [15,89,34,2,56,45,78,56]
 
-print(sort(arr))
+# print(sort(arr))
+
+class dog():
+    print("hi")
+    
+class cat(dog):
+    print("hello")
+
+# Cat = cat()
+# print(Cat)
+
+
+
+
+class Parent:
+    def __init__(self):
+        self.data = []
+
+    def show_data(self):
+        print("Parent data:", self.data)
+
+
+class Child(Parent):
+    def add_data(self, value):
+        self.data.append(value)
+
+    def clear_data(self):
+        self.data.clear()
+
+child_instance = Child()
+
+child_instance.add_data(10)
+child_instance.add_data(20)
+
+child_instance.show_data() 
+# [10, 20]
+
+child_instance.clear_data()
+
+child_instance.show_data()
