@@ -115,17 +115,7 @@ def sort(arr):
 
 arr = [15,89,34,2,56,45,78,56]
 
-# print(sort(arr))
-
-class dog():
-    print("hi")
-    
-class cat(dog):
-    print("hello")
-
-# Cat = cat()
-# print(Cat)
-
+print(sort(arr))
 
 
 
