@@ -104,6 +104,7 @@ def fectch_random_user():
     else:
         raise Exception("failed to fecth user data")
 
+   
     
 def main():
     try:
