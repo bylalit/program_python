@@ -119,29 +119,29 @@ def fibo(prev1, prev2):
 
 
 
-class Parent:
-    def __init__(self):
-        self.data = []
+# class Parent:
+#     def __init__(self):
+#         self.data = []
 
-    def show_data(self):
-        print("Parent data:", self.data)
+#     def show_data(self):
+#         print("Parent data:", self.data)
 
 
-class Child(Parent):
-    def add_data(self, value):
-        self.data.append(value)
+# class Child(Parent):
+#     def add_data(self, value):
+#         self.data.append(value)
 
-    def clear_data(self):
-        self.data.clear()
+#     def clear_data(self):
+#         self.data.clear()
 
-child_instance = Child()
+# child_instance = Child()
 
-child_instance.add_data(10)
-child_instance.add_data(20)
+# child_instance.add_data(10)
+# child_instance.add_data(20)
 
-child_instance.show_data() 
-# [10, 20]
+# child_instance.show_data() 
+# # [10, 20]
 
-child_instance.clear_data()
+# child_instance.clear_data()
 
-child_instance.show_data()
+# child_instance.show_data()
