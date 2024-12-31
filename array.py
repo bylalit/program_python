@@ -32,11 +32,6 @@
 
 
 
-
-
-
-
-
 # import numpy
 from numpy import *
 # import numpy
@@ -47,16 +42,14 @@ from numpy import *
 
 # print(arr)
 
-li = [[[1,2,3,4,5,6,7,8], [2,3,5,6,7,8],[23,4,5,6,7,8,9]], [[1,2,4,5,6], [2,3,4,5,6,6]]]
+# li = [[[1,2,3,4,5,6,7,8], [2,3,5,6,7,8],[23,4,5,6,7,8,9]], [[1,2,4,5,6], [2,3,4,5,6,6]]]
 
-for i in li:
-    print(i)
-    for j in i:
-        print(j)
-        for k in j:
-            print(k)
-
-
+# for i in li:
+#     print(i)
+#     for j in i:
+#         print(j)
+#         for k in j:
+            # print(k)
 
 
 
@@ -66,3 +59,26 @@ for i in li:
 #         print(j)
 #         for k in j:
 #             print(k)
+
+
+
+# i = 0
+
+
+# def greet():
+#     # global i
+#     i += 1
+#     print('hello', i)
+#     # greet()
+
+# greet()
+# print(i)
+
+
+def fact(n):
+    if n == 0:
+        return 1
+    return n * (fact(n-1))
+
+result = fact(5)
+print(result)
