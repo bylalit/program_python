@@ -196,8 +196,26 @@ def fibo(prev1, prev2):
 
 
 
+class Parent:
+    def __init__(self, name, address):
+        self.name = name
+        self.address = address
+    
+    def show(self):
+        print('The name and address : ', self.name, self.address)
 
+class Child(Parent):
+    def __init__(self, name, age, address):
+        super().__init__(name,address)
+        # super().__init__(address)
+        self.age = age
+        
+child = Child('Lalit', 20, 'jsdfhcehed')
+print(child.name)
+print(child.age)
+print(child.address)
 
+child.show()      
 
 
 
