@@ -154,27 +154,50 @@ def fibo(prev1, prev2):
 # child_instance.show_data()
 
 
-class parent1:
-    def __init__(self):
-        self.data = []
+
+
+
+
+# class parent1:
+#     def __init__(self):
+#         self.data = []
     
-    def show_data(self):
-        print('The Data is: ', self.data)        
+#     def show_data(self):
+#         print('The Data is: ', self.data)        
 
-class child1(parent1):
-    print('hello')
-    def add_data(self, val):
-        self.data.append(val)
+# class child1(parent1):
+#     print('hello')
+#     def add_data(self, val):
+#         self.data.append(val)
         
-    def remove_data(self):
-        self.data.pop()
+#     def remove_data(self):
+#         self.data.pop()
 
 
-obj = child1()
+# obj = child1()
 
-obj.add_data(5)
-obj.add_data(10)
-obj.add_data(15)
-obj.show_data()
-obj.remove_data()
-obj.show_data()
+# obj.add_data(5)
+# obj.add_data(10)
+# obj.add_data(15)
+# obj.show_data()
+# obj.remove_data()
+# obj.show_data()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
