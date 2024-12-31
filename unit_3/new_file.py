@@ -119,29 +119,62 @@ def fibo(prev1, prev2):
 
 
 
-class Parent:
+
+
+
+
+
+
+
+# class Parent:
+#     def __init__(self):
+#         self.data = []
+
+#     def show_data(self):
+#         print("Parent data:", self.data)
+
+
+# class Child(Parent):
+#     def add_data(self, value):
+#         self.data.append(value)
+
+#     def clear_data(self):
+#         self.data.clear()
+
+# child_instance = Child()
+
+# child_instance.add_data(10)
+# child_instance.add_data(20)
+
+# child_instance.show_data() 
+# # [10, 20]
+
+# child_instance.clear_data()
+
+# child_instance.show_data()
+
+
+class parent1:
     def __init__(self):
         self.data = []
-
+    
     def show_data(self):
-        print("Parent data:", self.data)
+        print('The Data is: ', self.data)        
+
+class child1(parent1):
+    print('hello')
+    def add_data(self, val):
+        self.data.append(val)
+        
+    def remove_data(self):
+        self.data.pop()
 
 
-class Child(Parent):
-    def add_data(self, value):
-        self.data.append(value)
+obj = child1()
 
-    def clear_data(self):
-        self.data.clear()
-
-child_instance = Child()
-
-child_instance.add_data(10)
-child_instance.add_data(20)
-
-child_instance.show_data() 
-# [10, 20]
-
-child_instance.clear_data()
-
-child_instance.show_data()
+obj.add_data(5)
+obj.add_data(10)
+obj.add_data(15)
+obj.show_data()
+obj.remove_data()
+obj.show_data()
