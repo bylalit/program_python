@@ -37,3 +37,32 @@
 
 
 
+# import numpy
+from numpy import *
+# import numpy
+
+# arr = array([[[2,3,5,7,9,6,20], [3,5,6,7,4,6,8]], [[45,4,5,6,7,3], [2,4,5,6,7,8]]])
+
+# arr = arange(0,15,2)
+
+# print(arr)
+
+li = [[[1,2,3,4,5,6,7,8], [2,3,5,6,7,8],[23,4,5,6,7,8,9]], [[1,2,4,5,6], [2,3,4,5,6,6]]]
+
+for i in li:
+    print(i)
+    for j in i:
+        print(j)
+        for k in j:
+            print(k)
+
+
+
+
+
+# for i in arr:
+#     print(i)
+#     for j in i:
+#         print(j)
+#         for k in j:
+#             print(k)
