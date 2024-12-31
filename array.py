@@ -86,3 +86,21 @@ from numpy import *
 
 
 
+
+f = lambda a,b: (a*a) + b
+
+# print(f(12,56))
+
+
+# num = [2,3,5,7,0,7,8,1,6]
+num = (2,3,4,8,5,6,3,2)
+
+f = list(filter(lambda a: a % 2 == 0, num))
+
+# f = list(map(lambda a: a*a, num))
+
+from functools import reduce
+
+# f = reduce(lambda a,b: a + b, f)
+
+print(f)
