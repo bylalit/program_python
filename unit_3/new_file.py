@@ -190,12 +190,6 @@ def fibo(prev1, prev2):
 
 
 
-
-
-
-
-
-
 class Parent:
     def __init__(self, name, address):
         self.name = name
@@ -216,6 +210,3 @@ print(child.age)
 print(child.address)
 
 child.show()      
-
-
-
