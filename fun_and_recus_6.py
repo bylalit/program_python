@@ -12,11 +12,11 @@ def fac(n):
 # print(fac(5))  # Output: 120
 
 
-def evenodd(a):
-    if a % 2 == 0:
-        print("even")
-    else:
-        print("odd")
+# def evenodd(a):
+#     if a % 2 == 0:
+#         print("even")
+#     else:
+#         print("odd")
         
 # evenodd(8)
 
