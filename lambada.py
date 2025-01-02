@@ -11,6 +11,6 @@
 
 
 
-f = lambda a, b : a if a % 2 == 0 else b
-print(f(5,54))
+# f = lambda a, b : a if a % 2 == 0 else b
+# print(f(5,54))
 
