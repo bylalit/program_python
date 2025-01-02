@@ -47,20 +47,20 @@
 count = 2
 sum = 0
 
-def fibo(prev1, prev2):
-    global count
-    global sum
-    if count < 20:
-        new = prev1 + prev2
-        sum += new
-        # print(new, end = " ")
-        prev1 = prev2
-        prev2 = new
-        count += 1
-        fibo(prev1, prev2)
-    else:
-        return
-    # print(sum)
+# def fibo(prev1, prev2):
+#     global count
+#     global sum
+#     if count < 20:
+#         new = prev1 + prev2
+#         sum += new
+#         # print(new, end = " ")
+#         prev1 = prev2
+#         prev2 = new
+#         count += 1
+#         fibo(prev1, prev2)
+#     else:
+#         return
+#     # print(sum)
     
 # fibo(0,1)
 # print(sum)

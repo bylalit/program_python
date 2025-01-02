@@ -87,7 +87,7 @@ from numpy import *
 
 
 
-f = lambda a,b: (a*a) + b
+# f = lambda a,b: (a*a) + b
 
 # print(f(12,56))
 
