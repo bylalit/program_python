@@ -106,15 +106,15 @@ def fectch_random_user():
 
    
     
-def main():
-    try:
-        username, conuntry = fectch_random_user()
-        print(f"Username: {username} \nConuntry: {conuntry}")
-    except Exception as e:
-        print(f"Error: {str(e)}")
+# def main():
+#     try:
+#         username, conuntry = fectch_random_user()
+#         print(f"Username: {username} \nConuntry: {conuntry}")
+#     except Exception as e:
+#         print(f"Error: {str(e)}")
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
 
 
